@@ -1,0 +1,12 @@
+import React from "react";
+import "./X36StrokeDsIc36Handset.css";
+
+function X36StrokeDsIc36Handset() {
+  return (
+    <div className="x36-stroke-ds_ic_36_handset">
+      <img className="icon-call" src="/img/shape-2@2x.svg" alt="icon-call" />
+    </div>
+  );
+}
+
+export default X36StrokeDsIc36Handset;

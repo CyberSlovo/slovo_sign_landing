@@ -1,0 +1,18 @@
+.hands-heart-1 {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  height: 415px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 415px;
+  position: absolute;
+  top: 351px;
+}
+
+.hands_-heart {
+  height: 359px;
+  object-fit: cover;
+  width: 379px;
+}
+
