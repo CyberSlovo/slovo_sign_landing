@@ -1,0 +1,16 @@
+.header-1 {
+    align-self: stretch;
+    background-color: var(--white);
+    border: 1px none;
+    height: 98px;
+    min-width: 414px;
+    position: relative;
+  }
+  
+  .oline-sign-logo-1 {
+    height: 40px;
+    left: 24px;
+    position: absolute;
+    top: 42px;
+    width: 247px;
+  }

@@ -1,0 +1,16 @@
+.x36-stroke-ds_ic_36_handset,
+.x36-stroke-ds_ic_36_handset-1 {
+  border: 1px none;
+  height: 36px;
+  min-width: 36px;
+  position: relative;
+}
+
+.icon-call,
+.icon-call-1 {
+  height: 21px;
+  left: 8px;
+  position: absolute;
+  top: 8px;
+  width: 21px;
+}

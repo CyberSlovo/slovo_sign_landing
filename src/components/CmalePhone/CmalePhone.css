@@ -1,0 +1,31 @@
+.cmale-phone {
+    align-items: flex-start;
+    border: 1px none;
+    display: flex;
+    height: 579px;
+    justify-content: flex-end;
+    margin-bottom: -115px;
+    margin-left: -49px;
+    min-width: 579px;
+    padding: 0 10px;
+  }
+  
+  .boy_telefon-1 {
+    height: 464px;
+    object-fit: cover;
+    width: 520px;
+  }
+  
+  .cmale-phone.cmale-phone-1 {
+    height: 444px;
+    justify-content: unset;
+    margin-bottom: -88.23px;
+    margin-left: -38px;
+    min-width: 444px;
+    padding: 0.0px 37.6px;
+  }
+  
+  .cmale-phone.cmale-phone-1 .boy_telefon-1 {
+    height: 356px;
+    width: 316px;
+  }

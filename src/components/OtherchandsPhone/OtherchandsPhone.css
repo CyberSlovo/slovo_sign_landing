@@ -1,0 +1,18 @@
+.otherchands-phone {
+    background-position: 50% 50%;
+    background-size: cover;
+    border: 1px none;
+    height: 640px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 640px;
+  }
+  
+  .otherchands-phone.otherchands-phone-1 {
+    height: 343px;
+    left: unset;
+    position: relative;
+    top: -93px;
+    width: 343px;
+  }
