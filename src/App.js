@@ -15,6 +15,8 @@ import IcSberProfile1 from "./assets/images/ic-sber-profile-1@2x.svg";
 import IcSberSigned1 from "./assets/images/ic-sber-signed-1@2x.svg";
 import IconSberSend1 from "./assets/images/icon-sber-send-1@2x.svg";
 import HandsHeart1 from "./assets/images/hands-heart-1@1x.png";
+import IcSberSuccess from "./assets/images/ic-sber-success@2x.svg";
+import IcSberWallet from "./assets/images/ic-sber-wallet@2x.svg";
 
 
 function App() {
@@ -46,6 +48,7 @@ const container1Data = {
     title: "Экономьте",
     subtitle: <React.Fragment>Экономия до 90% <br />на подписании в сравнении <br />с выпуском квалифицированной подписи</React.Fragment>,
     className: "",
+    src: IcSberWallet,
 };
 
 
@@ -55,7 +58,7 @@ const advantageItem1Data = {
 
 const container2Data = {
     title: "Регистрируйтесь быстро",
-    subtitle: "Получите УНЭП      с помощью регистрации через Сбер ID",
+    subtitle: <React.Fragment>Получите УНЭП <br />с помощью регистрации через Сбер ID</React.Fragment>,
     className: "container-5",
 };
 
@@ -64,9 +67,10 @@ const advantageItem3Data = {
 };
 
 const container3Data = {
-    title: "Удобно",
+    title: "Подписывайте онлайн",
     subtitle: <React.Fragment>Подписывайте документы <br />онлайн на любом устройстве</React.Fragment>,
     className: "container-5",
+    src: IcSberSuccess,
 };
 
 const advantageItem4Data = {

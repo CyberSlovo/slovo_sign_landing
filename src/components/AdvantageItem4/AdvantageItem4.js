@@ -5,7 +5,7 @@ import IcSberSuccess from "../../assets/images/ic-sber-success@2x.svg";
 
 
 function AdvantageItem4(props) {
-  const { className, titleSubtitleProps } = props;
+  const { className, titleSubtitleProps, src } = props;
 
   return (
     <div className={`advantage-item-6-1 ${className || ""}`}>
