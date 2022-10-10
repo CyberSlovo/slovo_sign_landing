@@ -1,0 +1,73 @@
+.banner-contacts-desktop {
+    align-items: center;
+    background-color: var(--cultured-pearl);
+    border: 1px none;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 64px;
+    position: relative;
+    width: 1248px;
+  }
+  
+  .container-10 {
+    align-items: flex-start;
+    align-self: stretch;
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+  }
+  
+  .head-1 {
+    align-items: flex-start;
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 560px;
+  }
+  
+  .title-5 {
+    align-self: stretch;
+    letter-spacing: -0.30px;
+    line-height: 40px;
+    margin-top: -1.00px;
+  }
+  
+  .subtitle-6 {
+    align-self: stretch;
+    color: var(--shark);
+    font-family: var(--font-family-sb_sans_text-regular);
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+    letter-spacing: -0.30px;
+    line-height: 32px;
+  }
+  
+  .frame-270988944 {
+    align-items: flex-start;
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 560px;
+  }
+  
+  .subtitle-7 {
+    align-self: stretch;
+    letter-spacing: -0.30px;
+    line-height: 28px;
+    margin-top: -1.00px;
+    white-space: nowrap;
+  }
+  
+  .container-11 {
+    align-items: flex-start;
+    align-self: stretch;
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+  }

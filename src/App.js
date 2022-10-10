@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-// import X1440px from "./components/X1440px";
+import X1440px from "./components/X1440px/X1440px";
 import X414px from "./components/X414px/X414px";
 import { useMediaQuery } from 'react-responsive';
 import BoyTelefon1 from "./assets/images/boy-telefon-1@2x.png";
@@ -9,191 +9,197 @@ import IcSberProfile from "./assets/images/ic-sber-profile@2x.svg";
 import IcSberSigned from "./assets/images/ic-sber-signed@2x.svg";
 import IconSberSend from "./assets/images/icon-sber-send@2x.svg";
 import HandsHeart from "./assets/images/hands-heart@2x.png";
+import BoyTelefon11 from "./assets/images/boy-telefon-1-1@1x.png";
+import LgHandsPhone012X1 from "./assets/images/lg-hands-phone-01-2x-1@1x.png";
+import IcSberProfile1 from "./assets/images/ic-sber-profile-1@2x.svg";
+import IcSberSigned1 from "./assets/images/ic-sber-signed-1@2x.svg";
+import IconSberSend1 from "./assets/images/icon-sber-send-1@2x.svg";
+import HandsHeart1 from "./assets/images/hands-heart-1@1x.png";
 
 
 function App() {
-// const isDesktop = useMediaQuery({ minWidth: 601 })
+const isDesktop = useMediaQuery({ minWidth: 601 })
 const isMobile = useMediaQuery({ maxWidth: 600 })
   return (
     <>
-    {isMobile &&  <X414px {...x414pxData} />}
-        {/* {isDesktop &&  <X1440px {...x1440pxData} />} */}
+        {isMobile &&  <X414px {...x414pxData} />}
+        {isDesktop &&  <X1440px {...x1440pxData} />}
     </>
   );
 }
 
 export default App;
 
-// const buttonData = {
-//     children: "Связаться с нами",
-// };
+const buttonData = {
+    children: "Связаться с нами",
+};
 
-// const headerData = {
-//     buttonProps: buttonData,
-// };
+const headerData = {
+    buttonProps: buttonData,
+};
 
-// const cmalePhone1Data = {
-//     src: "./assets/images/boy-telefon-1-1@1x.png",
-// };
+const cmalePhone1Data = {
+    src: BoyTelefon11,
+};
 
-// const container1Data = {
-//     title: "Выгодно",
-//     subtitle: <React.Fragment>Экономия до 90% <br />на подписании в сравнении <br />с выпуском квалифицированной подписи</React.Fragment>,
-//     className: "",
-// };
+const container1Data = {
+    title: "Выгодно",
+    subtitle: <React.Fragment>Экономия до 90% <br />на подписании в сравнении <br />с выпуском квалифицированной подписи</React.Fragment>,
+    className: "",
+};
 
-// const advantageItem1Data = {
-//     containerProps: container1Data,
-// };
+const advantageItem1Data = {
+    containerProps: container1Data,
+};
 
-// const container2Data = {
-//     title: "Быстро",
-//     subtitle: "Получите УНЭП      с помощью регистрации через Сбер ID",
-//     className: "container-5",
-// };
+const container2Data = {
+    title: "Быстро",
+    subtitle: "Получите УНЭП      с помощью регистрации через Сбер ID",
+    className: "container-5",
+};
 
-// const advantageItem3Data = {
-//     containerProps: container2Data,
-// };
+const advantageItem3Data = {
+    containerProps: container2Data,
+};
 
-// const container3Data = {
-//     title: "Удобно",
-//     subtitle: <React.Fragment>Подписывайте документы <br />онлайн на любом устройстве</React.Fragment>,
-//     className: "container-5",
-// };
+const container3Data = {
+    title: "Удобно",
+    subtitle: <React.Fragment>Подписывайте документы <br />онлайн на любом устройстве</React.Fragment>,
+    className: "container-5",
+};
 
-// const advantageItem4Data = {
-//     className: "advantage-item-1",
-//     containerProps: container3Data,
-// };
+const advantageItem4Data = {
+    className: "advantage-item-1",
+    containerProps: container3Data,
+};
 
-// const otherchandsPhone1Data = {
-//     src: "./assets/images/lg-hands-phone-01-2x-1@1x.png",
-// };
+const otherchandsPhone1Data = {
+    src: LgHandsPhone012X1,
+};
 
-// const imageHandsData = {
-//     otherchandsPhoneProps: otherchandsPhone1Data,
-// };
+const imageHandsData = {
+    otherchandsPhoneProps: otherchandsPhone1Data,
+};
 
-// const imageSm1Data = {
-//     src: "./assets/images/ic-sber-profile-1@2x.svg",
-//     className: "",
-// };
+const imageSm1Data = {
+    src: IcSberProfile1,
+    className: "",
+};
 
-// const column1Data = {
-//     title: "1 шаг",
-//     caption: "Регистрация",
-//     subtitle: <React.Fragment>Зарегистрируйтесь <br />с помощью Сбер ID</React.Fragment>,
-//     imageSmProps: imageSm1Data,
-// };
+const column1Data = {
+    title: "1 шаг",
+    caption: "Регистрация",
+    subtitle: <React.Fragment>Зарегистрируйтесь <br />с помощью Сбер ID</React.Fragment>,
+    imageSmProps: imageSm1Data,
+};
 
-// const imageSm2Data = {
-//     src: "./assets/images/ic-sber-signed-1@2x.svg",
-//     className: "",
-// };
+const imageSm2Data = {
+    src: IcSberSigned1,
+    className: "",
+};
 
-// const column2Data = {
-//     title: "2 шаг",
-//     caption: "Подписание",
-//     subtitle: "Загрузите документ и подпишите его по одной кнопке",
-//     imageSmProps: imageSm2Data,
-// };
+const column2Data = {
+    title: "2 шаг",
+    caption: "Подписание",
+    subtitle: "Загрузите документ и подпишите его по одной кнопке",
+    imageSmProps: imageSm2Data,
+};
 
-// const imageSm3Data = {
-//     src: "./assets/images/icon-sber-send-1@2x.svg",
-//     className: "image-sm",
-// };
+const imageSm3Data = {
+    src: IconSberSend1,
+    className: "image-sm",
+};
 
-// const column3Data = {
-//     title: "3 шаг",
-//     caption: "Отправка",
-//     subtitle: <React.Fragment>Отправить ссылку контрагенту <br />на подписание</React.Fragment>,
-//     imageSmProps: imageSm3Data,
-// };
+const column3Data = {
+    title: "3 шаг",
+    caption: "Отправка",
+    subtitle: <React.Fragment>Отправить ссылку контрагенту <br />на подписание</React.Fragment>,
+    imageSmProps: imageSm3Data,
+};
 
-// const link1Data = {
-//     children: "+7 (499) 404-10-37",
-// };
+const link1Data = {
+    children: "+7 (499) 404-10-37",
+};
 
-// const frame2709889461Data = {
-//     linkProps: link1Data,
-// };
+const frame2709889461Data = {
+    linkProps: link1Data,
+};
 
-// const link2Data = {
-//     children: "podpis@sber.ru",
-// };
+const link2Data = {
+    children: "podpis@sber.ru",
+};
 
-// const frame2709889471Data = {
-//     linkProps: link2Data,
-// };
+const frame2709889471Data = {
+    linkProps: link2Data,
+};
 
-// const handsHeartData = {
-//     src: "./assets/images/hands-heart-1@1x.png",
-// };
+const handsHeartData = {
+    src: HandsHeart1,
+};
 
-// const imageHands2Data = {
-//     handsHeartProps: handsHeartData,
-// };
+const imageHands2Data = {
+    handsHeartProps: handsHeartData,
+};
 
-// const bannerContactsDesktopData = {
-//     title: <React.Fragment>Расскажите, какие документы <br />вы бы хотели подписывать</React.Fragment>,
-//     subtitle1: <React.Fragment>В благодарность мы дадим вам промокод <br />на 3 бесплатных подписания документа <br />после публикации сервиса</React.Fragment>,
-//     subtitle2: "свяжитесь с нами",
-//     frame270988946Props: frame2709889461Data,
-//     frame270988947Props: frame2709889471Data,
-//     imageHands2Props: imageHands2Data,
-// };
+const bannerContactsDesktopData = {
+    title: <React.Fragment>Расскажите, какие документы <br />вы бы хотели подписывать</React.Fragment>,
+    subtitle1: <React.Fragment>В благодарность мы дадим вам промокод <br />на 3 бесплатных подписания документа <br />после публикации сервиса</React.Fragment>,
+    subtitle2: "свяжитесь с нами",
+    frame270988946Props: frame2709889461Data,
+    frame270988947Props: frame2709889471Data,
+    imageHands2Props: imageHands2Data,
+};
 
-// const blur2Data = {
-//     className: "blur-1",
-// };
+const blur2Data = {
+    className: "blur-1",
+};
 
-// const qAItem1Data = {
-//     title: <React.Fragment>Какой тип электронной подписи используется <br />в сервисе?</React.Fragment>,
-//     subtitle: "Усиленная неквалифицированная электронная подпись. Криптографические средства защиты гарантируют неизменность подписанных документов.",
-// };
+const qAItem1Data = {
+    title: <React.Fragment>Какой тип электронной подписи используется <br />в сервисе?</React.Fragment>,
+    subtitle: "Усиленная неквалифицированная электронная подпись. Криптографические средства защиты гарантируют неизменность подписанных документов.",
+};
 
-// const qAItem2Data = {
-//     title: <React.Fragment>Можно ли пойти с документами, подписанными <br />в вашем сервисе в суд или налоговую?</React.Fragment>,
-//     subtitle: "Да, мы разработали сервис с учетом всех требований законодательства, поэтому государственные органы примут документы, подписанные в нашем сервисе.",
-// };
+const qAItem2Data = {
+    title: <React.Fragment>Можно ли пойти с документами, подписанными <br />в вашем сервисе в суд или налоговую?</React.Fragment>,
+    subtitle: "Да, мы разработали сервис с учетом всех требований законодательства, поэтому государственные органы примут документы, подписанные в нашем сервисе.",
+};
 
-// const qAItem22Data = {
-//     title: "Какую поддержку может оказать сервис в случае судебных споров?",
-//     spanText1: <React.Fragment>По запросу мы предоставим дополнительный протокол подписания документа с информацией о всех подписавших.<br />А в сервисе </React.Fragment>,
-//     spanText3: " вы сможете найти лучшего адвоката для своего вопроса.",
-// };
+const qAItem22Data = {
+    title: "Какую поддержку может оказать сервис в случае судебных споров?",
+    spanText1: <React.Fragment>По запросу мы предоставим дополнительный протокол подписания документа с информацией о всех подписавших.<br />А в сервисе </React.Fragment>,
+    spanText3: " вы сможете найти лучшего адвоката для своего вопроса.",
+};
 
-// const footerData = {
-//     text1: <React.Fragment>ОГРН 1187746905004 ИНН 9705124940<br />Адрес: 121170, г. Москва, ул. Поклонная,<br />д. 3, офис 209, этаж 2<br />© ООО «СБЕР ЛИГАЛ». Все права защищены.<br />При копировании необходимо упоминание.</React.Fragment>,
-//     phone: "+7 (499) 404-10-37",
-//     podpisSberRu: "podpis@sber.ru",
-// };
+const footerData = {
+    text1: <React.Fragment>ОГРН 1187746905004 ИНН 9705124940<br />Адрес: 121170, г. Москва, ул. Поклонная,<br />д. 3, офис 209, этаж 2<br />© ООО «СБЕР ЛИГАЛ». Все права защищены.<br />При копировании необходимо упоминание.</React.Fragment>,
+    phone: "+7 (499) 404-10-37",
+    podpisSberRu: "podpis@sber.ru",
+};
 
-// const x1440pxData = {
-//     h1: "Подписывайте документы онлайн",
-//     subtitle1: "Договаривайтесь быстро и безопасно",
-//     h21: <React.Fragment>Быстрое<br />и надёжное<br />подписание</React.Fragment>,
-//     h22: <React.Fragment>Подписывайте документы <br />юридически значимо</React.Fragment>,
-//     h23: "Как это работает?",
-//     subtitle2: "Подпишите первый документ за 3 шага",
-//     title: <React.Fragment>Отвечаем <br />на ваши вопросы</React.Fragment>,
-//     headerProps: headerData,
-//     cmalePhoneProps: cmalePhone1Data,
-//     advantageItem1Props: advantageItem1Data,
-//     advantageItem3Props: advantageItem3Data,
-//     advantageItem2Props: advantageItem4Data,
-//     imageHandsProps: imageHandsData,
-//     column1Props: column1Data,
-//     column2Props: column2Data,
-//     column3Props: column3Data,
-//     bannerContactsDesktopProps: bannerContactsDesktopData,
-//     blurProps: blur2Data,
-//     qAItem1Props: qAItem1Data,
-//     qAItem2Props: qAItem2Data,
-//     qAItem2Props2: qAItem22Data,
-//     footerProps: footerData,
-// };
+const x1440pxData = {
+    h1: "Подписывайте документы онлайн",
+    subtitle1: "Договаривайтесь быстро и безопасно",
+    h21: <React.Fragment>Быстрое<br />и надёжное<br />подписание</React.Fragment>,
+    h22: <React.Fragment>Подписывайте документы <br />юридически значимо</React.Fragment>,
+    h23: "Как это работает?",
+    subtitle2: "Подпишите первый документ за 3 шага",
+    title: <React.Fragment>Отвечаем <br />на ваши вопросы</React.Fragment>,
+    headerProps: headerData,
+    cmalePhoneProps: cmalePhone1Data,
+    advantageItem1Props: advantageItem1Data,
+    advantageItem3Props: advantageItem3Data,
+    advantageItem2Props: advantageItem4Data,
+    imageHandsProps: imageHandsData,
+    column1Props: column1Data,
+    column2Props: column2Data,
+    column3Props: column3Data,
+    bannerContactsDesktopProps: bannerContactsDesktopData,
+    blurProps: blur2Data,
+    qAItem1Props: qAItem1Data,
+    qAItem2Props: qAItem2Data,
+    qAItem2Props2: qAItem22Data,
+    footerProps: footerData,
+};
 
 const cmalePhone2Data = {
     src: BoyTelefon1,

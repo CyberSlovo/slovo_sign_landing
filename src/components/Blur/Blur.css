@@ -1,0 +1,45 @@
+.blur {
+    border: 1px none;
+    height: 390px;
+    left: 898px;
+    position: absolute;
+    top: 24px;
+    width: 358px;
+  }
+  
+  .ellipse-container-1 {
+    height: 482px;
+    left: 16px;
+    position: relative;
+    width: 342px;
+  }
+  
+  .ellipse-2166-1 {
+    background-color: var(--cornflower-blue);
+    border: 1px none;
+    border-radius: 96px;
+    filter: blur(164px);;
+    height: 192px;
+    left: 150px;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    width: 192px;
+  }
+  
+  .ellipse-2167-1 {
+    background-color: var(--bright-turquoise);
+    border: 1px none;
+    border-radius: 150px;
+    filter: blur(252px);;
+    height: 300px;
+    left: 0;
+    opacity: 0.2;
+    position: absolute;
+    top: 182px;
+    width: 300px;
+  }
+  
+  .blur.blur-1 {
+    left: 906px;
+  }
