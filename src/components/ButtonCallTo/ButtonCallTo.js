@@ -1,7 +1,8 @@
 import React from "react";
-import "./Link.css";
+import "./ButtonCallTo.css";
 
-function Link(props) {
+
+function ButtonCallTo(props) {
   const { children } = props;
 
   return (
@@ -13,4 +14,4 @@ function Link(props) {
   );
 }
 
-export default Link;
+export default ButtonCallTo;

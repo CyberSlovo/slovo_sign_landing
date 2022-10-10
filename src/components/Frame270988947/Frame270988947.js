@@ -1,6 +1,6 @@
 import React from "react";
 import X36StrokeDsIc36Mail from "../X36StrokeDsIc36Mail/X36StrokeDsIc36Mail";
-import Link from "../Link/Link";
+import ButtonMailTo from "../ButtonMailTo/ButtonMailTo";
 import "./Frame270988947.css";
 
 function Frame270988947(props) {
@@ -9,7 +9,9 @@ function Frame270988947(props) {
   return (
     <div className="frame-270988947">
       <X36StrokeDsIc36Mail />
-      <Link>{linkProps.children}</Link>
+      <a href={`mailto:${linkProps.children}`}>
+        <ButtonMailTo >{linkProps.children}</ButtonMailTo>
+      </a>
     </div>
   );
 }
