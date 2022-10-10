@@ -93,7 +93,7 @@ const imageSm1Data = {
 
 const column1Data = {
     title: "1 шаг",
-    caption: "Регистрация",
+    caption: "Зарегистрируйтесь",
     subtitle: <React.Fragment>Зарегистрируйтесь <br />с помощью Сбер ID</React.Fragment>,
     imageSmProps: imageSm1Data,
 };
@@ -105,7 +105,7 @@ const imageSm2Data = {
 
 const column2Data = {
     title: "2 шаг",
-    caption: "Подписание",
+    caption: "Подпишите",
     subtitle: "Загрузите документ и подпишите его по одной кнопке",
     imageSmProps: imageSm2Data,
 };
@@ -117,7 +117,7 @@ const imageSm3Data = {
 
 const column3Data = {
     title: "3 шаг",
-    caption: "Отправка",
+    caption: "Отправьте",
     subtitle: <React.Fragment>Отправить ссылку контрагенту <br />на подписание</React.Fragment>,
     imageSmProps: imageSm3Data,
 };
@@ -148,7 +148,7 @@ const imageHands2Data = {
 
 const bannerContactsDesktopData = {
     title: <React.Fragment>Расскажите, какие документы <br />вы бы хотели подписывать</React.Fragment>,
-    subtitle1: <React.Fragment>В благодарность мы дадим вам промокод <br />на 3 бесплатных подписания документа <br />после публикации сервиса</React.Fragment>,
+    subtitle1: <React.Fragment>Мы ещё разрабатываем сервис. Как только он<br />станет доступен, обязательно сообщим вам.</React.Fragment>,
     subtitle2: "свяжитесь с нами",
     frame270988946Props: frame2709889461Data,
     frame270988947Props: frame2709889471Data,
