@@ -9,7 +9,9 @@ function Frame270988946(props) {
   return (
     <div className="frame-270988946">
       <X36StrokeDsIc36Handset />
-      <ButtonCallTo>{linkProps.children}</ButtonCallTo>
+      <a href={`tel:${linkProps.children}`}>
+        <ButtonCallTo>{linkProps.children}</ButtonCallTo>
+      </a>
     </div>
   );
 }
