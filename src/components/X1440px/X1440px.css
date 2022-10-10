@@ -76,6 +76,7 @@
   letter-spacing: -0.30px;
   line-height: 56px;
   margin-top: -1.00px;
+  max-width: fit-content;
 }
 
 .subtitle {
