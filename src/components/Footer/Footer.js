@@ -12,8 +12,12 @@ function Footer(props) {
         <div className="row-1">
           <p className="text-1 sbsanstext-regular-normal-shark-16px">{text1}</p>
           <div className="column-1 sbsansdisplay-normal-shark-24px">
-            <div className="phone">{phone}</div>
-            <div className="podpissberru">{podpisSberRu}</div>
+            <a href={`tel:${phone}`}>
+              <div className="phone">{phone}</div>
+            </a>
+            <a href={`mailto:${podpisSberRu}`}>
+              <div className="podpissberru">{podpisSberRu}</div>
+            </a>
           </div>
         </div>
       </div>

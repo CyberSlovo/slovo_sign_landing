@@ -10,7 +10,7 @@ function Frame270988947(props) {
     <div className="frame-270988947">
       <X36StrokeDsIc36Mail />
       <a href={`mailto:${linkProps.children}`}>
-        <ButtonMailTo >{linkProps.children}</ButtonMailTo>
+        <ButtonMailTo >{linkProps.children}</ButtonMailTo>        
       </a>
     </div>
   );
