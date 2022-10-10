@@ -43,17 +43,18 @@ const cmalePhone1Data = {
 };
 
 const container1Data = {
-    title: "Выгодно",
+    title: "Экономьте",
     subtitle: <React.Fragment>Экономия до 90% <br />на подписании в сравнении <br />с выпуском квалифицированной подписи</React.Fragment>,
     className: "",
 };
+
 
 const advantageItem1Data = {
     containerProps: container1Data,
 };
 
 const container2Data = {
-    title: "Быстро",
+    title: "Регистрируйтесь быстро",
     subtitle: "Получите УНЭП      с помощью регистрации через Сбер ID",
     className: "container-5",
 };
@@ -230,8 +231,8 @@ const advantageItem22Data = {
 };
 
 const titleSubtitle2Data = {
-    title: "Быстро",
-    subtitle: <React.Fragment>Получите УНЭП      <br />с помощью регистрации <br />через СберID</React.Fragment>,
+    title: "Регистрируйтесь быстро",
+    subtitle: <React.Fragment>Получите УНЭП <br />с помощью регистрации <br />через СберID</React.Fragment>,
 };
 
 const titleSubtitle3Data = {

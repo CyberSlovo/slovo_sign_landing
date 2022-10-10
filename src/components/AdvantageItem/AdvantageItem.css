@@ -11,6 +11,7 @@
     gap: 32px;
     padding: 24px;
     position: relative;
+    max-width: 360px;
   }
   
   .advantage-item.advantage-item-1 {
