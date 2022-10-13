@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Header from "../Header/Header";
 import Button2 from "../Button2/Button2";
 import CmalePhone from "../CmalePhone/CmalePhone";
@@ -41,10 +41,12 @@ function X1440px(props) {
     footerProps,
   } = props;
 
+  const scollToRef = useRef();  
+
   return (
     <div className="x1440px screen">
       <div className="section-hero">
-        <Header buttonProps={headerProps.buttonProps} />
+        <Header onclick={() => scollToRef.current.scrollIntoView({ behavior: "smooth" })} buttonProps={headerProps.buttonProps} />
         <div className="container-2">
           <div className="banner">
             <div className="overlap-group1">
@@ -53,7 +55,7 @@ function X1440px(props) {
                   <h1 className="h1 sbsansdisplay-normal-shark-48px">{h1}</h1>
                   <div className="subtitle sbsanstext-regular-normal-shark-24px">{subtitle1}</div>
                 </div>
-                <Button2 />
+                <Button2 onclick={() => scollToRef.current.scrollIntoView({ behavior: "smooth" })}/>
               </div>
               <div className="image-man">
                 <CmalePhone src={cmalePhoneProps.src} />
@@ -125,7 +127,7 @@ function X1440px(props) {
           </div>
         </div>
       </div>
-      <div className="section-banner">
+      <div ref={scollToRef} className="section-banner">
         <BannerContactsDesktop
           title={bannerContactsDesktopProps.title}
           subtitle1={bannerContactsDesktopProps.subtitle1}
