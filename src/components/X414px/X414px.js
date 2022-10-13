@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Header2 from "../Header2/Header2";
 import HeroBannerMobile from "../HeroBannerMobile/HeroBannerMobile";
 import SystemLightStatusBarDefault from "../SystemLightStatusBarDefault/SystemLightStatusBarDefault";
@@ -47,12 +47,15 @@ function X414px(props) {
     footerMobileProps,
   } = props;
 
+  const scollIt = useRef();  
+
   return (
     <div className="x414px screen">
       <div className="hero">
         <Header2 />
         <div className="container-17">
           <HeroBannerMobile
+            onclick={() => scollIt.current.scrollIntoView({ behavior: "smooth" })}
             h1={heroBannerMobileProps.h1}
             subtitle={heroBannerMobileProps.subtitle}
             cmalePhoneProps={heroBannerMobileProps.cmalePhoneProps}
@@ -123,7 +126,7 @@ function X414px(props) {
           </div>
         </div>
       </div>
-      <div className="tell-us">
+      <div ref={scollIt} className="tell-us">
         <div className="container-banner">
           <div className="overlap-group-3">
             <HandsHeart2 src={handsHeart2Props.src} />
