@@ -118,7 +118,7 @@ const imageSm3Data = {
 const column3Data = {
     title: "3 шаг",
     caption: "Отправьте",
-    subtitle: <React.Fragment>Отправить ссылку контрагенту <br />на подписание</React.Fragment>,
+    subtitle: <React.Fragment>Отправьте ссылку контрагенту <br />на подписание</React.Fragment>,
     imageSmProps: imageSm3Data,
 };
 
