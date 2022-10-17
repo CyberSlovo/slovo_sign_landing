@@ -30,3 +30,10 @@
     white-space: nowrap;
     width: fit-content;
   }
+
+  .button:hover {
+    background-color: rgba(38, 38, 38, 0.04);
+    color: rgba(8, 9, 10, 1);
+    border-radius: 48px;
+    padding: 12px 24px;
+}

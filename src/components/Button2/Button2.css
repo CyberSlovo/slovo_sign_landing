@@ -30,3 +30,7 @@
   white-space: nowrap;
   width: fit-content;
 }
+
+.button-2:hover {
+  background: rgba(21, 73, 171, 1);
+ }
