@@ -1,0 +1,27 @@
+.head-1 {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title-3 {
+  align-self: stretch;
+  letter-spacing: -0.30px;
+  line-height: 36px;
+  margin-top: -1.00px;
+}
+
+.subtitle-7 {
+  align-self: stretch;
+  letter-spacing: -0.30px;
+  line-height: 28px;
+}
+
+.head-1.head-2 {
+  align-self: unset;
+  width: 311px;
+}
+

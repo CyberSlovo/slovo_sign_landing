@@ -1,0 +1,44 @@
+.link,
+.link-1,
+.link-2,
+.link-3,
+.link-4,
+.link-5 {
+  align-items: flex-start;
+  border: 2px none;
+  border-radius: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
+  width: fit-content;
+}
+
+.frame-270988836-6,
+.frame-270988836-7,
+.frame-270988836-8,
+.frame-270988836-9,
+.frame-270988836-10,
+.frame-270988836-11 {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  width: fit-content;
+}
+
+.button-12,
+.button-13,
+.button-14,
+.button-15,
+.button-16,
+.button-17 {
+  letter-spacing: -0.30px;
+  line-height: 28px;
+  margin-top: -1.00px;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+

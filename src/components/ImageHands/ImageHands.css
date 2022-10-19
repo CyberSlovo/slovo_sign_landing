@@ -1,20 +1,24 @@
-.image-hands {
-    border: 1px none;
-    height: 460px;
-    min-width: 640px;
-  }
-  
-  .overlap-group {
-    height: 640px;
-    position: relative;
-    top: -174px;
-    width: 640px;
-  }
-  
-  .vector-2-stroke {
-    height: 56px;
-    left: 362px;
-    position: absolute;
-    top: 279px;
-    width: 69px;
-  }
+.image-hands-3,
+.image-hands-4 {
+  border: 1px none;
+  height: 396px;
+  min-width: 548px;
+}
+
+.overlap-group-9,
+.overlap-group-10 {
+  height: 551px;
+  position: relative;
+  top: -150px;
+  width: 548px;
+}
+
+.vector-2-stroke,
+.vector-2-stroke-1 {
+  height: 48px;
+  left: 310px;
+  position: absolute;
+  top: 240px;
+  width: 59px;
+}
+

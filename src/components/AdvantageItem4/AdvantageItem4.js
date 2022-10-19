@@ -1,17 +1,17 @@
 import React from "react";
-import TitleSubtitle from "../TitleSubtitle/TitleSubtitle";
 import "./AdvantageItem4.css";
-import IcSberSuccess from "../../assets/images/ic-sber-success@2x.svg";
-
 
 function AdvantageItem4(props) {
-  const { className, titleSubtitleProps, src } = props;
+  const { src, title, subtitle, className } = props;
 
   return (
-    <div className={`advantage-item-6-1 ${className || ""}`}>
-      <div className="container-25">
-        <img className="ic-sber" src= { IcSberSuccess } alt="Ic Sber success" />
-        <TitleSubtitle title={titleSubtitleProps.title} subtitle={titleSubtitleProps.subtitle} />
+    <div className={`advantage-item-6 ${className || ""}`}>
+      <div className="container-46">
+        <img className="ic-sber-1" src={src} alt="Ic Sber wallet" />
+        <div className="title-subtitle-12">
+          <div className="title-22 sbsansdisplay-normal-shark-24px">{title}</div>
+          <div className="subtitle-31 sbsanstext-regular-normal-shark-19px">{subtitle}</div>
+        </div>
       </div>
     </div>
   );

@@ -1,0 +1,26 @@
+.head-5 {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 552px;
+}
+
+.title-18 {
+  align-self: stretch;
+  letter-spacing: -0.30px;
+  line-height: 40px;
+  margin-top: -1.00px;
+}
+
+.subtitle-24 {
+  align-self: stretch;
+  letter-spacing: -0.30px;
+  line-height: 32px;
+}
+
+.head-5.head-6 {
+  margin-right: -32.00px;
+}
+

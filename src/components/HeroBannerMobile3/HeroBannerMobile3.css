@@ -1,0 +1,77 @@
+.hero-banner-mobile-2 {
+  background-color: var(--white);
+  border: 1px none;
+  border-radius: 40px;
+  box-shadow: 0px 8px 16px #26262629 , 0px 1px 2px #2626260a;
+  flex: 1;
+  height: 580px;
+  min-width: 382px;
+  position: relative;
+}
+
+.overlap-group1-4 {
+  height: 580px;
+  left: 24px;
+  position: absolute;
+  top: 0;
+  width: 457px;
+}
+
+.text-container-buttons-4 {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 484px;
+  justify-content: space-between;
+  left: 0;
+  position: absolute;
+  top: 48px;
+  width: 334px;
+}
+
+.text-container-5 {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.h1-5 {
+  align-self: stretch;
+  letter-spacing: -0.30px;
+  line-height: 40px;
+  margin-top: -1.00px;
+}
+
+.subtitle-45 {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.image-man {
+  align-items: flex-end;
+  border: 1px none;
+  display: flex;
+  height: 356px;
+  left: 58px;
+  overflow: hidden;
+  position: absolute;
+  top: 224px;
+  width: 399px;
+}
+
+.rectangle-1-4 {
+  background: linear-gradient(180deg, rgb(107, 234, 199) 0%, rgb(74, 123, 247) 46.54%, rgb(32, 56, 131) 100%);
+  border: 1px none;
+  border-radius: 0px 0px 40px 40px;
+  height: 32px;
+  left: 59px;
+  position: absolute;
+  top: 580px;
+  width: 263px;
+}
+

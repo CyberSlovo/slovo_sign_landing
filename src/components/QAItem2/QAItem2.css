@@ -1,5 +1,4 @@
-.qa-item-2,
-.qa-item-3 {
+.qa-item-5 {
   align-items: flex-start;
   align-self: stretch;
   background-color: var(--white);
@@ -12,8 +11,7 @@
   padding: 24px 24px 32px;
 }
 
-.container-14,
-.container-15 {
+.container-22 {
   align-items: flex-start;
   align-self: stretch;
   border: 1px none;
@@ -22,13 +20,11 @@
   gap: 16px;
 }
 
-.ic_question-2,
-.ic_question-3 {
+.ic_question-5 {
   height: 48px;
   min-width: 48px;
 }
 
-.title-subtitle-5,
 .title-subtitle-6 {
   align-items: flex-start;
   align-self: stretch;
@@ -38,17 +34,20 @@
   gap: 8px;
 }
 
-.title-8,
-.title-9 {
+.title-11 {
   align-self: stretch;
   letter-spacing: 0;
   line-height: 32px;
   margin-top: -1.00px;
 }
 
-.subtitle-10,
-.subtitle-11 {
+.subtitle-15 {
   align-self: stretch;
   letter-spacing: -0.30px;
   line-height: 28px;
 }
+
+.qa-item-5.qa-item-6 .title-11 {
+  white-space: nowrap;
+}
+

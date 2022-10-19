@@ -1,17 +1,21 @@
 import React from "react";
-import Container from "../Container/Container";
+import Container2 from "../Container2/Container2";
 import "./AdvantageItem3.css";
 import IcQuestionCircle1 from "../../assets/images/ic-question-circle-1@2x.svg";
-import IcSberTime from "../../assets/images/icon-sber-time@2x.svg";
 import ReactTooltip from "react-tooltip";
 
 function AdvantageItem3(props) {
-  const { containerProps } = props;
+  const { container2Props } = props;
 
   return (
     <div className="advantage-item-4">
-      <Container title={containerProps.title} subtitle={containerProps.subtitle} className={containerProps.className} src={IcSberTime} />
-      <img data-tip data-for="registerTip" className="ic-question-circle" src={IcQuestionCircle1} alt="ic question-circle" />
+      <Container2
+        src={container2Props.src}
+        title={container2Props.title}
+        subtitle={container2Props.subtitle}
+        className={container2Props.className}
+      />
+      <img data-tip data-for="registerTip" className="ic-question-circle-1" src={IcQuestionCircle1} alt="ic question-circle" />
       <ReactTooltip 
         id="registerTip" 
         place="bottom" 

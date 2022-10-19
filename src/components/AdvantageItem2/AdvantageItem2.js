@@ -1,23 +1,18 @@
 import React from "react";
+import Container2 from "../Container2/Container2";
 import "./AdvantageItem2.css";
-import IcSberSecure from "../../assets/images/ic-sber-secure-1@2x.svg";
 
 function AdvantageItem2(props) {
-  const { className } = props;
-  
+  const { className, container2Props } = props;
+
   return (
-    <div className={`advantage-item-2 ${className || ""}`}>
-      <div className="container-6">
-        <img className="ic-sber-secure" src= { IcSberSecure } alt="Ic Sber secure" />
-        <div className="title-subtitle-1">
-          <div className="title-2 sbsansdisplay-normal-shark-24px">
-            Используйте в суде
-          </div>
-          <div className="subtitle-3 sbsanstext-regular-normal-shark-19px">
-            Налоговая и суд примут подписанные в нашем приложении документы
-          </div>
-        </div>
-      </div>
+    <div className={`advantage-item-3 ${className || ""}`}>
+      <Container2
+        src= {container2Props.src}
+        title={container2Props.title}
+        subtitle={container2Props.subtitle}
+        className={container2Props.className}
+      />
     </div>
   );
 }

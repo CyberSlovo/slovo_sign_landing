@@ -1,0 +1,16 @@
+.male-laptop {
+  align-items: flex-end;
+  border: 1px none;
+  display: flex;
+  height: 372px;
+  left: 3px;
+  overflow: hidden;
+  position: absolute;
+  top: 208px;
+  width: 343px;
+}
+
+.male-laptop.male-laptop-1 {
+  left: 0;
+}
+

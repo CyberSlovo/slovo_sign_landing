@@ -1,40 +1,38 @@
 import React, { useRef } from "react";
-import Header from "../Header/Header";
-import Button2 from "../Button2/Button2";
-import CmalePhone from "../CmalePhone/CmalePhone";
-import Blur from "../Blur/Blur";
-import AdvantageItem from "../AdvantageItem/AdvantageItem";
-import AdvantageItem2 from "../AdvantageItem2/AdvantageItem2";
-import AdvantageItem3 from "../AdvantageItem3/AdvantageItem3";
-import ImageHands from "../ImageHands/ImageHands";
-import Column from "../Column/Column";
+import Header2 from "../Header2/Header2";
+import HeroBannerDesktop from "../HeroBannerDesktop/HeroBannerDesktop";
+import Blur4 from "../Blur4/Blur4";
+import AdvantageItem11 from "../AdvantageItem11/AdvantageItem11";
+import AdvantageItem32 from "../AdvantageItem32/AdvantageItem32";
+import ImageHands4 from "../ImageHands4/ImageHands4";
+import Column8 from "../Column8/Column8";
 import BannerContactsDesktop from "../BannerContactsDesktop/BannerContactsDesktop";
 import QAItem from "../QAItem/QAItem";
 import QAItem2 from "../QAItem2/QAItem2";
 import Footer from "../Footer/Footer";
 import "./X1440px.css";
-import ImageDocChips1 from "../../assets/images/image-doc-chips-1@2x.svg";
+import ImageDocChips4 from "../../assets/images/image-doc-chips-4@2x.svg";
 
 function X1440px(props) {
   const {
-    h1,
-    subtitle1,
     h21,
     h22,
     h23,
-    subtitle2,
+    subtitle,
     title,
-    headerProps,
-    cmalePhoneProps,
-    advantageItem1Props,
-    advantageItem3Props,
-    advantageItem2Props,
-    imageHandsProps,
-    column1Props,
-    column2Props,
-    column3Props,
+    header2Props,
+    heroBannerDesktopProps,
+    blur41Props,
+    advantageItem111Props,
+    advantageItem112Props,
+    advantageItem32Props,
+    advantageItem113Props,
+    imageHands4Props,
+    column81Props,
+    column82Props,
+    column83Props,
     bannerContactsDesktopProps,
-    blurProps,
+    blur42Props,
     qAItem1Props,
     qAItem2Props,
     qAItem2Props2,
@@ -45,84 +43,78 @@ function X1440px(props) {
 
   return (
     <div className="x1440px screen">
-      <div className="section-hero">
-        <Header onclick={() => scollToRef.current.scrollIntoView({ behavior: "smooth" })} buttonProps={headerProps.buttonProps} />
-        <div className="container-2">
-          <div className="banner">
-            <div className="overlap-group1">
-              <div className="text-container-buttons">
-                <div className="text-container">
-                  <h1 className="h1 sbsansdisplay-normal-shark-48px">{h1}</h1>
-                  <div className="subtitle sbsanstext-regular-normal-shark-24px">{subtitle1}</div>
-                </div>
-                <Button2 onclick={() => scollToRef.current.scrollIntoView({ behavior: "smooth" })}/>
-              </div>
-              <div className="image-man">
-                <CmalePhone src={cmalePhoneProps.src} />
-              </div>
-              <div className="back-blur">
-                <div className="ellipse-container">
-                  <div className="ellipse-2166"></div>
-                  <div className="ellipse-2167"></div>
-                </div>
-              </div>
-            </div>
-            <div className="rectangle-1"></div>
-          </div>
+      <div className="section-hero-2">
+        <Header2 
+        
+        onclick={() => scollToRef.current.scrollIntoView({ behavior: "smooth" })}
+        
+        className={header2Props.className} buttonsProps={header2Props.buttonsProps} />
+        <div className="container-57">
+          <HeroBannerDesktop
+            onclick={() => scollToRef.current.scrollIntoView({ behavior: "smooth" })}
+            h1={heroBannerDesktopProps.h1}
+            subtitle={heroBannerDesktopProps.subtitle}
+            maleLaptop2Props={heroBannerDesktopProps.maleLaptop2Props}
+            backBlur2Props={heroBannerDesktopProps.backBlur2Props}
+          />
         </div>
       </div>
-      <div className="section-advantages">
-        <Blur />
-        <div className="container">
-          <div className="h2 sbsansdisplay-normal-white-48px">{h21}</div>
-          <div className="advantages-container">
-            <div className="advatages-items-row">
-              <AdvantageItem containerProps={advantageItem1Props.containerProps} />
-              <AdvantageItem2 />
+      <div className="section-advantages-2">
+        <Blur4 className={blur41Props.className} />
+        <div className="container-55">
+          <div className="h2-12 sbsansdisplay-normal-white-48px">{h21}</div>
+          <div className="advantages-container-3">
+            <div className="advatages-items-row-5">
+              <AdvantageItem11 containerProps={advantageItem111Props.containerProps} />
+              <AdvantageItem11
+                className={advantageItem112Props.className}
+                containerProps={advantageItem112Props.containerProps}
+              />
             </div>
-            <div className="advatages-items-row">
-              <AdvantageItem3 containerProps={advantageItem3Props.containerProps} />
-              <AdvantageItem
-                className={advantageItem2Props.className}
-                containerProps={advantageItem2Props.containerProps}
+            <div className="advatages-items-row-5">
+              <AdvantageItem32 containerProps={advantageItem32Props.containerProps} />
+              <AdvantageItem11
+                className={advantageItem113Props.className}
+                containerProps={advantageItem113Props.containerProps}
               />
             </div>
           </div>
         </div>
       </div>
-      <div className="section-about">
-        <div className="container-1">
-          <div className="h2-1 sbsansdisplay-normal-shark-48px">{h22}</div>
-          <div className="container-3">
-            <ImageHands otherchandsPhoneProps={imageHandsProps.otherchandsPhoneProps} />
-            <img className="image-doc-chips" src={ImageDocChips1} alt="Image Doc Chips" />
+      <div className="section-about-2">
+        <div className="container-56">
+          <div className="h2-13 sbsansdisplay-normal-shark-48px">{h22}</div>
+          <div className="container-58">
+            <ImageHands4 otherchandsPhoneProps={imageHands4Props.otherchandsPhoneProps} />
+            <img className="image-doc-chips-5" src={ImageDocChips4} alt="Image Doc Chips" />
           </div>
         </div>
       </div>
-      <div className="section-steps">
-        <div className="container-1">
-          <div className="head">
-            <div className="h2-2 sbsansdisplay-normal-shark-48px">{h23}</div>
-            <div className="subtitle-1 sbsanstext-regular-normal-shark-24px">{subtitle2}</div>
+      <div className="section-steps-2">
+        <div className="container-56">
+          <div className="head-9">
+            <div className="h2-14 sbsansdisplay-normal-shark-48px">{h23}</div>
+            <div className="subtitle-37 sbsanstext-regular-normal-shark-24px">{subtitle}</div>
           </div>
-          <div className="row">
-            <Column
-              title={column1Props.title}
-              caption={column1Props.caption}
-              subtitle={column1Props.subtitle}
-              imageSmProps={column1Props.imageSmProps}
+          <div className="row-9">
+            <Column8
+              title={column81Props.title}
+              caption={column81Props.caption}
+              subtitle={column81Props.subtitle}
+              imageSmProps={column81Props.imageSmProps}
             />
-            <Column
-              title={column2Props.title}
-              caption={column2Props.caption}
-              subtitle={column2Props.subtitle}
-              imageSmProps={column2Props.imageSmProps}
+            <Column8
+              title={column82Props.title}
+              caption={column82Props.caption}
+              subtitle={column82Props.subtitle}
+              className={column82Props.className}
+              imageSmProps={column82Props.imageSmProps}
             />
-            <Column
-              title={column3Props.title}
-              caption={column3Props.caption}
-              subtitle={column3Props.subtitle}
-              imageSmProps={column3Props.imageSmProps}
+            <Column8
+              title={column83Props.title}
+              caption={column83Props.caption}
+              subtitle={column83Props.subtitle}
+              imageSmProps={column83Props.imageSmProps}
             />
           </div>
         </div>
@@ -132,16 +124,16 @@ function X1440px(props) {
           title={bannerContactsDesktopProps.title}
           subtitle1={bannerContactsDesktopProps.subtitle1}
           subtitle2={bannerContactsDesktopProps.subtitle2}
-          frame270988946Props={bannerContactsDesktopProps.frame270988946Props}
+          frame2709889463Props={bannerContactsDesktopProps.frame2709889463Props}
           frame270988947Props={bannerContactsDesktopProps.frame270988947Props}
           imageHands2Props={bannerContactsDesktopProps.imageHands2Props}
         />
       </div>
-      <div className="section-qa">
-        <Blur className={blurProps.className} />
-        <div className="container">
-          <div className="title sbsansdisplay-normal-white-48px">{title}</div>
-          <div className="advatages-items-row-1">
+      <div className="section-qa-2">
+        <Blur4 className={blur42Props.className} />
+        <div className="container-55">
+          <div className="title-28 sbsansdisplay-normal-white-48px">{title}</div>
+          <div className="advatages-items-row-6">
             <QAItem title={qAItem1Props.title} subtitle={qAItem1Props.subtitle} />
             <QAItem title={qAItem2Props.title} subtitle={qAItem2Props.subtitle} />
             <QAItem2
@@ -152,7 +144,7 @@ function X1440px(props) {
           </div>
         </div>
       </div>
-      <Footer text1={footerProps.text1} phone={footerProps.phone} podpisSberRu={footerProps.podpisSberRu} />
+      <Footer className={footerProps.className} column3Props={footerProps.column3Props} />
     </div>
   );
 }

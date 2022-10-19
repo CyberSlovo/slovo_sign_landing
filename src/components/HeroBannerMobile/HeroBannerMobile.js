@@ -1,32 +1,27 @@
 import React from "react";
-import Button2 from "../Button2/Button2";
-import CmalePhone from "../CmalePhone/CmalePhone";
+import Button22 from "../Button22/Button22";
+import MaleLaptop from "../MaleLaptop/MaleLaptop";
+import BackBlur from "../BackBlur/BackBlur";
 import "./HeroBannerMobile.css";
 
 function HeroBannerMobile(props) {
-  const { onclick, h1, subtitle, cmalePhoneProps } = props;
+  const { onclick, subtitle, className, maleLaptopProps, backBlurProps } = props;
 
   return (
-    <div className="hero-banner-mobile">
-      <div className="overlap-group1-1">
-        <div className="image-man-1">
-          <CmalePhone src={cmalePhoneProps.src} className={cmalePhoneProps.className} />
-        </div>
-        <div className="text-container-buttons-1">
-          <div className="text-container-1">
-            <div className="h1-1 sbsansdisplay-normal-shark-34px">{h1}</div>
-            <div className="subtitle-15 sbsanstext-regular-normal-shark-24px">{subtitle}</div>
+    <div className={`hero-banner-mobile ${className || ""}`}>
+      <div className="overlap-group1">
+      <MaleLaptop className={maleLaptopProps.className} maleLaptop08Props={maleLaptopProps.maleLaptop08Props} />
+        <BackBlur className={backBlurProps.className} />
+        <div className="text-container-buttons">
+          <div className="text-container">
+            <div className="h1 sbsansdisplay-normal-shark-34px">Подписывайте документы онлайн</div>
+            <div className="subtitle-1 sbsanstext-regular-normal-shark-24px">{subtitle}</div>
           </div>
-          <Button2 onclick={onclick} />
+          <Button22 onclick={onclick}/>
         </div>
-        <div className="back-blur-1">
-          <div className="ellipse-container-3">
-            <div className="ellipse-2166-4"></div>
-            <div className="ellipse-2167-6"></div>
-          </div>
-        </div>
+    
       </div>
-      <div className="rectangle-1-1"></div>
+      <div className="rectangle-1"></div>
     </div>
   );
 }

@@ -1,44 +1,63 @@
-.image-sm-2 {
-    border: 1px none;
-    height: 80px;
-    min-width: 80px;
-  }
-  
-  .overlap-group-1 {
-    height: 85px;
-    position: relative;
-    width: 86px;
-  }
-  
-  .ellipse-2167-2 {
-    background-color: var(--bright-turquoise);
-    border: 1px none;
-    border-radius: 24px;
-    filter: blur(34px);;
-    height: 48px;
-    left: 38px;
-    opacity: 0.3;
-    position: absolute;
-    top: 37px;
-    width: 48px;
-  }
-  
-  .container-8 {
-    align-items: flex-start;
-    background-color: var(--white);
-    border: 1px none;
-    border-radius: 16px;
-    box-shadow: 0px 3px 6px #26262629 , 0px 1px 2px #2626260a;
-    display: flex;
-    gap: 8px;
-    left: 0;
-    padding: 20px;
-    position: absolute;
-    top: 0;
-    width: fit-content;
-  }
-  
-  .ic-sber-profile {
-    height: 40px;
-    min-width: 40px;
-  }
+.image-sm-6 {
+  border: 1px none;
+  height: 80px;
+  min-width: 80px;
+}
+
+.overlap-group-1 {
+  height: 85px;
+  position: relative;
+  width: 86px;
+}
+
+.ellipse-2167-6 {
+  background-color: var(--bright-turquoise);
+  border: 1px none;
+  border-radius: 24px;
+  filter: blur(34px);;
+  height: 48px;
+  left: 38px;
+  opacity: 0.3;
+  position: absolute;
+  top: 37px;
+  width: 48px;
+}
+
+.container-7 {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  border-radius: 16px;
+  box-shadow: 0px 3px 6px #26262629 , 0px 1px 2px #2626260a;
+  display: flex;
+  height: 80px;
+  left: 0;
+  min-width: 80px;
+  padding: 0 20px;
+  position: absolute;
+  top: 0;
+}
+
+.ic-sber-profile {
+  height: 40px;
+  width: 40px;
+}
+
+.image-sm-6.image-sm-5-1 .container-7,
+.image-sm-6.image-sm-5-2 .container-7,
+.image-sm-6.image-sm-5 .container-7 {
+  align-items: flex-start;
+  gap: 8px;
+  height: unset;
+  min-width: unset;
+  padding: 20px;
+  width: fit-content;
+}
+
+.image-sm-6.image-sm-5-1 .ic-sber-profile,
+.image-sm-6.image-sm-5-2 .ic-sber-profile,
+.image-sm-6.image-sm-5 .ic-sber-profile {
+  min-width: 40px;
+  width: unset;
+}
+

@@ -1,16 +1,39 @@
-.header-1 {
-    align-self: stretch;
-    background-color: var(--white);
-    border: 1px none;
-    height: 98px;
-    min-width: 414px;
-    position: relative;
-  }
-  
-  .oline-sign-logo-1 {
-    height: 40px;
-    left: 24px;
-    position: absolute;
-    top: 42px;
-    width: 247px;
-  }
+.header-2 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  padding: 24px 48px;
+}
+
+.container-34 {
+  align-items: center;
+  align-self: stretch;
+  border: 1px none;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.oline-sign-logo-3 {
+  height: 48px;
+  min-width: 247.12px;
+}
+
+.header-2.header-4 {
+  padding: 24px 120px;
+}
+
+.header-2.header-4 .container-34 {
+  align-self: unset;
+  width: 1200px;
+}
+
+.header-2.header-4 .oline-sign-logo-3 {
+  min-width: 247.12px;
+}
+

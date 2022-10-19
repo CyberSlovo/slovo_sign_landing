@@ -1,5 +1,9 @@
 .frame-270988947,
-.frame-270988947-1 {
+.frame-270988947-1,
+.frame-270988947-2,
+.frame-270988947-3,
+.frame-270988947-4,
+.frame-270988947-5 {
   align-items: center;
   border: 1px none;
   display: flex;
@@ -8,3 +12,4 @@
   position: relative;
   width: fit-content;
 }
+

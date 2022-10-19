@@ -9,7 +9,7 @@
   padding: 64px;
 }
 
-.container-26 {
+.container-27 {
   align-items: flex-start;
   align-self: stretch;
   border: 1px none;
@@ -18,12 +18,12 @@
   gap: 40px;
 }
 
-.logo-1 {
-  height: 48px;
-  min-width: 264px;
+.oline-sign-logo-1 {
+  height: 40px;
+  min-width: 205.94px;
 }
 
-.row-3 {
+.row-1 {
   align-items: flex-start;
   align-self: stretch;
   border: 1px none;
@@ -32,7 +32,7 @@
   gap: 24px;
 }
 
-.column-3 {
+.column-1 {
   align-items: flex-start;
   align-self: stretch;
   border: 1px none;
@@ -41,23 +41,31 @@
   gap: 16px;
 }
 
-.phone-1 {
+.phone {
   align-self: stretch;
   letter-spacing: 0;
   line-height: 24px;
   margin-top: -1.00px;
   white-space: nowrap;
+  color: #262626;
 }
 
-.sbersdelkisberbankru {
+.podpissberru {
   align-self: stretch;
   letter-spacing: 0;
   line-height: 24px;
   white-space: nowrap;
+  color: #262626;
 }
 
-.text-2 {
+.text-1 {
   align-self: stretch;
   letter-spacing: 0;
   line-height: 24px;
 }
+
+.footer-mobile.footer-mobile-1 {
+  align-self: unset;
+  width: 375px;
+}
+

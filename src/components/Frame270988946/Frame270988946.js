@@ -1,6 +1,6 @@
 import React from "react";
 import X36StrokeDsIc36Handset from "../X36StrokeDsIc36Handset/X36StrokeDsIc36Handset";
-import ButtonCallTo from "../ButtonCallTo/ButtonCallTo";
+import Link from "../Link/Link";
 import "./Frame270988946.css";
 
 function Frame270988946(props) {
@@ -10,8 +10,9 @@ function Frame270988946(props) {
     <div className="frame-270988946">
       <X36StrokeDsIc36Handset />
       <a href={`tel:${linkProps.children}`}>
-        <ButtonCallTo>{linkProps.children}</ButtonCallTo>
+        <Link>{linkProps.children}</Link>
       </a>
+
     </div>
   );
 }

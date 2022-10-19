@@ -19,9 +19,9 @@ function Button(props) {
     onMouseEnter={handleMouseEnter}
     onMouseLeave={handleMouseLeave}
     onClick={onclick} 
-    className="button">
-      <div className="frame-270988836">
-        <div className="button-1">{children}</div>
+    className="button-18">
+      <div className="frame-270988836-12">
+        <div className="button-19 sbsanstext-regular-normal-abbey-19px">{children}</div>
       </div>
     </div>
   );

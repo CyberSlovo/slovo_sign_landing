@@ -6,10 +6,8 @@ function Blur(props) {
 
   return (
     <div className={`blur ${className || ""}`}>
-      <div className="ellipse-container-1">
-        <div className="ellipse-2166-1"></div>
-        <div className="ellipse-2167-1"></div>
-      </div>
+      <div className="ellipse-2166-3"></div>
+      <div className="ellipse-2167-3"></div>
     </div>
   );
 }

@@ -1,0 +1,26 @@
+.banner-contacts-mobile {
+  background-color: var(--cultured-pearl);
+  border: 1px none;
+  border-radius: 32px;
+  flex: 1;
+  height: 750px;
+  min-width: 398px;
+  overflow: hidden;
+}
+
+.overlap-group-8 {
+  height: 766px;
+  left: -5px;
+  position: relative;
+  top: 40px;
+  width: 415px;
+}
+
+.banner-contacts-mobile.banner-contacts-mobile-1 {
+  min-width: 343px;
+}
+
+.banner-contacts-mobile.banner-contacts-mobile-1 .overlap-group-8 {
+  left: -32px;
+}
+

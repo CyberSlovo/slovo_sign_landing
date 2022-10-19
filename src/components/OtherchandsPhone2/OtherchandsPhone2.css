@@ -1,0 +1,20 @@
+.otherchands-phone-3,
+.otherchands-phone-4 {
+  align-items: flex-end;
+  border: 1px none;
+  display: flex;
+  height: 551px;
+  left: 0;
+  min-width: 548px;
+  padding: 5.2px 0;
+  position: absolute;
+  top: 0;
+}
+
+.lg-hands-phone-012x,
+.lg-hands-phone-012x-1 {
+  height: 396px;
+  object-fit: cover;
+  width: 548px;
+}
+

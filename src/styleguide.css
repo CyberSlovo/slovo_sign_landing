@@ -1,5 +1,7 @@
 :root { 
+  --abbey: #494f54;
   --black: #000000;
+  --black-2: #00000059;
   --blue: #2a71f8;
   --bright-turquoise: #18eff2;
   --cornflower-blue: #5993ff;
@@ -62,14 +64,6 @@
   font-weight: 400;
 }
 
-.sbsanstext-regular-normal-shark-24px {
-  color: var(--shark-2);
-  font-family: var(--font-family-sb_sans_text-regular);
-  font-size: var(--font-size-xl);
-  font-style: normal;
-  font-weight: 400;
-}
-
 .sbsansdisplay-normal-shark-34px {
   color: var(--shark);
   font-family: var(--font-family-sb_sans_display-semibold);
@@ -78,15 +72,23 @@
   font-weight: 400;
 }
 
-.sbsansdisplay-normal-shark-48px {
-  color: var(--shark);
+.sbsanstext-regular-normal-shark-24px {
+  color: var(--shark-2);
+  font-family: var(--font-family-sb_sans_text-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sbsansdisplay-normal-white-48px {
   font-family: var(--font-family-sb_sans_display-semibold);
   font-size: var(--font-size-xxxxl);
   font-style: normal;
   font-weight: 400;
 }
 
-.sbsansdisplay-normal-white-48px {
+.sbsansdisplay-normal-shark-48px {
+  color: var(--shark);
   font-family: var(--font-family-sb_sans_display-semibold);
   font-size: var(--font-size-xxxxl);
   font-style: normal;
@@ -124,6 +126,14 @@
   font-weight: 400;
 }
 
+.sbsansdisplay-normal-shark-18px {
+  color: var(--shark);
+  font-family: var(--font-family-sb_sans_display-semibold);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
 .sbsanstext-regular-normal-shark-16px {
   color: var(--shark-3);
   font-family: var(--font-family-sb_sans_text-regular);
@@ -132,10 +142,33 @@
   font-weight: 400;
 }
 
-.sbsansdisplay-normal-shark-18px {
-  color: var(--shark);
+.sfprodisplay-normal-black-15px {
+  color: var(--black);
+  font-family: var(--font-family-sf_pro_display-semibold);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sbsansdisplay-normal-white-34px {
   font-family: var(--font-family-sb_sans_display-semibold);
-  font-size: 18px;
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sbsanstext-regular-normal-abbey-19px {
+  color: var(--abbey);
+  font-family: var(--font-family-sb_sans_text-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sbsanstext-regular-normal-shark-24px-2 {
+  color: var(--shark);
+  font-family: var(--font-family-sb_sans_text-regular);
+  font-size: var(--font-size-xl);
   font-style: normal;
   font-weight: 400;
 }
