@@ -4,11 +4,12 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  min-height: 7518.98px;
+  height: fit-content;
   min-width: 375px;
   position: relative;
   width: 100%;
+  align-content: center;
+  justify-content: flex-start;
 }
 
 .hero-1 {

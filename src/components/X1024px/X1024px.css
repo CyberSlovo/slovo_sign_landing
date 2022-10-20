@@ -4,12 +4,14 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  min-height: 5216px;
+  height: fit-content;
   min-width: 1024px;
   position: relative;
   width: 100%;
+  align-content: center;
+  justify-content: flex-start;
 }
+
 
 .section-hero {
   align-items: center;
@@ -78,6 +80,7 @@
   letter-spacing: -0.30px;
   line-height: 56px;
   margin-top: -1.00px;
+  width: fit-content;
 }
 
 .subtitle-20 {
@@ -128,7 +131,7 @@
   line-height: 56px;
   margin-top: -1.00px;
   text-fill-color: transparent;
-  width: 352px;
+  width: fit-content;
 }
 
 .advantages-container {

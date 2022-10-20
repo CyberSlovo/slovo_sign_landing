@@ -4,12 +4,13 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: fit-content;
   justify-content: center;
-  min-height: 7098.98px;
   min-width: 430px;
   position: relative;
   width: 100%;
+  align-content: center;
+  justify-content: flex-start;
 }
 
 

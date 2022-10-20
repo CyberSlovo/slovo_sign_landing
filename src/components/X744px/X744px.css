@@ -4,11 +4,13 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  min-height: 5456px;
+  height: fit-content;
+
   min-width: 744px;
   position: relative;
   width: 100%;
+  align-content: center;
+  justify-content: flex-start;
 }
 
 .section-hero-1 {

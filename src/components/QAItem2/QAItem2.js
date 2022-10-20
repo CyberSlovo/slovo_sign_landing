@@ -13,10 +13,6 @@ function QAItem2(props) {
           <div className="title-11 sbsansdisplay-normal-shark-24px">{title}</div>
           <div className="subtitle-15 sbsanstext-regular-normal-white-19px-2">
             <span className="span sbsanstext-regular-normal-shark-19px">{spanText1}</span>
-            <a href="https://sberpravo.ru/">
-              <span className="span sbsanstext-regular-normal-blue-19px">СберПраво</span>
-            </a>
-            <span className="span sbsanstext-regular-normal-shark-19px">{spanText3}</span>
           </div>
         </div>
       </div>

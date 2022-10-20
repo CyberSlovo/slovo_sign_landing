@@ -40,7 +40,7 @@ import IcSberSuccess from "./assets/images/ic-sber-success-1@2x.svg";
 
 function App() {
 
-const sm = useMediaQuery({ minWidth: 375, maxWidth: 429})
+const sm = useMediaQuery({ maxWidth: 429, })
 const md = useMediaQuery({ minWidth: 430, maxWidth: 743})
 const lg = useMediaQuery({ minWidth: 744, maxWidth: 1023})
 const xl = useMediaQuery({ minWidth: 1024, maxWidth: 1439})
@@ -157,7 +157,7 @@ const imageSm3Data = {
 const column3Data = {
     title: "3 шаг",
     caption: "Отправьте",
-    subtitle: <React.Fragment>Отправить ссылку контрагенту <br />на подписание</React.Fragment>,
+    subtitle: <React.Fragment>Отправьте ссылку контрагенту <br />на подписание</React.Fragment>,
     imageSmProps: imageSm3Data,
 };
 
@@ -210,9 +210,9 @@ const qAItem2Data = {
 };
 
 const qAItem22Data = {
-    title: <React.Fragment>Можно ли пойти <br />с документами, подписанными <br />в вашем сервисе в суд или налоговую?</React.Fragment>,
-    spanText1: "По запросу мы предоставим дополнительный протокол подписания документа с информацией о всех подписавших. А в сервисе ",
-    spanText3: " вы сможете найти лучшего адвоката для своего вопроса.",
+    title: <React.Fragment>Можно ли пойти <br />с документами, подписанными <br />в вашем сервисе, в суд или налоговую?</React.Fragment>,
+    spanText1: "По запросу мы предоставим дополнительный протокол подписания документа с информацией о всех подписавших.",
+    spanText3: "",
 };
 
 const x430pxData = {
@@ -334,7 +334,7 @@ const imageSm6Data = {
 const column24Data = {
     title: "3 шаг",
     caption: "Отправьте",
-    subtitle: <React.Fragment>Отправить ссылку контрагенту <br />на подписание</React.Fragment>,
+    subtitle: <React.Fragment>Отправьте ссылку контрагенту <br />на подписание</React.Fragment>,
     imageSmProps: imageSm6Data,
 };
 
@@ -378,14 +378,14 @@ const qAItem3Data = {
 };
 
 const qAItem4Data = {
-    title: <React.Fragment>Можно ли пойти с документами, подписанными <br />в вашем сервисе в суд или налоговую?</React.Fragment>,
+    title: <React.Fragment>Можно ли пойти с документами, подписанными <br />в вашем сервисе, в суд или налоговую?</React.Fragment>,
     subtitle: "Да, мы разработали сервис с учетом всех требований законодательства, поэтому государственные органы примут документы, подписанные в нашем сервисе.",
 };
 
 const qAItem23Data = {
     title: "Какую поддержку может оказать сервис в случае судебных споров?",
-    spanText1: <React.Fragment>По запросу мы предоставим дополнительный протокол подписания документа с информацией о всех подписавших.<br />А в сервисе </React.Fragment>,
-    spanText3: " вы сможете найти лучшего адвоката для своего вопроса.",
+    spanText1: <React.Fragment>По запросу мы предоставим дополнительный протокол подписания документа с информацией о всех подписавших.</React.Fragment>,
+    spanText3: "",
     className: "qa-item-6",
 };
 
@@ -498,7 +498,7 @@ const imageSm9Data = {
 const column42Data = {
     title: "3 шаг",
     caption: "Отправьте",
-    subtitle: <React.Fragment>Отправить ссылку контрагенту <br />на подписание</React.Fragment>,
+    subtitle: <React.Fragment>Отправьте ссылку контрагенту <br />на подписание</React.Fragment>,
     imageSmProps: imageSm9Data,
 };
 
@@ -548,14 +548,14 @@ const qAItem5Data = {
 };
 
 const qAItem6Data = {
-    title: <React.Fragment>Можно ли пойти с документами, подписанными <br />в вашем сервисе в суд или налоговую?</React.Fragment>,
+    title: <React.Fragment>Можно ли пойти с документами, подписанными <br />в вашем сервисе, в суд или налоговую?</React.Fragment>,
     subtitle: "Да, мы разработали сервис с учетом всех требований законодательства, поэтому государственные органы примут документы, подписанные в нашем сервисе.",
 };
 
 const qAItem24Data = {
     title: "Какую поддержку может оказать сервис в случае судебных споров?",
-    spanText1: <React.Fragment>По запросу мы предоставим дополнительный протокол подписания документа с информацией о всех подписавших.<br />А в сервисе </React.Fragment>,
-    spanText3: " вы сможете найти лучшего адвоката для своего вопроса.",
+    spanText1: <React.Fragment>По запросу мы предоставим дополнительный протокол подписания документа с информацией о всех подписавших.</React.Fragment>,
+    spanText3: "",
 };
 
 const column33Data = {
@@ -714,7 +714,7 @@ const imageSm12Data = {
 const column53Data = {
     title: "3 шаг",
     caption: "Отправьте",
-    subtitle: <React.Fragment>Отправить ссылку контрагенту <br />на подписание</React.Fragment>,
+    subtitle: <React.Fragment>Отправьте ссылку контрагенту <br />на подписание</React.Fragment>,
     imageSmProps: imageSm12Data,
 };
 
@@ -763,14 +763,14 @@ const qAItem7Data = {
 };
 
 const qAItem8Data = {
-    title: <React.Fragment>Можно ли пойти <br />с документами, подписанными <br />в вашем сервисе в суд или налоговую?</React.Fragment>,
+    title: <React.Fragment>Можно ли пойти <br />с документами, подписанными <br />в вашем сервисе, в суд или налоговую?</React.Fragment>,
     subtitle: <React.Fragment>Да, мы разработали сервис <br />с учетом всех требований законодательства, поэтому государственные органы примут документы, подписанные в нашем сервисе.</React.Fragment>,
 };
 
 const qAItem25Data = {
-    title: <React.Fragment>Можно ли пойти <br />с документами, подписанными <br />в вашем сервисе в суд или налоговую?</React.Fragment>,
-    spanText1: "По запросу мы предоставим дополнительный протокол подписания документа с информацией о всех подписавших. А в сервисе ",
-    spanText3: " вы сможете найти лучшего адвоката для своего вопроса.",
+    title: <React.Fragment>Можно ли пойти <br />с документами, подписанными <br />в вашем сервисе, в суд или налоговую?</React.Fragment>,
+    spanText1: "По запросу мы предоставим дополнительный протокол подписания документа с информацией о всех подписавших.",
+    spanText3: "",
 };
 
 const footerMobile2Data = {
@@ -927,7 +927,7 @@ const imageSm15Data = {
 const column83Data = {
     title: "3 шаг",
     caption: "Отправьте",
-    subtitle: <React.Fragment>Отправить ссылку контрагенту <br />на подписание</React.Fragment>,
+    subtitle: <React.Fragment>Отправьте ссылку контрагенту <br />на подписание</React.Fragment>,
     imageSmProps: imageSm15Data,
 };
 
@@ -976,13 +976,13 @@ const qAItem9Data = {
 };
 
 const qAItem10Data = {
-    title: <React.Fragment>Можно ли пойти с документами, подписанными <br />в вашем сервисе в суд или налоговую?</React.Fragment>,
+    title: <React.Fragment>Можно ли пойти с документами, подписанными <br />в вашем сервисе, в суд или налоговую?</React.Fragment>,
     subtitle: "Да, мы разработали сервис с учетом всех требований законодательства, поэтому государственные органы примут документы, подписанные в нашем сервисе.",
 };
 
 const qAItem26Data = {
     title: "Какую поддержку может оказать сервис в случае судебных споров?",
-    spanText1: <React.Fragment>По запросу мы предоставим дополнительный протокол подписания документа с информацией о всех подписавших.<br />А в сервисе </React.Fragment>,
+    spanText1: <React.Fragment>По запросу мы предоставим дополнительный протокол подписания документа с информацией о всех подписавших.</React.Fragment>,
     spanText3: " вы сможете найти лучшего адвоката для своего вопроса.",
 };
 
@@ -1113,7 +1113,7 @@ const imageSm18Data = {
 const column224Data = {
     title: "3 шаг",
     caption: "Отправка",
-    subtitle: <React.Fragment>Отправить ссылку контрагенту <br />на подписание</React.Fragment>,
+    subtitle: <React.Fragment>Отправьте ссылку контрагенту <br />на подписание</React.Fragment>,
     imageSmProps: imageSm18Data,
 };
 
@@ -1148,15 +1148,15 @@ const qAItem32Data = {
 };
 
 const qAItem33Data = {
-    title: <React.Fragment>Можно ли пойти <br />с документами, подписанными <br />в вашем сервисе в суд или налоговую?</React.Fragment>,
+    title: <React.Fragment>Можно ли пойти <br />с документами, подписанными <br />в вашем сервисе, в суд или налоговую?</React.Fragment>,
     subtitle: <React.Fragment>Да, мы разработали сервис <br />с учетом всех требований законодательства, поэтому государственные органы примут документы, подписанные в нашем сервисе.</React.Fragment>,
 };
 
 const qAItem42Data = {
-    title: <React.Fragment>Можно ли пойти <br />с документами, подписанными <br />в вашем сервисе в суд или налоговую?</React.Fragment>,
-    spanText1: "По запросу мы предоставим дополнительный протокол подписания документа с информацией о всех подписавших. А в сервисе ",
-    spanText2: "СберПраво",
-    spanText3: " вы сможете найти лучшего адвоката для своего вопроса.",
+    title: <React.Fragment>Можно ли пойти <br />с документами, подписанными <br />в вашем сервисе, в суд или налоговую?</React.Fragment>,
+    spanText1: "По запросу мы предоставим дополнительный протокол подписания документа с информацией о всех подписавших.",
+    spanText2: "",
+    spanText3: "",
 };
 
 const footerMobile3Data = {
