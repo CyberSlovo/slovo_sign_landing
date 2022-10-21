@@ -14,9 +14,10 @@ function AdvantageItem2(props) {
       <ReactTooltip 
         id="registerTip" 
         place="bottom" 
-        afterHide={true} 
         backgroundColor="white"
         multiline={true}
+        afterHide={true} 
+        scrollHide={true}
         textColor="rgba(38, 38, 38, 0.7)"
         border="1px"
         borderColor="rgba(38, 38, 38, 0.08)"

@@ -20,6 +20,7 @@ function AdvantageItem4(props) {
         id="registerTip" 
         place="bottom" 
         afterHide={true} 
+        scrollHide={true}
         backgroundColor="white"
         multiline={true}
         textColor="rgba(38, 38, 38, 0.7)"
