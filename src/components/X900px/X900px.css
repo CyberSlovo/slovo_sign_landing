@@ -38,11 +38,11 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .banner-1 {
-  align-items: flex-end;
+  align-items: center;
   align-self: stretch;
   background-position: 50% 50%;
   background-size: cover;
