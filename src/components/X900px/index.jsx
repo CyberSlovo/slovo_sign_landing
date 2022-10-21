@@ -68,8 +68,8 @@ function X900px(props) {
                 </div>
                 <div className="placeholder"></div>
               </div>
-              <img className="img" src={img} alt="IMG" />
             </div>
+            <img className="img" src={img} alt="IMG" />
             <div className="frame-1851039176">
               <div className="rectangle-1-1"></div>
             </div>
