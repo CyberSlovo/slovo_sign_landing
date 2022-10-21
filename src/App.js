@@ -21,7 +21,7 @@ import IcSberProfile1 from "./assets/img/ic-sber-profile-1@2x.svg";
 import IcSberSigned1 from "./assets/img/ic-sber-signed-1@2x.svg";
 import IconSberSend1 from "./assets/img/icon-sber-send-1@2x.svg";
 import HandsHeart1 from "./assets/img/hands-heart-1@2x.png";
-import Private21 from "./assets/img/private-2-1@1x.png";
+import Private21 from "./assets/img/private-2-1-1@2x.png";
 import LgHandsPhone012x2 from "./assets/img/lg-hands-phone-01-2x-2@2x.png";
 import IcSberProfile2 from "./assets/img/ic-sber-profile-2@2x.svg";
 import IcSberSigned2 from "./assets/img/ic-sber-signed-2@2x.svg";

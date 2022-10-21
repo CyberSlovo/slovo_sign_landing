@@ -9,6 +9,7 @@ function BannerContactsMobile(props) {
 
   return (
     <div className="banner-contacts-mobile">
+      <HandsHeart src={handsHeartProps.src} className={handsHeartProps.className} />
       <div className="container-44">
         <div className="head-7">
           <p className="title-23 sbsansdisplay-normal-shark-28px">
@@ -27,7 +28,6 @@ function BannerContactsMobile(props) {
           </div>
         </div>
       </div>
-      <HandsHeart src={handsHeartProps.src} className={handsHeartProps.className} />
     </div>
   );
 }

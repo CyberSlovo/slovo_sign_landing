@@ -9,7 +9,7 @@ function Frame270988947(props) {
   return (
     <div className="frame-270988947">
       <X36StrokeDsIc36Mail />
-      <a href={`mailto:${linkProps.children}`}>
+      <a href={`mailto:podpis@sber.ru`}>
         <Link>{linkProps.children}</Link>
       </a>
     </div>
