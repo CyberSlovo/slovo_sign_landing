@@ -1,35 +1,41 @@
 .hands-heart {
-  align-items: flex-start;
+  background-position: 50% 50%;
+  background-size: cover;
   border: 1px none;
-  display: flex;
-  height: 415px;
-  left: 0;
-  min-width: 415px;
-  padding: 0 5px;
-  position: absolute;
-  top: 351px;
-}
-
-.hands_-heart {
-  height: 359px;
-  object-fit: cover;
-  width: 398px;
+  height: 572px;
+  position: relative;
+  top: -96px;
+  width: 572px;
 }
 
 .hands-heart.hands-heart-1 {
-  padding: 0 32px;
+  height: 356px;
+  top: -60px;
+  width: 424px;
 }
 
-.hands-heart.hands-heart-1 .hands_-heart {
+.hands-heart.otherchands-phone-3,
+.hands-heart.otherchands-phone-4 {
+  height: 343px;
+  left: 0;
+  position: absolute;
+  top: 0;
   width: 343px;
 }
 
 .hands-heart.hands-heart-2 {
-  justify-content: flex-end;
-  padding: unset;
+  height: 343px;
+  left: 0;
+  position: absolute;
+  top: 421px;
+  width: 343px;
 }
 
-.hands-heart.hands-heart-2 .hands_-heart {
-  width: 379px;
+.hands-heart.hands-heart-3 {
+  height: 343px;
+  left: 166px;
+  position: absolute;
+  top: 293px;
+  width: 343px;
 }
 

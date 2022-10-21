@@ -1,4 +1,4 @@
-.advantage-item-9 {
+.advantage-item-10-1 {
   align-items: flex-start;
   align-self: stretch;
   background-color: var(--white);
@@ -8,15 +8,23 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
+  height: 280px;
   padding: 24px;
+}
+
+.container-43 {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px none;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 24px;
   position: relative;
 }
 
-.advantage-item-9.advantage-item-10 {
-  height: 280px;
-}
-
-.advantage-item-9.advantage-item-11 {
-  margin-bottom: -16.00px;
+.ic-sber-1 {
+  height: 48px;
+  min-width: 48px;
 }
 

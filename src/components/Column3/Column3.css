@@ -1,36 +1,32 @@
-.column-4 {
+.column-3 {
   align-items: flex-start;
   align-self: stretch;
   border: 1px none;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-left: -72px;
+  margin-left: -11px;
   width: fit-content;
 }
 
-.phone-2 {
+.phone-1 {
   letter-spacing: 0;
   line-height: 32px;
   margin-top: -1.00px;
   white-space: nowrap;
-  width: 400px;
+  width: fit-content;
   color: #262626;
 }
 
-.podpissberru-2 {
+.podpissberru-1 {
   letter-spacing: 0;
   line-height: 32px;
   white-space: nowrap;
-  width: 400px;
+  width: fit-content;
   color: #262626;
 }
 
-.column-4.column-5 {
-  margin-left: -352px;
-}
-
-.column-4.column-6 {
-  margin-left: unset;
+.column-3.column-4 {
+  margin-left: -170px;
 }
 

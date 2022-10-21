@@ -1,16 +1,15 @@
-.hands-heart-3 {
-  background-position: 50% 50%;
-  background-size: cover;
+.hands-heart-4 {
+  align-items: flex-start;
   border: 1px none;
-  height: 355px;
+  display: flex;
+  min-width: 320px;
   position: relative;
-  top: -60px;
-  width: 424px;
+  top: -45px;
 }
 
-.hands-heart-3.hands-heart-5 {
-  height: 572px;
-  top: -96px;
-  width: 572px;
+.hands_-heart {
+  height: 268px;
+  object-fit: cover;
+  width: 320px;
 }
 

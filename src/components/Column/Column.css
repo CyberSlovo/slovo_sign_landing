@@ -3,15 +3,17 @@
   align-self: stretch;
   border: 1px none;
   display: flex;
-  gap: 24px;
+  flex: 1;
+  flex-direction: column;
+  gap: 32px;
   position: relative;
 }
 
 .frame-270988932 {
   align-items: flex-start;
+  align-self: stretch;
   border: 1px none;
   display: flex;
-  flex: 1;
   flex-direction: column;
   gap: 24px;
 }
@@ -41,7 +43,7 @@
   white-space: nowrap;
 }
 
-.subtitle-4 {
+.subtitle-3 {
   align-self: stretch;
   letter-spacing: -0.30px;
   line-height: 28px;

@@ -1,4 +1,4 @@
-.advantage-item-1-1 {
+.advantage-item-1 {
   align-items: flex-start;
   align-self: stretch;
   background-color: var(--white);
@@ -6,25 +6,18 @@
   border-radius: 32px;
   box-shadow: 0px 4px 8px #26262629 , 0px 1px 2px #2626260a;
   display: flex;
-  flex-direction: column;
-  gap: 32px;
-  height: 280px;
-  padding: 24px;
-}
-
-.container-5 {
-  align-items: flex-start;
-  align-self: stretch;
-  border: 1px none;
-  display: flex;
   flex: 1;
   flex-direction: column;
-  gap: 24px;
+  gap: 32px;
+  padding: 24px;
   position: relative;
+  width: 360px;
 }
 
-.ic-sber {
-  height: 48px;
-  min-width: 48px;
+.advantage-item-1.advantage-item {
+  align-self: unset;
+  flex: unset;
+  height: 304px;
+  width: 360px;
 }
 

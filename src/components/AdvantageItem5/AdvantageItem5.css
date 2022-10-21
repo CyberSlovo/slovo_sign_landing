@@ -1,5 +1,6 @@
-.advantage-item-7 {
+.advantage-item-8 {
   align-items: flex-start;
+  align-self: stretch;
   background-color: var(--white);
   border: 1px none;
   border-radius: 32px;
@@ -8,12 +9,10 @@
   flex: 1;
   flex-direction: column;
   gap: 32px;
-  height: 304px;
   padding: 24px;
-  position: relative; 
 }
 
-.container-47 {
+.container-36 {
   align-items: flex-start;
   align-self: stretch;
   border: 1px none;
@@ -23,12 +22,12 @@
   gap: 24px;
 }
 
-.icon-clock-2 {
+.ic-sber {
   height: 48px;
   min-width: 48px;
 }
 
-.title-subtitle-13 {
+.title-subtitle-8 {
   align-items: flex-start;
   align-self: stretch;
   border: 1px none;
@@ -38,25 +37,23 @@
   gap: 8px;
 }
 
-.title-23 {
+.title-16 {
   align-self: stretch;
   letter-spacing: 0;
   line-height: 32px;
   margin-top: -1.00px;
+  white-space: nowrap;
 }
 
-.subtitle-32 {
+.subtitle-22 {
   align-self: stretch;
   flex: 1;
   letter-spacing: -0.30px;
   line-height: 28px;
 }
 
-.ic-question-circle-2 {
-  height: 24px;
-  left: 173px;
-  position: absolute;
-  top: 137px;
-  width: 24px;
+.advantage-item-8.advantage-item-7 {
+  align-self: unset;
+  height: 304px;
 }
 

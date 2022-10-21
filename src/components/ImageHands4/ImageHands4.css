@@ -1,21 +1,25 @@
-.image-hands-8 {
+.image-hands-6 {
   border: 1px none;
-  height: 460px;
-  min-width: 640px;
+  height: 246.53px;
+  min-width: 343px;
 }
 
-.overlap-group-11 {
-  height: 640px;
+.overlap-group-6 {
+  height: 343px;
   position: relative;
-  top: -174px;
-  width: 640px;
+  top: -93px;
+  width: 343px;
 }
 
-.vector-2-stroke-2 {
-  height: 56px;
-  left: 362px;
+.vector-2-stroke-1 {
+  height: 32px;
+  left: 191px;
   position: absolute;
-  top: 279px;
-  width: 69px;
+  top: 146px;
+  width: 39px;
+}
+
+.image-hands-6.image-hands-7 .vector-2-stroke-1 {
+  left: 192px;
 }
 

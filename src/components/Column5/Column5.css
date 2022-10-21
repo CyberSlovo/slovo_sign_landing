@@ -1,23 +1,22 @@
-.column-9 {
+.column-8 {
   align-items: flex-start;
   align-self: stretch;
   border: 1px none;
   display: flex;
-  flex-direction: column;
   gap: 24px;
   position: relative;
 }
 
-.frame-270988932-4 {
+.frame-270988932-5 {
   align-items: flex-start;
-  align-self: stretch;
   border: 1px none;
   display: flex;
+  flex: 1;
   flex-direction: column;
   gap: 24px;
 }
 
-.title-27 {
+.title-22 {
   align-self: stretch;
   letter-spacing: -0.30px;
   line-height: 28px;
@@ -25,7 +24,7 @@
   white-space: nowrap;
 }
 
-.frame-270988931-4 {
+.frame-270988931-5 {
   align-items: flex-start;
   align-self: stretch;
   border: 1px none;
@@ -34,7 +33,7 @@
   gap: 16px;
 }
 
-.caption-4 {
+.caption-5 {
   align-self: stretch;
   letter-spacing: -0.30px;
   line-height: 36px;
@@ -42,7 +41,7 @@
   white-space: nowrap;
 }
 
-.subtitle-35 {
+.subtitle-29 {
   align-self: stretch;
   letter-spacing: -0.30px;
   line-height: 28px;

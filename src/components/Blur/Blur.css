@@ -1,43 +1,78 @@
-.blur {
+.blur-5 {
   border: 1px none;
   height: 390px;
-  left: 90px;
+  left: 842px;
   position: absolute;
-  top: 96px;
+  top: 24px;
   width: 358px;
 }
 
-.ellipse-2166-3 {
+.ellipse-container-1 {
+  height: 482px;
+  left: 16px;
+  position: relative;
+  width: 342px;
+}
+
+.ellipse-2166-1 {
   background-color: var(--cornflower-blue);
   border: 1px none;
   border-radius: 96px;
   filter: blur(164px);;
   height: 192px;
-  left: 166px;
-  opacity: 0.5;
+  left: 150px;
+  opacity: 0.4;
   position: absolute;
   top: 0;
   width: 192px;
 }
 
-.ellipse-2167-3 {
+.ellipse-2167-1 {
   background-color: var(--bright-turquoise);
   border: 1px none;
-  border-radius: 96px;
+  border-radius: 150px;
   filter: blur(252px);;
-  height: 192px;
+  height: 300px;
   left: 0;
-  opacity: 0.34;
+  opacity: 0.2;
   position: absolute;
-  top: 198px;
-  width: 192px;
+  top: 182px;
+  width: 300px;
 }
 
-.blur.blur-1 {
-  left: 63px;
+.blur-5.blur-1 {
+  border: 1px none;
+  height: 390px;
+  left: 526px;
+  position: absolute;
+  top: 176px;
+  width: 358px;
 }
 
-.blur.blur-2 {
-  left: 82px;
+.blur-5.blur-2 {
+  border: 1px none;
+  height: 390px;
+  left: 534px;
+  position: absolute;
+  top: 256px;
+  width: 358px;
+}
+
+.blur-5.blur-3 {
+  border: 1px none;
+  height: 390px;
+  left: 367px;
+  position: absolute;
+  top: 176px;
+  width: 358px;
+}
+
+.blur-5.blur-4 {
+  border: 1px none;
+  height: 390px;
+  left: 375px;
+  position: absolute;
+  top: 256px;
+  width: 358px;
 }
 

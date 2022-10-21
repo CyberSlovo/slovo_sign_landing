@@ -2,20 +2,18 @@
 .x36-stroke-ds_ic_36_handset-1,
 .x36-stroke-ds_ic_36_handset-2,
 .x36-stroke-ds_ic_36_handset-3,
-.x36-stroke-ds_ic_36_handset-4,
-.x36-stroke-ds_ic_36_handset-5 {
+.x36-stroke-ds_ic_36_handset-4 {
   border: 1px none;
   height: 36px;
   min-width: 36px;
   position: relative;
 }
 
-.icon-call,
-.icon-call-1,
-.icon-call-2,
-.icon-call-3,
-.icon-call-4,
-.icon-call-5 {
+.shape,
+.shape-1,
+.shape-2,
+.shape-3,
+.shape-4 {
   height: 21px;
   left: 8px;
   position: absolute;

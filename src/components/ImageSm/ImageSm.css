@@ -1,4 +1,4 @@
-.image-sm-6 {
+.image-sm-5 {
   border: 1px none;
   height: 80px;
   min-width: 80px;
@@ -10,7 +10,7 @@
   width: 86px;
 }
 
-.ellipse-2167-6 {
+.ellipse-2167-4 {
   background-color: var(--bright-turquoise);
   border: 1px none;
   border-radius: 24px;
@@ -23,7 +23,7 @@
   width: 48px;
 }
 
-.container-7 {
+.container-6 {
   align-items: center;
   background-color: var(--white);
   border: 1px none;
@@ -38,26 +38,8 @@
   top: 0;
 }
 
-.ic-sber-profile {
+.x-sber-1 {
   height: 40px;
   width: 40px;
-}
-
-.image-sm-6.image-sm-5-1 .container-7,
-.image-sm-6.image-sm-5-2 .container-7,
-.image-sm-6.image-sm-5 .container-7 {
-  align-items: flex-start;
-  gap: 8px;
-  height: unset;
-  min-width: unset;
-  padding: 20px;
-  width: fit-content;
-}
-
-.image-sm-6.image-sm-5-1 .ic-sber-profile,
-.image-sm-6.image-sm-5-2 .ic-sber-profile,
-.image-sm-6.image-sm-5 .ic-sber-profile {
-  min-width: 40px;
-  width: unset;
 }
 

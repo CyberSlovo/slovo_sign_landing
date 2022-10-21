@@ -2,45 +2,35 @@
   align-items: flex-start;
   border: 1px none;
   display: flex;
-  height: 525px;
-  justify-content: flex-end;
-  margin-bottom: -184px;
-  margin-left: -106px;
-  min-width: 525px;
-  padding: 0 76px;
-}
-
-.private_2-1 {
-  height: 341px;
-  object-fit: cover;
-  width: 343px;
-}
-
-.male-laptop-08.male-laptop-08-1,
-.male-laptop-08.male-laptop-08-4 {
   height: 758px;
+  justify-content: flex-end;
   margin-bottom: -279px;
   margin-left: -195px;
   min-width: 758px;
   padding: 15px 99px;
 }
 
-.male-laptop-08.male-laptop-08-1 .private_2-1,
-.male-laptop-08.male-laptop-08-4 .private_2-1 {
+.private_2-1 {
   height: 464px;
+  object-fit: cover;
   width: 464px;
 }
 
+.male-laptop-08.male-laptop-08-1,
 .male-laptop-08.male-laptop-08-2 {
-  height: 549px;
-  margin-bottom: -202.03px;
-  margin-left: -141px;
-  min-width: 549px;
-  padding: 10.9px 71.7px;
+  height: 525px;
+  left: -106px;
+  margin-bottom: unset;
+  margin-left: unset;
+  min-width: 525px;
+  padding: 0 76px;
+  position: relative;
+  top: 31px;
 }
 
+.male-laptop-08.male-laptop-08-1 .private_2-1,
 .male-laptop-08.male-laptop-08-2 .private_2-1 {
-  height: 336px;
-  width: 336px;
+  height: 341px;
+  width: 343px;
 }
 

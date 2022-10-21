@@ -1,5 +1,6 @@
 .advantage-item-4 {
   align-items: flex-start;
+  align-self: stretch;
   background-color: var(--white);
   border: 1px none;
   border-radius: 32px;
@@ -8,16 +9,12 @@
   flex: 1;
   flex-direction: column;
   gap: 32px;
-  height: 304px;
   padding: 24px;
   position: relative;
 }
 
-.ic-question-circle-1 {
-  height: 24px;
-  left: 173px;
-  position: absolute;
-  top: 137px;
-  width: 24px;
+.advantage-item-4.advantage-item-3 {
+  align-self: unset;
+  height: 304px;
 }
 

@@ -1,26 +1,78 @@
-.banner-contacts-mobile {
+.banner-contacts-mobile,
+.banner-contacts-mobile-1 {
+  align-items: center;
   background-color: var(--cultured-pearl);
   border: 1px none;
   border-radius: 32px;
+  display: flex;
   flex: 1;
-  height: 750px;
-  min-width: 398px;
-  overflow: hidden;
-}
-
-.overlap-group-8 {
-  height: 766px;
-  left: -5px;
+  flex-direction: column;
+  padding: 40px 24px 280px;
   position: relative;
-  top: 40px;
-  width: 415px;
 }
 
-.banner-contacts-mobile.banner-contacts-mobile-1 {
-  min-width: 343px;
+.container-44,
+.container-46 {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
-.banner-contacts-mobile.banner-contacts-mobile-1 .overlap-group-8 {
-  left: -32px;
+.head-7,
+.head-8 {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title-23,
+.title-24 {
+  align-self: stretch;
+  letter-spacing: -0.30px;
+  line-height: 36px;
+  margin-top: -1.00px;
+}
+
+.subtitle-30,
+.subtitle-32 {
+  align-self: stretch;
+  letter-spacing: -0.30px;
+  line-height: 28px;
+}
+
+.frame-270988944-2,
+.frame-270988944-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.subtitle-31,
+.subtitle-33 {
+  align-self: stretch;
+  letter-spacing: -0.30px;
+  line-height: 28px;
+  margin-top: -1.00px;
+  white-space: nowrap;
+}
+
+.container-45,
+.container-47 {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
 }
 

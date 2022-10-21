@@ -15,11 +15,11 @@
   padding: 24px 24px 32px;
 }
 
+.container-15,
+.container-16,
 .container-17,
 .container-18,
-.container-19,
-.container-20,
-.container-21 {
+.container-19 {
   align-items: flex-start;
   align-self: stretch;
   border: 1px none;
@@ -50,22 +50,22 @@
   gap: 8px;
 }
 
+.title-4,
+.title-5,
 .title-6,
 .title-7,
-.title-8,
-.title-9,
-.title-10 {
+.title-8 {
   align-self: stretch;
   letter-spacing: 0;
   line-height: 32px;
   margin-top: -1.00px;
 }
 
+.subtitle-8,
+.subtitle-9,
 .subtitle-10,
 .subtitle-11,
-.subtitle-12,
-.subtitle-13,
-.subtitle-14 {
+.subtitle-12 {
   align-self: stretch;
   letter-spacing: -0.30px;
   line-height: 28px;

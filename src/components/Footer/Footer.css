@@ -7,49 +7,62 @@
   flex-direction: column;
   gap: 40px;
   justify-content: center;
-  padding: 56px;
+  padding: 56px 120px;
 }
 
-.container-39 {
+.container-20 {
   align-items: flex-start;
-  align-self: stretch;
   border: 1px none;
   display: flex;
   flex-direction: column;
   gap: 40px;
+  width: 1200px;
 }
 
-.oline-sign-logo-5 {
+.oline-sign-logo-1 {
   height: 48px;
   min-width: 247.12px;
 }
 
-.row-4 {
+.row-1 {
   align-items: flex-start;
   align-self: stretch;
   border: 1px none;
   display: flex;
   justify-content: space-between;
-  position: relative;
 }
 
-.text-2 {
+.text-1 {
   letter-spacing: 0;
   line-height: 24px;
   margin-top: -1.00px;
   width: 600px;
 }
 
-.footer.footer-2 {
-  padding: 56px 120px;
+.column-1 {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: fit-content;
 }
 
-.footer.footer-2 .container-39 {
-  align-self: unset;
-  width: 1200px;
+.phone {
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-top: -1.00px;
+  white-space: nowrap;
+  width: 400px;
+  color: #262626;
 }
 
-.footer.footer-2 .oline-sign-logo-5 {
-  min-width: 247.12px;
+.podpissberru {
+  letter-spacing: 0;
+  line-height: 32px;
+  white-space: nowrap;
+  width: 400px;
+  color: #262626;
 }
 
