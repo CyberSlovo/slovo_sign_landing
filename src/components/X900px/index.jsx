@@ -89,7 +89,7 @@ function X900px(props) {
               />
             </div>
             <div className="advatages-items-row-2">
-              <AdvantageItem4 container2Props={advantageItem4Props.container2Props} />
+              <AdvantageItem3 container2Props={advantageItem4Props.container2Props} />
               <AdvantageItem3
                 className={advantageItem33Props.className}
                 container2Props={advantageItem33Props.container2Props}

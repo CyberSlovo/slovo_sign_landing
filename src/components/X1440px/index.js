@@ -82,7 +82,7 @@ function X1440px(props) {
               />
             </div>
             <div className="advatages-items-row">
-              <AdvantageItem2 containerProps={advantageItem2Props2.containerProps} />
+              <AdvantageItem containerProps={advantageItem2Props2.containerProps} />
               <AdvantageItem
                 className={advantageItem3Props.className}
                 containerProps={advantageItem3Props.containerProps}

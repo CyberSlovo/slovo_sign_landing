@@ -94,7 +94,7 @@ const advantageItem2Data = {
 const container3Data = {
     src: IcSberTime,
     title: "Регистрируйтесь быстро",
-    subtitle: <React.Fragment>Получите УНЭП <br />с помощью регистрации через Сбер ID</React.Fragment>,
+    subtitle: <React.Fragment>Получите УНЭП, усиленную неквалифицированную электронную подпись, с помощью регистрации через Сбер ID</React.Fragment>,
     className: "container-5",
 };
 
@@ -278,7 +278,7 @@ const advantageItem33Data = {
 const container24Data = {
     src: IcSberTime,
     title: "Регистрируйтесь быстро",
-    subtitle: <React.Fragment>Получите УНЭП  <br />с помощью регистрации через Сбер ID</React.Fragment>,
+    subtitle: <React.Fragment>Получите УНЭП, усиленную неквалифицированную электронную подпись, с помощью регистрации через Сбер ID</React.Fragment>,
     className: "container-5",
 };
 
@@ -579,7 +579,7 @@ const x741pxData = {
     img: Img,
     h21: <React.Fragment>Быстрое<br />и надёжное<br />подписание</React.Fragment>,
     title1: "Регистрируйтесь быстро",
-    subtitle2: <React.Fragment>Получите УНЭП <br />с помощью регистрации через Сбер ID</React.Fragment>,
+    subtitle2: <React.Fragment>Усиленная неквалифицированная электронная подпись после регистрации по Сбер ID</React.Fragment>,
     h22: <React.Fragment>Подписывайте документы <br />юридически значимо</React.Fragment>,
     h23: "Как это работает?",
     subtitle3: "Подпишите первый документ за 3 шага:",
@@ -635,7 +635,7 @@ const advantageItem62Data = {
 const titleSubtitle3Data = {
     src: IcSberTime,
     title: "Регистрируйтесь быстро",
-    subtitle: <React.Fragment>Получите УНЭП <br />с помощью регистрации <br />через СберID</React.Fragment>,
+    subtitle: <React.Fragment>Усиленная неквалифицированная электронная подпись после регистрации по Сбер ID</React.Fragment>,
 };
 
 const titleSubtitle4Data = {
@@ -806,7 +806,7 @@ const advantageItem72Data = {
 const titleSubtitle24Data = {
     src: IcSberTime,
     title: "Регистрируйтесь быстро",
-    subtitle: <React.Fragment>Получите УНЭП <br />с помощью регистрации <br />через СберID</React.Fragment>,
+    subtitle: <React.Fragment>Получите УНЭП, усиленную неквалифицированную электронную подпись, с помощью регистрации <br />через СберID</React.Fragment>,
 };
 
 const titleSubtitle25Data = {

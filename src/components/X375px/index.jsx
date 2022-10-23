@@ -87,19 +87,6 @@ function X375px(props) {
               <div className="container-39">
                 <TitleSubtitle title={titleSubtitleProps.title} subtitle={titleSubtitleProps.subtitle} />
               </div>
-              <img data-tip data-for="registerTip" className="ic-question-circle-3" src={IcQuestionCircle} alt="ic question-circle" />
-              <ReactTooltip 
-                id="registerTip" 
-                place="bottom" 
-                afterHide={true} 
-                backgroundColor="white"
-                multiline={true}
-                textColor="rgba(38, 38, 38, 0.7)"
-                border="1px"
-                borderColor="rgba(38, 38, 38, 0.08)"
-              >
-                УНЭП — это усиленная неквалифицированная подпись
-              </ReactTooltip>
             </div>
             <AdvantageItem6
               className={advantageItem63Props.className}

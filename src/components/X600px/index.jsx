@@ -84,25 +84,10 @@ function X600px(props) {
               className={advantageItem72Props.className}
               titleSubtitle2Props={advantageItem72Props.titleSubtitle2Props}
             />
-            <div className="advantage-item-11">
-              <img className="icon-sber-time-2" src={IconSberTime} alt="Icon Sber time" />
-              <div className="container-52">
-                <TitleSubtitle2 title={titleSubtitle2Props.title} subtitle={titleSubtitle2Props.subtitle} />
-              </div>
-              <img data-tip data-for="registerTip" className="ic-question-circle-4" src={IcQuestionCircle5} alt="ic question-circle" />
-              <ReactTooltip 
-                id="registerTip" 
-                place="bottom" 
-                afterHide={true} 
-                backgroundColor="white"
-                multiline={true}
-                textColor="rgba(38, 38, 38, 0.7)"
-                border="1px"
-                borderColor="rgba(38, 38, 38, 0.08)"
-              >
-                УНЭП — это усиленная неквалифицированная подпись
-              </ReactTooltip>
-            </div>
+            <AdvantageItem7
+              className={titleSubtitle2Props.className}
+              titleSubtitle2Props={titleSubtitle2Props.titleSubtitle2Props}
+            />
             <AdvantageItem7
               className={advantageItem73Props.className}
               titleSubtitle2Props={advantageItem73Props.titleSubtitle2Props}
