@@ -11,7 +11,7 @@ import ImageHands3 from "../ImageHands3";
 import QAItem from "../QAItem";
 import Footer2 from "../Footer2";
 import "./X741px.css";
-import ReactTooltip from "react-tooltip";
+
 
 import ImageDocChips3 from "../../assets/img/image-doc-chips-3@2x.svg";
 import IcQuestionCircle from "../../assets/img/ic-question-circle@2x.svg";
