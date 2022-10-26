@@ -83,26 +83,15 @@ function X741px(props) {
         <div className="container-29">
           <div className="h2-6 sbsansdisplay-normal-white-48px">{h21}</div>
           <div className="advantages-container-2">
-            <div className="advatages-items-row-4">
-              <AdvantageItem5 
-                src={advantageItem51Props.src} 
-                title={advantageItem51Props.title} 
-                subtitle={advantageItem51Props.subtitle} 
-              />
-              <AdvantageItem5
-                src={advantageItem52Props.src}
-                title={advantageItem52Props.title}
-                subtitle={advantageItem52Props.subtitle}
-                className={advantageItem52Props.className}
-              />
-            </div>
-            <div className="advatages-items-row-4">
-              <AdvantageItem5
-                src={IconSberTime}
-                title={title1}
-                subtitle={subtitle2}
-                className="advantage-item-6"
-              />
+            <div className="advantage-item-6">
+                <div className="container-31">
+                  <img className="icon-sber-time" src={IconSberTime} alt="Icon Sber time" />
+                  <div className="title-subtitle-7">
+                    <div className="title-13 sbsansdisplay-normal-shark-24px">{title1}</div>
+                    <p className="subtitle-19 sbsanstext-regular-normal-shark-19px">{subtitle2}</p>
+                  </div>
+                </div>
+              </div>
               <AdvantageItem5
                 src={advantageItem53Props.src}
                 title={advantageItem53Props.title}
