@@ -110,7 +110,7 @@ function X741px(props) {
                 src={IconSberTime}
                 title={title1}
                 subtitle={subtitle2}
-                className={advantageItem53Props.className}
+                className="advantage-item-6"
               />
               <AdvantageItem5
                 src={advantageItem53Props.src}
