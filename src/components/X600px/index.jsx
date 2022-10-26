@@ -5,7 +5,7 @@ import MaleLaptop from "../MaleLaptop";
 import Frame1851039176 from "../Frame1851039176";
 import Blur2 from "../Blur2";
 import AdvantageItem7 from "../AdvantageItem7";
-import TitleSubtitle2 from "../TitleSubtitle2";
+
 import ImageHands4 from "../ImageHands4";
 import Row from "../Row";
 import BannerContactsMobile from "../BannerContactsMobile";
@@ -13,10 +13,8 @@ import Blur3 from "../Blur3";
 import QAItem from "../QAItem";
 import FooterMobile from "../FooterMobile";
 import "./X600px.css";
-import ReactTooltip from "react-tooltip";
 
-import IconSberTime from "../../assets/img/icon-sber-time@2x.svg";
-import IcQuestionCircle5 from "../../assets/img/ic-question-circle@2x.svg";
+
 import ImageDocChips7 from "../../assets/img/image-doc-chips@2x.svg";
 
 function X600px(props) {
@@ -35,7 +33,7 @@ function X600px(props) {
     blur2Props,
     advantageItem71Props,
     advantageItem72Props,
-    titleSubtitle2Props,
+    advantageItem721Props,
     advantageItem73Props,
     imageHands4Props,
     rowProps,
@@ -85,8 +83,8 @@ function X600px(props) {
               titleSubtitle2Props={advantageItem72Props.titleSubtitle2Props}
             />
             <AdvantageItem7
-              className={titleSubtitle2Props.className}
-              titleSubtitle2Props={titleSubtitle2Props.titleSubtitle2Props}
+              className={advantageItem721Props.className}
+              titleSubtitle2Props={advantageItem721Props.titleSubtitle2Props}
             />
             <AdvantageItem7
               className={advantageItem73Props.className}
@@ -99,7 +97,7 @@ function X600px(props) {
         <div className="frame-270988950-1">
           <div className="h2-13 sbsansdisplay-normal-shark-34px">{h22}</div>
           <div className="container-53">
-            <img className="image-doc-chips-4" src={ImageDocChips7} alt="Image Doc Chips" />
+            <img className="image-doc-chips-4" src={ImageDocChips7} alt="Doc Chips" />
             <ImageHands4 className={imageHands4Props.className} handsHeartProps={imageHands4Props.handsHeartProps} />
           </div>
         </div>

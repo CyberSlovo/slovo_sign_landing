@@ -479,6 +479,7 @@ const imageSm7Data = {
 };
 
 const column41Data = {
+    src: IcSberProfile,
     title: "1 шаг",
     caption: "Зарегистрируйтесь",
     subtitle: "Зарегистрируйтесь с помощью Сбер ID",
@@ -491,6 +492,7 @@ const imageSm8Data = {
 };
 
 const column42Data = {
+    src: IcSberSigned,
     title: "2 шаг",
     caption: "Подпишите",
     subtitle: "Загрузите документ и подпишите его по одной кнопке",
@@ -503,6 +505,7 @@ const imageSm9Data = {
 };
 
 const column43Data = {
+    src: IconSberSend,
     title: "3 шаг",
     caption: "Отправьте",
     subtitle: "Отправьте ссылку контрагенту на подписание",
@@ -809,6 +812,11 @@ const titleSubtitle24Data = {
     subtitle: <React.Fragment>Получите УНЭП, усиленную неквалифицированную электронную подпись, с помощью регистрации <br />через СберID</React.Fragment>,
 };
 
+const advantageItem731Data = {
+    className: "advantage-item-10",
+    titleSubtitle2Props: titleSubtitle24Data,
+};
+
 const titleSubtitle25Data = {
     src: IcSberSuccess,
     title: "Подписывайте онлайн",
@@ -937,7 +945,7 @@ const x600pxData = {
     blur2Props: blur23Data,
     advantageItem71Props: advantageItem71Data,
     advantageItem72Props: advantageItem72Data,
-    titleSubtitle2Props: titleSubtitle24Data,
+    advantageItem721Props: advantageItem731Data,
     advantageItem73Props: advantageItem73Data,
     imageHands4Props: imageHands43Data,
     rowProps: row2Data,

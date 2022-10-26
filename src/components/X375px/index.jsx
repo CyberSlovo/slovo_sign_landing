@@ -13,10 +13,10 @@ import Blur3 from "../Blur3";
 import QAItem from "../QAItem";
 import FooterMobile from "../FooterMobile";
 import "./X375px.css";
-import ReactTooltip from "react-tooltip";
+
 
 import IconSberTime from "../../assets/img/icon-sber-time@2x.svg";
-import IcQuestionCircle from "../../assets/img/ic-question-circle@2x.svg";
+
 import ImageDocChips from "../../assets/img/image-doc-chips@2x.svg";
 
 import IcSberProfile from "../../assets/img/ic-sber-profile@2x.svg";
@@ -77,7 +77,9 @@ function X375px(props) {
           <Blur2 />
           <div className="h2-9 sbsansdisplay-normal-white-48px">{h21}</div>
           <div className="adva">
-            <AdvantageItem6 titleSubtitleProps={advantageItem61Props.titleSubtitleProps} />
+            <AdvantageItem6 
+              titleSubtitleProps={advantageItem61Props.titleSubtitleProps} 
+            />
             <AdvantageItem6
               className={advantageItem62Props.className}
               titleSubtitleProps={advantageItem62Props.titleSubtitleProps}
@@ -99,7 +101,7 @@ function X375px(props) {
         <div className="frame-270988950">
           <div className="h2-10 sbsansdisplay-normal-shark-34px">{h22}</div>
           <div className="container-40">
-            <img className="image-doc-chips-3" src={ImageDocChips} alt="Image Doc Chips" />
+            <img className="image-doc-chips-3" src={ImageDocChips} alt="Doc Chips" />
             <ImageHands4 handsHeartProps={imageHands4Props.handsHeartProps} />
           </div>
         </div>

@@ -4,7 +4,6 @@ import Button2 from "../Button2";
 import MaleLaptop08 from "../MaleLaptop08";
 import Blur from "../Blur";
 import AdvantageItem from "../AdvantageItem";
-import AdvantageItem2 from "../AdvantageItem2";
 import ImageHands from "../ImageHands";
 import Column from "../Column";
 import BannerContactsDesktop from "../BannerContactsDesktop";
@@ -96,7 +95,7 @@ function X1440px(props) {
           <div className="h2-1 sbsansdisplay-normal-shark-48px">{h22}</div>
           <div className="container-3">
             <ImageHands otherchandsPhoneProps={imageHandsProps.otherchandsPhoneProps} />
-            <img className="image-doc-chips" src={ImageDocChimps} alt="Image Doc Chips" />
+            <img className="image-doc-chips" src={ImageDocChimps} alt="Doc Chips" />
           </div>
         </div>
       </div>

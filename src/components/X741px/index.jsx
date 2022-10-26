@@ -14,7 +14,6 @@ import "./X741px.css";
 
 
 import ImageDocChips3 from "../../assets/img/image-doc-chips-3@2x.svg";
-import IcQuestionCircle from "../../assets/img/ic-question-circle@2x.svg";
 import IconSberTime from "../../assets/img/icon-sber-time@2x.svg";
 
 
@@ -83,7 +82,21 @@ function X741px(props) {
         <div className="container-29">
           <div className="h2-6 sbsansdisplay-normal-white-48px">{h21}</div>
           <div className="advantages-container-2">
-            <div className="advantage-item-6">
+            <div className="advatages-items-row-4">
+              <AdvantageItem5 
+                src={advantageItem51Props.src} 
+                title={advantageItem51Props.title} 
+                subtitle={advantageItem51Props.subtitle} 
+              />
+              <AdvantageItem5
+                src={advantageItem52Props.src}
+                title={advantageItem52Props.title}
+                subtitle={advantageItem52Props.subtitle}
+                className={advantageItem52Props.className}
+              />
+            </div>
+            <div className="advatages-items-row-4">
+              <div className="advantage-item-6">
                 <div className="container-31">
                   <img className="icon-sber-time" src={IconSberTime} alt="Icon Sber time" />
                   <div className="title-subtitle-7">
@@ -91,6 +104,7 @@ function X741px(props) {
                     <p className="subtitle-19 sbsanstext-regular-normal-shark-19px">{subtitle2}</p>
                   </div>
                 </div>
+                
               </div>
               <AdvantageItem5
                 src={advantageItem53Props.src}
@@ -110,7 +124,7 @@ function X741px(props) {
               className={imageHandsProps.className}
               otherchandsPhoneProps={imageHandsProps.otherchandsPhoneProps}
             />
-            <img className="image-doc-chips-2" src={ImageDocChips3} alt="Image Doc Chips" />
+            <img className="image-doc-chips-2" src={ImageDocChips3} alt="Doc Chips" />
           </div>
         </div>
       </div>

@@ -1,7 +1,6 @@
 import React from "react";
 import TitleSubtitle from "../TitleSubtitle";
 import "./AdvantageItem6.css";
-import IcSberWallet from "../../assets/img/ic-sber-wallet@2x.svg";
 
 function AdvantageItem6(props) {
   const { className, titleSubtitleProps } = props;

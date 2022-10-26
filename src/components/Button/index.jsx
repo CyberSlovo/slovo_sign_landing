@@ -6,7 +6,7 @@ import { useState } from 'react';
 function Button(props) {
   const { onclick, className } = props;
 
-  const [isHover, setIsHover] = useState(false);
+  const [setIsHover] = useState(false);
 
   const handleMouseEnter = () => {
      setIsHover(true);

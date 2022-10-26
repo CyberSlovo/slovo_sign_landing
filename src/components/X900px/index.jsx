@@ -105,7 +105,7 @@ function X900px(props) {
               className={imageHandsProps.className}
               otherchandsPhoneProps={imageHandsProps.otherchandsPhoneProps}
             />
-            <img className="image-doc-chips-1" src={ImageDocChimps} alt="Image Doc Chips" />
+            <img className="image-doc-chips-1" src={ImageDocChimps} alt="Doc Chips" />
           </div>
         </div>
       </div>
