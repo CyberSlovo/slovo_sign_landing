@@ -49,7 +49,7 @@ const sm = useMediaQuery({ maxWidth: 599 })
 const md = useMediaQuery({ minWidth: 600, maxWidth: 740})
 const lg = useMediaQuery({ minWidth: 741, maxWidth: 899})
 const xl = useMediaQuery({ minWidth: 900, maxWidth: 1439})
-const xll = useMediaQuery({ minWidth: 1440, maxWidth: 1920})
+const xll = useMediaQuery({ minWidth: 1440})
 
   return (
     <>
