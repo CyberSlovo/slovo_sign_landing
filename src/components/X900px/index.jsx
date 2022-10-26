@@ -3,7 +3,6 @@ import Header from "../Header";
 import Button2 from "../Button2";
 import Blur from "../Blur";
 import AdvantageItem3 from "../AdvantageItem3";
-import AdvantageItem4 from "../AdvantageItem4";
 import ImageHands from "../ImageHands";
 import Column2 from "../Column2";
 import Frame270988944 from "../Frame270988944";
