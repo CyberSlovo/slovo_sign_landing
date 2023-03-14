@@ -1,16 +1,17 @@
 .image-hands-3 {
   border: 1px none;
-  height: 476px;
-  left: 644px;
-  position: absolute;
-  top: -32px;
-  width: 572px;
+  height: 300px;
+
+  position: relative;
+
+  background-size: cover;
+
+  width: 30%;
 }
 
 .image-hands-3.image-hands-4 {
-  height: 296px;
-  left: 412px;
-  top: 148px;
-  width: 424px;
-}
+  /* height: 296px; */
+  /* left: 412px;
+  top: 148px; */
 
+}

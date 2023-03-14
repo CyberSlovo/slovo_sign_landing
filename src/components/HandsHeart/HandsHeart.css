@@ -1,16 +1,18 @@
 .hands-heart {
   background-position: 50% 50%;
+  /* /*  */
+  /* border: 1px none; */
+
+  height: 100%;
+
   background-size: cover;
-  border: 1px none;
-  height: 572px;
   position: relative;
-  top: -96px;
-  width: 572px;
+
 }
 
 .hands-heart.hands-heart-1 {
   height: 356px;
-  top: -60px;
+  top: 0px;
   width: 424px;
 }
 
@@ -18,7 +20,7 @@
 .hands-heart.otherchands-phone-4 {
   height: 343px;
   left: 0;
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   width: 343px;
 }
@@ -26,7 +28,7 @@
 .hands-heart.hands-heart-2 {
   height: 343px;
   left: 0;
-  position: absolute;
+  /* position: absolute; */
   top: 421px;
   width: 343px;
 }
@@ -34,8 +36,7 @@
 .hands-heart.hands-heart-3 {
   height: 343px;
   left: 166px;
-  position: absolute;
+  /* position: absolute; */
   top: 293px;
   width: 343px;
 }
-

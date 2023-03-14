@@ -1,16 +1,47 @@
-import React from "react";
-import Buttons from "../Buttons";
-import "./Header.css";
 import OlineSignLogo2 from "../../assets/img/oline-sign-logo-2@2x.svg";
+import React, { useRef } from "react";
+import { Linking } from "react-native";
+
+import Buttons from "../Buttons";
+import Button2 from "../Button2";
+import "./Header.css";
+import ButtonOutline from "../ButtonOutline";
 
 function Header(props) {
-  const { onclick, className } = props;
+  const { onTapTarif, className } = props;
 
   return (
     <div className={`header ${className || ""}`}>
       <div className="container-4">
-        <img className="oline-sign-logo" src={OlineSignLogo2} alt="Oline-sign Logo" />
-        <Buttons onclick={onclick} />
+        <img
+          className="oline-sign-logo"
+          src={OlineSignLogo2}
+          alt="Oline-sign Logo"
+        />
+        <div className="advatages-buttons-row">
+          <Buttons text="Тарифы" onclick={onTapTarif} />
+          <Buttons
+            text="Проверить подпись"
+            onclick={async () =>
+              await Linking.openURL(
+                "https://cyberslovo.app/wa/#/signatureVerification"
+              )
+            }
+          />
+
+          <ButtonOutline
+            text="Зарегистрироваться"
+            onclick={async () =>
+              await Linking.openURL("https://cyberslovo.app/wa/#/sign_up")
+            }
+          />
+          <Button2
+            text="Войти"
+            onclick={async () =>
+              await Linking.openURL("https://cyberslovo.app/wa/#/sign_in")
+            }
+          />
+        </div>
       </div>
     </div>
   );

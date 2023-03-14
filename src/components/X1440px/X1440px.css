@@ -35,7 +35,7 @@
   background-color: var(--white);
   border: 1px none;
   border-radius: 40px;
-  box-shadow: 0px 8px 16px #26262629 , 0px 1px 2px #2626260a;
+  box-shadow: 0px 8px 16px #26262629, 0px 1px 2px #2626260a;
   height: 412px;
   min-width: 1248px;
   position: relative;
@@ -121,7 +121,8 @@
   background-color: var(--blue);
   border: 1px none;
   border-radius: 149px;
-  filter: blur(164px);;
+  filter: blur(164px);
+  ;
   height: 298px;
   left: 265px;
   opacity: 0.11;
@@ -134,7 +135,8 @@
   background-color: var(--bright-turquoise);
   border: 1px none;
   border-radius: 190px;
-  filter: blur(252px);;
+  filter: blur(252px);
+  ;
   height: 380px;
   left: 0;
   opacity: 0.3;
@@ -152,6 +154,8 @@
   position: absolute;
   top: 412px;
   width: 1096px;
+  box-shadow: 0px 8px 16px #26262629, 0px 1px 2px #2626260a;
+
 }
 
 .section-advantages {
@@ -328,4 +332,3 @@
   position: relative;
   width: 672px;
 }
-

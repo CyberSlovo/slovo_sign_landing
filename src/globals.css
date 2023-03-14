@@ -8,6 +8,7 @@
   font-weight: 400;
   src: url("assets/fonts/SBSansText-Regular_subset.otf") format("opentype");
 }
+
 @font-face {
   font-family: "SB Sans Display-Semibold";
   font-style: normal;

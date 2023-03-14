@@ -1,31 +1,44 @@
 import React from "react";
-import Frame270988946 from "../Frame270988946";
-import Frame270988947 from "../Frame270988947";
-import HandsHeart from "../HandsHeart";
+import ImageHands2 from "../ImageHands2";
 import "./BannerContactsMobile.css";
+import Button2 from "../Button2";
+import { Linking, Image } from "react-native";
 
 function BannerContactsMobile(props) {
-  const { frame270988946Props, frame270988947Props, handsHeartProps } = props;
+  const { title, subtitle, imageHands2Props } = props;
 
   return (
-    <div className="banner-contacts-mobile">
-      <HandsHeart src={handsHeartProps.src} className={handsHeartProps.className} />
-      <div className="container-44">
-        <div className="head-7">
-          <p className="title-23 sbsansdisplay-normal-shark-28px">
-            Расскажите, какие документы <br />
-            вы бы хотели подписывать
-          </p>
-          <p className="subtitle-30 sbsanstext-regular-normal-shark-19px-2">
-            Мы ещё разрабатываем сервис. Как только он станет доступен, обязательно сообщим вам.
-          </p>
-        </div>
-        <div className="frame-270988944-2">
-          <div className="subtitle-31 sbsanstext-medium-blue-19px">свяжитесь с нами</div>
-          <div className="container-45">
-            <Frame270988946 linkProps={frame270988946Props.linkProps} />
-            <Frame270988947 linkProps={frame270988947Props.linkProps} />
+    <div className="section-banner-mobile">
+      <div className="banner-contacts-mobile">
+        <div className="container-11-mobile ">
+          <div className="head-1-mobile ">
+            <p className="title-3-mobile  sbsansdisplay-normal-shark-34px">
+              {title}
+            </p>
+            <p className="subtitle-4-mobile  sbsanstext-regular-normal-shark-24px-2">
+              {subtitle}
+            </p>
           </div>
+          <Button2
+            text="Проверить подпись"
+            onclick={async () =>
+              await Linking.openURL(
+                "https://cyberslovo.app/wa/#/signatureVerification"
+              )
+            }
+          />{" "}
+        </div>
+        <div
+          style={{
+            display: "flex",
+            "justify-content": "center",
+            "padding-top": "40px",
+          }}
+        >
+          <ImageHands2
+            className="mobile-photo"
+            handsHeartProps={imageHands2Props.handsHeartProps}
+          />
         </div>
       </div>
     </div>

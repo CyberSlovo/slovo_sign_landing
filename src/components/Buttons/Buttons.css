@@ -1,6 +1,4 @@
-.buttons,
-.buttons-1,
-.buttons-2 {
+.buttons {
   align-items: flex-start;
   border: 1px none;
   display: flex;
@@ -8,4 +6,3 @@
   position: relative;
   width: fit-content;
 }
-

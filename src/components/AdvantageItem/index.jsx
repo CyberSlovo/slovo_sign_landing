@@ -7,7 +7,12 @@ function AdvantageItem(props) {
 
   return (
     <div className={`advantage-item-1 ${className || ""}`}>
-      <Container src={containerProps.src} title={containerProps.title} subtitle={containerProps.subtitle} className={containerProps.className} />
+      <Container
+        src={containerProps.src}
+        title={containerProps.title}
+        subtitle={containerProps.subtitle}
+        className={containerProps.className}
+      />
     </div>
   );
 }

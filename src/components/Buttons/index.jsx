@@ -3,11 +3,11 @@ import Button from "../Button";
 import "./Buttons.css";
 
 function Buttons(props) {
-  const { onclick } = props;
+  const { text, onclick, className } = props;
 
   return (
-    <div className="buttons">
-      <Button onclick={onclick} />
+    <div className={className ? "" : "buttons"}>
+      <Button className={className ?? ""} text={text} onclick={onclick} />
     </div>
   );
 }

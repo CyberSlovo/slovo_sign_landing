@@ -1,0 +1,12 @@
+.rates {
+  align-items: flex-start;
+  align-self: center;
+  border: 1px none;
+  display: flex;
+  gap: 80px;
+  height: 272px;
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 104px;
+  height: max-content;
+}

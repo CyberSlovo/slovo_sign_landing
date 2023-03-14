@@ -4,7 +4,6 @@
   display: flex;
   min-width: 320px;
   position: relative;
-  top: -45px;
 }
 
 .hands_-heart {
@@ -12,4 +11,3 @@
   object-fit: cover;
   width: 320px;
 }
-

@@ -42,3 +42,13 @@
   padding: 56px 48px 24px;
 }
 
+.advatages-buttons-row {
+  align-items: flex-start;
+  justify-content: end;
+  border: 1px none;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  position: relative;
+  width: 672px;
+}

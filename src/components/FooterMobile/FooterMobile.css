@@ -1,70 +1,87 @@
 .footer-mobile {
-  align-items: center;
+  align-items: start;
+
   align-self: stretch;
   background-color: var(--cultured-pearl);
   border: 1px none;
   display: flex;
   flex-direction: column;
   gap: 40px;
-  padding: 64px 16px;
+  justify-content: center;
+  padding: 56px 120px;
+  width: 100%;
+
 }
 
-.container-48 {
-  align-items: flex-start;
-  align-self: stretch;
-  border: 1px none;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
+
+.oline-sign-logo-1 {
+  height: 48px;
+  min-width: 247.12px;
 }
 
-.oline-sign-logo-5 {
-  height: 40px;
-  min-width: 205.94px;
-}
 
-.row-8 {
-  align-items: flex-start;
-  align-self: stretch;
-  border: 1px none;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-.column-9 {
-  align-items: flex-start;
-  align-self: stretch;
-  border: 1px none;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.phone-3 {
-  align-self: stretch;
+.text-1 {
   letter-spacing: 0;
   line-height: 24px;
   margin-top: -1.00px;
+  width: 100%;
+}
+
+
+.phone {
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-top: -1.00px;
   white-space: nowrap;
+  /* width: 400px; */
   color: #262626;
 }
 
-.podpissberru-3 {
-  align-self: stretch;
+.podpissberru {
   letter-spacing: 0;
-  line-height: 24px;
+  line-height: 32px;
   white-space: nowrap;
+  /* width: 400px; */
   color: #262626;
 }
 
-.text-4 {
-  align-self: stretch;
-  letter-spacing: 0;
-  line-height: 24px;
+
+
+.buttonCustom-mobile {
+
+  /* Body Text/B3 | SB Sans Text 14px SB */
+
+  font-family: 'SB Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  /* gap: 0px; */
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  /* Cool Gray / Cool Gray 6 */
+
+  color: #677178;
+
+  text-align: start;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  align-items: flex-start;
+  border-radius: 48px;
+  display: flex;
+
+  position: relative;
+  width: fit-content;
 }
 
-.footer-mobile.footer-mobile-1 {
-  padding: 64px 32px;
+.buttonCustom-mobile:hover {
+  background-color: rgba(38, 38, 38, 0.04);
+  color: rgba(8, 9, 10, 1);
+  border-radius: 48px;
 }
-

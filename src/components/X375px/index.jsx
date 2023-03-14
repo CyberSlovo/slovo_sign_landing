@@ -13,7 +13,7 @@ import Blur3 from "../Blur3";
 import QAItem from "../QAItem";
 import FooterMobile from "../FooterMobile";
 import "./X375px.css";
-
+import Rates from "../rates";
 
 import IconSberTime from "../../assets/img/icon-sber-time@2x.svg";
 
@@ -46,24 +46,40 @@ function X375px(props) {
     qAItem1Props,
     qAItem2Props,
     qAItem3Props,
+    footerProps,
+    qAItem4Props,
+    bannerContactsDesktopProps,
   } = props;
 
-  const scollToRef = useRef(); 
+  const scollToRef = useRef();
 
   return (
     <div className="x375px screen">
       <div className="hero">
-        <Header2  />
+        <Header2 />
         <div className="container-37">
           <div className="banner-3">
-            <div className="hero-banner-mobile" style={{ backgroundImage: `url(${heroBannerMobile})` }}>
-              <MaleLaptop maleLaptop08Props={maleLaptopProps.maleLaptop08Props} />
+            <div
+              className="hero-banner-mobile"
+              style={{ backgroundImage: `url(${heroBannerMobile})` }}
+            >
+              <MaleLaptop
+                maleLaptop08Props={maleLaptopProps.maleLaptop08Props}
+              />
               <div className="text-container-buttons-3">
                 <div className="text-container-3">
-                  <div className="h1-3 sbsansdisplay-normal-shark-34px">{h1}</div>
-                  <div className="subtitle-25 sbsanstext-regular-normal-shark-24px">{subtitle1}</div>
+                  <div className="h1-3 sbsansdisplay-normal-shark-34px">
+                    {h1}
+                  </div>
+                  <div className="subtitle-25 sbsanstext-regular-normal-shark-24px">
+                    {subtitle1}
+                  </div>
                 </div>
-                <Button2 onclick={() => scollToRef.current.scrollIntoView({ behavior: "smooth" })} />
+                <Button2
+                  onclick={() =>
+                    scollToRef.current.scrollIntoView({ behavior: "smooth" })
+                  }
+                />
               </div>
             </div>
             <div className="frame-1851039177">
@@ -77,17 +93,24 @@ function X375px(props) {
           <Blur2 />
           <div className="h2-9 sbsansdisplay-normal-white-48px">{h21}</div>
           <div className="adva">
-            <AdvantageItem6 
-              titleSubtitleProps={advantageItem61Props.titleSubtitleProps} 
+            <AdvantageItem6
+              titleSubtitleProps={advantageItem61Props.titleSubtitleProps}
             />
             <AdvantageItem6
               className={advantageItem62Props.className}
               titleSubtitleProps={advantageItem62Props.titleSubtitleProps}
             />
             <div className="advantage-item-9">
-              <img className="icon-sber-time-1" src={IconSberTime} alt="Icon Sber time" />
+              <img
+                className="icon-sber-time-1"
+                src={IconSberTime}
+                alt="Icon Sber time"
+              />
               <div className="container-39">
-                <TitleSubtitle title={titleSubtitleProps.title} subtitle={titleSubtitleProps.subtitle} />
+                <TitleSubtitle
+                  title={titleSubtitleProps.title}
+                  subtitle={titleSubtitleProps.subtitle}
+                />
               </div>
             </div>
             <AdvantageItem6
@@ -101,7 +124,11 @@ function X375px(props) {
         <div className="frame-270988950">
           <div className="h2-10 sbsansdisplay-normal-shark-34px">{h22}</div>
           <div className="container-40">
-            <img className="image-doc-chips-3" src={ImageDocChips} alt="Doc Chips" />
+            <img
+              className="image-doc-chips-3"
+              src={ImageDocChips}
+              alt="Doc Chips"
+            />
             <ImageHands4 handsHeartProps={imageHands4Props.handsHeartProps} />
           </div>
         </div>
@@ -110,16 +137,24 @@ function X375px(props) {
         <div className="container-41">
           <div className="head-6">
             <div className="h2-11 sbsansdisplay-normal-shark-34px">{h23}</div>
-            <p className="subtitle-26 sbsanstext-regular-normal-shark-24px">{subtitle2}</p>
+            <p className="subtitle-26 sbsanstext-regular-normal-shark-24px">
+              {subtitle2}
+            </p>
           </div>
           <div className="row-7">
             <div className="column-7">
-              <ImageSm src={IcSberProfile}/>
+              <ImageSm src={IcSberProfile} />
               <div className="frame-270988932-4">
-                <div className="title-19 sbsansdisplay-normal-shark-22px">{title1}</div>
+                <div className="title-19 sbsansdisplay-normal-shark-22px">
+                  {title1}
+                </div>
                 <div className="frame-270988931-4">
-                  <div className="caption-4 sbsansdisplay-normal-shark-28px">{caption}</div>
-                  <p className="subtitle-27 sbsanstext-regular-normal-shark-19px-2">{subtitle3}</p>
+                  <div className="caption-4 sbsansdisplay-normal-shark-28px">
+                    {caption}
+                  </div>
+                  <p className="subtitle-27 sbsanstext-regular-normal-shark-19px-2">
+                    {subtitle3}
+                  </p>
                 </div>
               </div>
             </div>
@@ -140,25 +175,48 @@ function X375px(props) {
           </div>
         </div>
       </div>
-      <div ref={scollToRef}  className="tell-us">
-        <BannerContactsMobile
-          frame270988946Props={bannerContactsMobileProps.frame270988946Props}
-          frame270988947Props={bannerContactsMobileProps.frame270988947Props}
-          handsHeartProps={bannerContactsMobileProps.handsHeartProps}
-        />
+      <div ref={scollToRef} className="section-about">
+        <div className="h2-1 sbsansdisplay-normal-shark-48px">Тарифы</div>
+        <Rates className="rates-mobile" isMobile="true" />
       </div>
+      <BannerContactsMobile
+        title={bannerContactsDesktopProps.title}
+        subtitle={bannerContactsDesktopProps.subtitle}
+        frame270988944Props={bannerContactsDesktopProps.frame270988944Props}
+        imageHands2Props={bannerContactsDesktopProps.imageHands2Props}
+      />
+
       <div className="qa">
         <Blur3 />
         <div className="container-42">
-          <div className="title-20 sbsansdisplay-normal-white-34px">{title2}</div>
+          <div className="title-20 sbsansdisplay-normal-white-34px">
+            {title2}
+          </div>
           <div className="adva">
-            <QAItem title={qAItem1Props.title} subtitle={qAItem1Props.subtitle} />
-            <QAItem title={qAItem2Props.title} subtitle={qAItem2Props.subtitle} />
-            <QAItem title={qAItem3Props.title} subtitle={qAItem3Props.subtitle} />
+            <QAItem
+              title={qAItem1Props.title}
+              subtitle={qAItem1Props.subtitle}
+            />
+            <QAItem
+              title={qAItem2Props.title}
+              subtitle={qAItem2Props.subtitle}
+            />
+            <QAItem
+              title={qAItem3Props.title}
+              subtitle={qAItem3Props.subtitle}
+            />
+            <QAItem
+              title={qAItem4Props.title}
+              subtitle={qAItem4Props.subtitle}
+            />
           </div>
         </div>
       </div>
-      <FooterMobile />
+      <FooterMobile
+        text1={footerProps.text1}
+        phone={footerProps.phone}
+        podpisSberRu={footerProps.podpisSberRu}
+      />
     </div>
   );
 }
