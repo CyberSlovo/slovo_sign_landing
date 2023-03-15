@@ -1,14 +1,13 @@
 import OlineSignLogo2 from "../../assets/img/oline-sign-logo-2@2x.svg";
-import React, { useRef } from "react";
+import React from "react";
 import { Linking } from "react-native";
-
 import Buttons from "../Buttons";
 import Button2 from "../Button2";
 import "./Header.css";
 import ButtonOutline from "../ButtonOutline";
 
 function Header(props) {
-  const { onTapTarif, className } = props;
+  const { menuLinkWa, onTapTarif, className } = props;
 
   return (
     <div className={`header ${className || ""}`}>
@@ -23,24 +22,27 @@ function Header(props) {
           <Buttons
             text="Проверить подпись"
             onclick={async () =>
-              await Linking.openURL(
-                "https://cyberslovo.app/wa/#/signatureVerification"
-              )
+              await Linking.openURL(menuLinkWa.signatureVerification)
             }
           />
 
           <ButtonOutline
             text="Зарегистрироваться"
-            onclick={async () =>
-              await Linking.openURL("https://cyberslovo.app/wa/#/sign_up")
-            }
+            onclick={async () => await Linking.openURL(menuLinkWa.signIn)}
           />
-          <Button2
-            text="Войти"
-            onclick={async () =>
-              await Linking.openURL("https://cyberslovo.app/wa/#/sign_in")
-            }
-          />
+
+          <div
+            style={{
+              "margin-left": "10px",
+            }}
+          >
+            <Button2
+              text="Войти"
+              onclick={async () =>
+                await Linking.openURL("https://cyberslovo.app/wa/#/sign_in")
+              }
+            />
+          </div>
         </div>
       </div>
     </div>

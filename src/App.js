@@ -23,13 +23,10 @@ import Private21 from "./assets/img/private-2-1-1@2x.png";
 import LgHandsPhone012x2 from "./assets/img/lg-hands-phone-01-2x-2@2x.png";
 import IcSberProfile2 from "./assets/img/ic-sber-profile-2@2x.svg";
 import IcSberSigned2 from "./assets/img/ic-sber-signed-2@2x.svg";
-import IconSberSend2 from "./assets/img/icon-sber-send-2@2x.svg";
 import HandsHeart2 from "./assets/img/hands-heart-2@2x.png";
 import LgHandsPhone012x4 from "./assets/img/lg-hands-phone-01-2x-4@2x.png";
-import IcSberProfile4 from "./assets/img/ic-sber-profile-4@2x.svg";
-import IcSberSigned4 from "./assets/img/ic-sber-signed-4@2x.svg";
+
 import HandsHeart4 from "./assets/img/hands-heart-4@2x.png";
-import Banner3 from "./assets/img/banner-3@1x.svg";
 
 import IcSberWallet from "./assets/img/ic-sber-wallet@2x.svg";
 import IcSberSecurity from "./assets/img/ic-sber-secure@2x.svg";
@@ -70,6 +67,12 @@ const container1Data = {
     </React.Fragment>
   ),
   className: "",
+};
+
+const menuLinkWaApp = {
+  signatureVerification: "https://cyberslovo.app/wa/#/signatureVerification",
+  signUup: "https://cyberslovo.app/wa/#/sign_up",
+  signIin: "https://cyberslovo.app/wa/#/sign_in",
 };
 
 const advantageItem1Data = {
@@ -302,6 +305,7 @@ const x1440pxData = {
   qAItem3Props: qAItem3Data,
   qAItem4Props: qAItem41Data,
   footerProps: footerData,
+  menuLinkWa: menuLinkWaApp,
 };
 
 const header2Data = {
@@ -542,6 +546,7 @@ const x900pxData = {
   qAItem3Props: qAItem6Data,
   qAItem4Props: qAItem41Data,
   bannerContactsDesktopProps: bannerContactsDesktopData,
+  menuLinkWa: menuLinkWaApp,
   footerProps: footerData,
 };
 
@@ -807,31 +812,9 @@ const column51Data = {
   imageSmProps: imageSm11Data,
 };
 
-const imageSm12Data = {
-  src: IconSberSend2,
-  className: "image-sm",
-};
-
-const column52Data = {
-  src: IconSberSend,
-  title: "3 шаг",
-  caption: "Отправьте",
-  subtitle: (
-    <React.Fragment>
-      Отправьте ссылку контрагенту <br />
-      на подписание
-    </React.Fragment>
-  ),
-  imageSmProps: imageSm12Data,
-};
-
 const handsHeart4Data = {
   src: HandsHeart2,
   className: "hands-heart-2",
-};
-
-const bannerContactsMobile1Data = {
-  handsHeartProps: handsHeart4Data,
 };
 
 const qAItem10Data = {
@@ -915,14 +898,16 @@ const x375pxData = {
   advantageItem63Props: advantageItem63Data,
   imageHands4Props: imageHands42Data,
   imageSmProps: imageSm10Data,
-  column51Props: column51Data,
-  column52Props: column52Data,
+  column51Props: column2Data,
+  column52Props: column3Data,
+  column53Props: column4Data,
   qAItem1Props: qAItem10Data,
   qAItem2Props: qAItem11Data,
   qAItem3Props: qAItem12Data,
   footerProps: footerData,
   qAItem4Props: qAItem41Data,
   bannerContactsDesktopProps: bannerContactsDesktopData,
+  menuLinkWa: menuLinkWaApp,
 };
 
 const button5Data = {

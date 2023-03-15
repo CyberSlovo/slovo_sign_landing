@@ -39,6 +39,7 @@ function X1440px(props) {
     qAItem3Props,
     qAItem4Props,
     footerProps,
+    menuLinkWa,
   } = props;
 
   const scollToRef = useRef();
@@ -47,6 +48,7 @@ function X1440px(props) {
     <div className="x1440px screen">
       <div className="section-hero">
         <Header
+          menuLinkWa={menuLinkWa}
           onTapTarif={() =>
             scollToRef.current.scrollIntoView({ behavior: "smooth" })
           }
@@ -163,7 +165,6 @@ function X1440px(props) {
         </div>
       </div>
       <div ref={scollToRef} className="section-about">
-        <div className="h2-1 sbsansdisplay-normal-shark-48px">Тарифы</div>
         <Rates />
       </div>
 

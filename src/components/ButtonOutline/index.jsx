@@ -1,17 +1,16 @@
-import React from "react";
 import "./ButtonOutline.css";
-import { useState } from "react";
+import React, { useState } from "react";
 
 function ButtonOutline(props) {
   const { text, onclick } = props;
-  const [setIsHover] = useState(false);
+  const [hover, setIsHover] = useState(false);
 
-  const handleMouseEnter = () => {
+  function handleMouseEnter() {
     setIsHover(true);
-  };
-  const handleMouseLeave = () => {
+  }
+  function handleMouseLeave() {
     setIsHover(false);
-  };
+  }
 
   return (
     <div

@@ -1,22 +1,20 @@
 .button {
   align-items: flex-start;
-  border: 2px none;
   border-radius: 48px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  padding: 12px 24px;
+  padding: 12px 12px;
   position: relative;
   width: fit-content;
 }
 
 .button.button-3 {
-  padding: 12px 24px;
+  padding: 12px 12px;
 }
 
 .button:hover {
   background-color: rgba(38, 38, 38, 0.04);
   color: rgba(8, 9, 10, 1);
   border-radius: 48px;
-  padding: 12px 24px;
+  padding: 12px 12px;
 }

@@ -1,18 +1,17 @@
-import React from "react";
 import "./Button2.css";
-import { useState } from "react";
+import React, { useState } from "react";
 
 function Button2(props) {
   const { text, onclick, className } = props;
 
-  const [setIsHover] = useState(false);
+  const [hover, setIsHover] = useState(false);
 
-  const handleMouseEnter = () => {
+  function handleMouseEnter() {
     setIsHover(true);
-  };
-  const handleMouseLeave = () => {
+  }
+  function handleMouseLeave() {
     setIsHover(false);
-  };
+  }
 
   return (
     <div

@@ -7,6 +7,25 @@
   height: 272px;
   position: relative;
   padding-top: 80px;
-  padding-bottom: 104px;
   height: max-content;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+
+.rates-mobile {
+  /* align-items: flex-start;
+  align-self: center;
+  border: 1px none;
+  gap: 80px;
+  height: 272px;
+  position: relative;
+  padding-top: 80px;
+  height: max-content;
+  justify-content: center; */
+
+  width: max-content;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  margin: auto;
 }

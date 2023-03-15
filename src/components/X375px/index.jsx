@@ -42,13 +42,14 @@ function X375px(props) {
     imageHands4Props,
     column51Props,
     column52Props,
-    bannerContactsMobileProps,
+    column53Props,
     qAItem1Props,
     qAItem2Props,
     qAItem3Props,
     footerProps,
     qAItem4Props,
     bannerContactsDesktopProps,
+    menuLinkWa,
   } = props;
 
   const scollToRef = useRef();
@@ -56,14 +57,22 @@ function X375px(props) {
   return (
     <div className="x375px screen">
       <div className="hero">
-        <Header2 />
+        <Header2
+          menuLinkWa={menuLinkWa}
+          onTapTarif={() =>
+            scollToRef.current.scrollIntoView({ behavior: "smooth" })
+          }
+        />
         <div className="container-37">
           <div className="banner-3">
             <div
               className="hero-banner-mobile"
               style={{ backgroundImage: `url(${heroBannerMobile})` }}
             >
+              {" "}
               <MaleLaptop
+                isMobile="true"
+                className="imagePhoto"
                 maleLaptop08Props={maleLaptopProps.maleLaptop08Props}
               />
               <div className="text-container-buttons-3">
@@ -82,6 +91,7 @@ function X375px(props) {
                 />
               </div>
             </div>
+
             <div className="frame-1851039177">
               <div className="rectangle-1-3"></div>
             </div>
@@ -172,12 +182,18 @@ function X375px(props) {
               subtitle={column52Props.subtitle}
               imageSmProps={column52Props.imageSmProps}
             />
+            <Column5
+              src={column53Props.src}
+              title={column53Props.title}
+              caption={column53Props.caption}
+              subtitle={column53Props.subtitle}
+              imageSmProps={column53Props.imageSmProps}
+            />
           </div>
         </div>
       </div>
       <div ref={scollToRef} className="section-about">
-        <div className="h2-1 sbsansdisplay-normal-shark-48px">Тарифы</div>
-        <Rates className="rates-mobile" isMobile="true" />
+        <Rates className="rates-mobile" />
       </div>
       <BannerContactsMobile
         title={bannerContactsDesktopProps.title}

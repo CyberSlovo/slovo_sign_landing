@@ -5,8 +5,7 @@ import Blur from "../Blur";
 import AdvantageItem3 from "../AdvantageItem3";
 import ImageHands from "../ImageHands";
 import Column2 from "../Column2";
-import Frame270988944 from "../Frame270988944";
-import ImageHands2 from "../ImageHands2";
+
 import QAItem from "../QAItem";
 // import Footer2 from "../Footer2";
 import Footer from "../Footer";
@@ -45,6 +44,7 @@ function X900px(props) {
     qAItem3Props,
     qAItem4Props,
     footerProps,
+    menuLinkWa,
   } = props;
 
   const scollToRef = useRef();
@@ -53,6 +53,8 @@ function X900px(props) {
     <div className="x900px screen">
       <div className="section-hero-1">
         <Header
+          menuLinkWa={menuLinkWa}
+          isTablet="true"
           onTapTarif={() =>
             scollToRef.current.scrollIntoView({ behavior: "smooth" })
           }
@@ -174,7 +176,6 @@ function X900px(props) {
         </div>
       </div>
       <div ref={scollToRef} className="section-about">
-        <div className="h2-1 sbsansdisplay-normal-shark-48px">Тарифы</div>
         <Rates isMobile="true" />
       </div>
 

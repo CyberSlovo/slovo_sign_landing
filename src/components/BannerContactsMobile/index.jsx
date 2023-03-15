@@ -2,7 +2,7 @@ import React from "react";
 import ImageHands2 from "../ImageHands2";
 import "./BannerContactsMobile.css";
 import Button2 from "../Button2";
-import { Linking, Image } from "react-native";
+import { Linking } from "react-native";
 
 function BannerContactsMobile(props) {
   const { title, subtitle, imageHands2Props } = props;
@@ -31,8 +31,8 @@ function BannerContactsMobile(props) {
         <div
           style={{
             display: "flex",
-            "justify-content": "center",
-            "padding-top": "40px",
+            justifyContent: "center",
+            paddingTop: "40px",
           }}
         >
           <ImageHands2
