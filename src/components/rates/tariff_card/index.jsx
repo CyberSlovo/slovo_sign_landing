@@ -22,7 +22,7 @@ function TariffCard(props) {
     <div
       className="card-item"
       style={{
-        "    margin-bottom": className ? "20px" : null,
+        "margin-bottom": className ? "20px" : null,
       }}
     >
       <div className="row-icon">

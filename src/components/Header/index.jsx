@@ -28,7 +28,7 @@ function Header(props) {
 
           <ButtonOutline
             text="Зарегистрироваться"
-            onclick={async () => await Linking.openURL(menuLinkWa.signIn)}
+            onclick={async () => await Linking.openURL(menuLinkWa.signUp)}
           />
 
           <div
@@ -38,9 +38,7 @@ function Header(props) {
           >
             <Button2
               text="Войти"
-              onclick={async () =>
-                await Linking.openURL("https://cyberslovo.app/wa/#/sign_in")
-              }
+              onclick={async () => await Linking.openURL(menuLinkWa.signIn)}
             />
           </div>
         </div>

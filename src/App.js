@@ -71,8 +71,8 @@ const container1Data = {
 
 const menuLinkWaApp = {
   signatureVerification: "https://cyberslovo.app/wa/#/signatureVerification",
-  signUup: "https://cyberslovo.app/wa/#/sign_up",
-  signIin: "https://cyberslovo.app/wa/#/sign_in",
+  signUp: "https://cyberslovo.app/wa/#/sign_up",
+  signIn: "https://cyberslovo.app/wa/#/sign_in",
 };
 
 const advantageItem1Data = {

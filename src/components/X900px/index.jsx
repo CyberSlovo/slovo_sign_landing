@@ -48,6 +48,7 @@ function X900px(props) {
   } = props;
 
   const scollToRef = useRef();
+  const scollToRefOther = useRef();
 
   return (
     <div className="x900px screen">
@@ -78,7 +79,9 @@ function X900px(props) {
                   </div>
                   <Button2
                     onclick={() =>
-                      scollToRef.current.scrollIntoView({ behavior: "smooth" })
+                      scollToRefOther.current.scrollIntoView({
+                        behavior: "smooth",
+                      })
                     }
                   />
                 </div>
@@ -135,7 +138,7 @@ function X900px(props) {
           </div>
         </div>
       </div>
-      <div className="section">
+      <div ref={scollToRefOther} className="section">
         <div className="container-22">
           <div className="head-2">
             <div className="h2-5 sbsansdisplay-normal-shark-48px">{h23}</div>

@@ -63,7 +63,7 @@ export default function SwipeableTemporaryDrawer(props) {
             onKeyDown={toggleDrawer(false)}
           >
             <img
-              style={{ width: "100%", marginTop: " 30px", padding: "20px" }}
+              style={{ width: "100%", "margin-top": " 30px", padding: "20px" }}
               src={OlineSignLogo2}
               alt="Oline-sign Logo"
             />
@@ -93,7 +93,7 @@ export default function SwipeableTemporaryDrawer(props) {
               </ListItem>
               <ListItem disablePadding>
                 <ListItemButton
-                  onClick={async () => await Linking.openURL(menuLinkWa.signIn)}
+                  onClick={async () => await Linking.openURL(menuLinkWa.SignIn)}
                 >
                   <ListItemText primary={"Войти"} />
                 </ListItemButton>

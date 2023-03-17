@@ -44,6 +44,8 @@ function X1440px(props) {
 
   const scollToRef = useRef();
 
+  const scollToRefOther = useRef();
+
   return (
     <div className="x1440px screen">
       <div className="section-hero">
@@ -65,7 +67,9 @@ function X1440px(props) {
                 </div>
                 <Button2
                   onclick={() =>
-                    scollToRef.current.scrollIntoView({ behavior: "smooth" })
+                    scollToRefOther.current.scrollIntoView({
+                      behavior: "smooth",
+                    })
                   }
                 />
               </div>
@@ -124,7 +128,7 @@ function X1440px(props) {
           </div>
         </div>
       </div>
-      <div className="section-steps">
+      <div ref={scollToRefOther} className="section-steps">
         <div className="container-1">
           <div className="head">
             <div className="h2-2 sbsansdisplay-normal-shark-48px">{h23}</div>
