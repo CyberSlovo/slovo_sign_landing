@@ -7,7 +7,10 @@ function ImageHands2(props) {
 
   return (
     <div className={`image-hands-3 ${className || ""}`}>
-      <HandsHeart src={handsHeartProps.src} className={handsHeartProps.className} />
+      <HandsHeart
+        src={handsHeartProps.src}
+        className={handsHeartProps.className}
+      />
     </div>
   );
 }

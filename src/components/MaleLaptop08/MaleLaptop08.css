@@ -1,13 +1,15 @@
 .male-laptop-08 {
-  align-items: flex-start;
+  /* align-items: flex-start;
   border: 1px none;
   display: flex;
   height: 758px;
-  justify-content: flex-end;
   margin-bottom: -279px;
   margin-left: -195px;
-  min-width: 758px;
-  padding: 15px 99px;
+  min-width: 758px;  */
+  /* padding: 15px 0px; */
+  align-items: flex-start;
+  justify-content: flex-end;
+  display: flex;
 }
 
 .private_2-1 {
@@ -19,17 +21,18 @@
 .male-laptop-08.male-laptop-08-1,
 .male-laptop-08.male-laptop-08-2 {
   height: 525px;
-  left: -106px;
-  margin-bottom: unset;
-  margin-left: unset;
-  min-width: 525px;
-  padding: 0 76px;
-  position: relative;
-  top: 31px;
+  /* left: -106px; */
+  margin-bottom: auto;
+  /* margin-left: auto; */
+  /* position: relative; */
+  margin-top: 31px;
+
+  /* top: 31px; */
 }
 
 .male-laptop-08.male-laptop-08-1 .private_2-1,
 .male-laptop-08.male-laptop-08-2 .private_2-1 {
   height: 341px;
+
   width: 343px;
 }

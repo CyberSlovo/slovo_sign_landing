@@ -204,7 +204,6 @@ function X375px(props) {
         frame270988944Props={bannerContactsDesktopProps.frame270988944Props}
         imageHands2Props={bannerContactsDesktopProps.imageHands2Props}
       />
-
       <div className="qa">
         <Blur3 />
         <div className="container-42">

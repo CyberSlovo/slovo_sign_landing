@@ -40,17 +40,12 @@ export default function SwipeableTemporaryDrawer(props) {
             style={{
               width: "32px",
               height: "32px",
-
               color: "rgba(0, 0, 0, 0.32)",
             }}
           />
         </Button>
 
         <SwipeableDrawer
-          disableSwipeToOpen={false}
-          ModalProps={{
-            keepMounted: true,
-          }}
           anchor={"right"}
           open={state["right"]}
           onClose={toggleDrawer(false)}
@@ -93,7 +88,7 @@ export default function SwipeableTemporaryDrawer(props) {
               </ListItem>
               <ListItem disablePadding>
                 <ListItemButton
-                  onClick={async () => await Linking.openURL(menuLinkWa.SignIn)}
+                  onClick={async () => await Linking.openURL(menuLinkWa.signIn)}
                 >
                   <ListItemText primary={"Войти"} />
                 </ListItemButton>
