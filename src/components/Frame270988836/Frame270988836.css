@@ -22,3 +22,10 @@
   width: fit-content;
 }
 
+
+.button-2:hover {
+  /* background-color: rgba(38, 38, 38, 0.04); */
+  color: #1549AB;
+  /* border-radius: 48px; */
+  /* padding: 12px 12px; */
+}
