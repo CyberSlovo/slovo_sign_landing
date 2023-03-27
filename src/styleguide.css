@@ -1,4 +1,4 @@
-:root { 
+:root {
   --abbey: #494f54;
   --black: #000000;
   --blue: #2a71f8;
@@ -9,7 +9,7 @@
   --shark-2: #262626b2;
   --shark-3: #2626268c;
   --white: #ffffff;
- 
+
   --font-size-l: 22px;
   --font-size-m: 19px;
   --font-size-s: 16px;
@@ -17,11 +17,12 @@
   --font-size-xxl: 28px;
   --font-size-xxxl: 34px;
   --font-size-xxxxl: 48px;
- 
+
   --font-family-sb_sans_display-semibold: "SB Sans Display-Semibold", Helvetica;
   --font-family-sb_sans_text-medium: "SB Sans Text-Medium", Helvetica;
   --font-family-sb_sans_text-regular: "SB Sans Text-Regular", Helvetica;
 }
+
 .sbsanstext-regular-normal-shark-19px {
   color: var(--shark-2);
   font-family: var(--font-family-sb_sans_text-regular);

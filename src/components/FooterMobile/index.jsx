@@ -23,7 +23,6 @@ function FooterMobile(props) {
         </a>
       </div>{" "}
       <Buttons
-        className="buttonCustom-mobile"
         text="Пользовательское соглашение"
         onclick={async () =>
           await Linking.openURL(
@@ -33,7 +32,6 @@ function FooterMobile(props) {
       />
       <Buttons
         text="Политика конфиденциальности"
-        className="buttonCustom-mobile"
         onclick={async () =>
           await Linking.openURL(
             "https://cyberslovo.app/wa/#/signatureVerification"
@@ -42,7 +40,6 @@ function FooterMobile(props) {
       />
       <Buttons
         text="Соглашение об использовании электронной подписи"
-        className="buttonCustom-mobile"
         onclick={async () =>
           await Linking.openURL(
             "https://cyberslovo.app/wa/#/signatureVerification"

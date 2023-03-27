@@ -18,8 +18,13 @@ function Header(props) {
           alt="Oline-sign Logo"
         />
         <div className="advatages-buttons-row">
-          <Buttons text="Тарифы" onclick={onTapTarif} />
           <Buttons
+            className="button-header"
+            text="Тарифы"
+            onclick={onTapTarif}
+          />
+          <Buttons
+            className="button-header"
             text="Проверить подпись"
             onclick={async () =>
               await Linking.openURL(menuLinkWa.signatureVerification)

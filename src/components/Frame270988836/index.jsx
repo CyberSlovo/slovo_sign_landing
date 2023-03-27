@@ -7,7 +7,7 @@ function Frame270988836(props) {
   return (
     <div className="frame-270988836">
       <div
-        className={className || "button-2 sbsanstext-regular-normal-abbey-19px"}
+        className={`sbsanstext-regular-normal-white-19px button-2 ${className}`}
       >
         {text || ""}
       </div>

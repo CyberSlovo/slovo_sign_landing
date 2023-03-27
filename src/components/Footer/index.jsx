@@ -34,7 +34,6 @@ function Footer(props) {
               }}
             >
               <Buttons
-                className="buttonCustom"
                 text="Пользовательское соглашение"
                 onclick={async () =>
                   await Linking.openURL(
@@ -44,7 +43,6 @@ function Footer(props) {
               />
               <Buttons
                 text="Политика конфиденциальности"
-                className="buttonCustom"
                 onclick={async () =>
                   await Linking.openURL(
                     "https://cyberslovo.app/wa/#/signatureVerification"
@@ -54,7 +52,6 @@ function Footer(props) {
             </div>
             <Buttons
               text="Соглашение об использовании электронной подписи"
-              className="buttonCustom"
               onclick={async () =>
                 await Linking.openURL(
                   "https://cyberslovo.app/wa/#/signatureVerification"

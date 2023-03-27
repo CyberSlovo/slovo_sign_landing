@@ -19,7 +19,7 @@ function Button(props) {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onClick={onclick}
-      className={className ? "" : "button"}
+      className={className}
     >
       <Frame270988836 className={className ?? ""} text={text} />
     </div>

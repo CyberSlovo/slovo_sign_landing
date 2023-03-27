@@ -6,8 +6,8 @@ function Buttons(props) {
   const { text, onclick, className } = props;
 
   return (
-    <div className={className ? "" : "buttons"}>
-      <Button className={className ?? ""} text={text} onclick={onclick} />
+    <div className={`buttons ${className}`}>
+      <Button className={className} text={text} onclick={onclick} />
     </div>
   );
 }
