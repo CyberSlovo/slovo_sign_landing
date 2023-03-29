@@ -25,25 +25,19 @@ function FooterMobile(props) {
       <Buttons
         text="Пользовательское соглашение"
         onclick={async () =>
-          await Linking.openURL(
-            "https://cyberslovo.app/wa/#/signatureVerification"
-          )
+          await Linking.openURL("https://cyberslovo.app/wa/#/sign_in")
         }
       />
       <Buttons
         text="Политика конфиденциальности"
         onclick={async () =>
-          await Linking.openURL(
-            "https://cyberslovo.app/wa/#/signatureVerification"
-          )
+          await Linking.openURL("https://cyberslovo.app/wa/#/sign_in")
         }
       />
       <Buttons
         text="Соглашение об использовании электронной подписи"
         onclick={async () =>
-          await Linking.openURL(
-            "https://cyberslovo.app/wa/#/signatureVerification"
-          )
+          await Linking.openURL("https://cyberslovo.app/wa/#/sign_in")
         }
       />
       <p className="text-1-mobile sbsanstext-regular-normal-shark-16px">

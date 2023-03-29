@@ -78,7 +78,7 @@ function TariffCard(props) {
         text="Попробовать"
         onclick={async () =>
           await Linking.openURL(
-            "https://cyberslovo.app/wa/#/signatureVerification"
+            "https://cyberslovo.app/wa/#/dashboard/balance/buy-product"
           )
         }
       />
