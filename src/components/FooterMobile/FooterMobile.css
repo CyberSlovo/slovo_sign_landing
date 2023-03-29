@@ -1,6 +1,5 @@
 .footer-mobile {
-  align-items: start;
-
+  align-items: flex-start;
   align-self: stretch;
   background-color: var(--cultured-pearl);
   border: 1px none;

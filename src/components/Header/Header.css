@@ -46,7 +46,7 @@
 }
 
 .advatages-buttons-row {
-  justify-content: end;
+  justify-content: flex-end;
   display: flex;
   flex-direction: row;
   /* gap: 16px; */
