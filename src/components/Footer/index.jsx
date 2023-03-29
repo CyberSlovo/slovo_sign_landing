@@ -37,7 +37,7 @@ function Footer(props) {
                 text="Пользовательское соглашение"
                 onclick={async () =>
                   await Linking.openURL(
-                    "https://cyberslovo.app/wa/#/signatureVerification"
+                    "https://cyberslovo.app/wa/#/sign_in"
                   )
                 }
               />
@@ -45,7 +45,7 @@ function Footer(props) {
                 text="Политика конфиденциальности"
                 onclick={async () =>
                   await Linking.openURL(
-                    "https://cyberslovo.app/wa/#/signatureVerification"
+                    "https://cyberslovo.app/wa/#/sign_in"
                   )
                 }
               />
@@ -54,7 +54,7 @@ function Footer(props) {
               text="Соглашение об использовании электронной подписи"
               onclick={async () =>
                 await Linking.openURL(
-                  "https://cyberslovo.app/wa/#/signatureVerification"
+                  "https://cyberslovo.app/wa/#/sign_in"
                 )
               }
             />
