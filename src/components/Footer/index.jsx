@@ -5,7 +5,7 @@ import Buttons from "../Buttons";
 import { Linking } from "react-native";
 
 function Footer(props) {
-  const { text1, phone, podpisSberRu } = props;
+  const { text1, phone, podpisSberRu, mainUrl } = props;
 
   return (
     <div className="footer">
@@ -36,28 +36,25 @@ function Footer(props) {
               <Buttons
                 text="Пользовательское соглашение"
                 onclick={async () =>
-                  await Linking.openURL(
-                    "https://cyberslovo.app/wa/#/sign_in"
-                  )
+                  await Linking.openURL(`${mainUrl}/legal/user_agreement.pdf`)
                 }
               />
               <Buttons
                 text="Политика конфиденциальности"
+                // onclick={async () =>
+                //   await Linking.openURL(`${mainUrl}/legal/privacy_policy.pdf`)
+                // }
                 onclick={async () =>
-                  await Linking.openURL(
-                    "https://cyberslovo.app/wa/#/sign_in"
-                  )
+                  await Linking.openURL(`${mainUrl}/legal/privacy_policy.pdf`)
                 }
               />
             </div>
-            <Buttons
+            {/* <Buttons
               text="Соглашение об использовании электронной подписи"
               onclick={async () =>
-                await Linking.openURL(
-                  "https://cyberslovo.app/wa/#/sign_in"
-                )
+                await Linking.openURL(`${mainUrl}/wa/#/sign_in`)
               }
-            />
+            /> */}
           </div>
         </div>
       </div>

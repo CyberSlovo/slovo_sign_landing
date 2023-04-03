@@ -204,6 +204,7 @@ function X1440px(props) {
         </div>
       </div>
       <Footer
+        mainUrl={menuLinkWa.mainUrl}
         text1={footerProps.text1}
         phone={footerProps.phone}
         podpisSberRu={footerProps.podpisSberRu}

@@ -231,6 +231,7 @@ function X375px(props) {
         </div>
       </div>
       <FooterMobile
+        mainUrl={menuLinkWa.mainUrl}
         text1={footerProps.text1}
         phone={footerProps.phone}
         podpisSberRu={footerProps.podpisSberRu}

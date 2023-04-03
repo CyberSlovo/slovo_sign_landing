@@ -219,6 +219,7 @@ function X900px(props) {
       {/* <Footer2 column3Props={footer2Props.column3Props} /> */}
 
       <Footer
+        mainUrl={menuLinkWa.mainUrl}
         text1={footerProps.text1}
         phone={footerProps.phone}
         podpisSberRu={footerProps.podpisSberRu}

@@ -36,7 +36,9 @@ import IcSberSuccess from "./assets/img/ic-sber-success@2x.svg";
 import IcSberProfile from "./assets/img/ic-sber-profile@2x.svg";
 import IcSberSigned from "./assets/img/ic-sber-signed@2x.svg";
 import IconSberSend from "./assets/img/icon-sber-send@2x.svg";
+const mainUrl = "https://sberslovo.ru";
 
+//version 1.1.42
 function App() {
   const sm = useMediaQuery({ maxWidth: 900 });
   const xl = useMediaQuery({ minWidth: 900, maxWidth: 1439 });
@@ -70,9 +72,10 @@ const container1Data = {
 };
 
 const menuLinkWaApp = {
-  signatureVerification: "https://cyberslovo.app/wa/#/signatureVerification",
-  signUp: "https://cyberslovo.app/wa/#/sign_up",
-  signIn: "https://cyberslovo.app/wa/#/sign_in",
+  signatureVerification: `${mainUrl}/wa/#/signatureVerification`,
+  signUp: `${mainUrl}/wa/#/sign_up`,
+  signIn: `${mainUrl}/wa/#/sign_in`,
+  mainUrl: mainUrl,
 };
 
 const advantageItem1Data = {

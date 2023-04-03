@@ -5,6 +5,7 @@ import { Linking, StyleSheet } from "react-native";
 import "./tariff_card.css";
 import ImageSm from "../../ImageSm";
 import IcSberProfile3 from "../../../assets/img/ic-sber-profile-3@2x.svg";
+import mainUrl from "../../../App.js";
 
 function TariffCard(props) {
   const {
@@ -77,9 +78,7 @@ function TariffCard(props) {
         className="button-style"
         text="Попробовать"
         onclick={async () =>
-          await Linking.openURL(
-            "https://cyberslovo.app/wa/#/dashboard/balance/buy-product"
-          )
+          await Linking.openURL(`${mainUrl}/wa/#/dashboard/balance/buy-product`)
         }
       />
     </div>

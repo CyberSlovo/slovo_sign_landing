@@ -3,6 +3,7 @@ import ImageHands2 from "../ImageHands2";
 import "./BannerContactsMobile.css";
 import Button2 from "../Button2";
 import { Linking } from "react-native";
+import mainUrl from "../../App.js";
 
 function BannerContactsMobile(props) {
   const { title, subtitle, imageHands2Props } = props;
@@ -22,9 +23,7 @@ function BannerContactsMobile(props) {
           <Button2
             text="Проверить подпись"
             onclick={async () =>
-              await Linking.openURL(
-                "https://cyberslovo.app/wa/#/signatureVerification"
-              )
+              await Linking.openURL(`${mainUrl}/wa/#/signatureVerification`)
             }
           />{" "}
         </div>
