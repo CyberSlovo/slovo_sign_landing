@@ -4,7 +4,6 @@ import { useMediaQuery } from "react-responsive";
 import X375px from "./components/X375px/index";
 import X900px from "./components/X900px/index";
 import X1440px from "./components/X1440px/index";
-
 import LgHandsPhone012x3 from "./assets/img/lg-hands-phone-01-2x-3@1x.png";
 import IcSberProfile3 from "./assets/img/ic-sber-profile-3@2x.svg";
 import Private211 from "./assets/img/private-2-1-1@1x.png";

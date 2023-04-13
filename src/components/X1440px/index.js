@@ -11,6 +11,7 @@ import QAItem from "../QAItem";
 import Footer from "../Footer";
 import "./X1440px.css";
 import Rates from "../rates";
+import MySnackBar from "../snackbar";
 
 import ImageDocChimps from "../../assets/img/image-doc-chips-1@2x.svg";
 
@@ -49,6 +50,7 @@ function X1440px(props) {
   return (
     <div className="x1440px screen">
       <div className="section-hero">
+        <MySnackBar mainUrl={menuLinkWa.mainUrl} />
         <Header
           menuLinkWa={menuLinkWa}
           onTapTarif={() =>

@@ -5,6 +5,7 @@ import Blur from "../Blur";
 import AdvantageItem3 from "../AdvantageItem3";
 import ImageHands from "../ImageHands";
 import Column2 from "../Column2";
+import MySnackBar from "../snackbar";
 
 import QAItem from "../QAItem";
 // import Footer2 from "../Footer2";
@@ -52,6 +53,7 @@ function X900px(props) {
 
   return (
     <div className="x900px screen">
+      <MySnackBar mainUrl={menuLinkWa.mainUrl} />
       <div className="section-hero-1">
         <Header
           menuLinkWa={menuLinkWa}

@@ -18,6 +18,7 @@ import Rates from "../rates";
 import IconSberTime from "../../assets/img/icon-sber-time@2x.svg";
 
 import ImageDocChips from "../../assets/img/image-doc-chips@2x.svg";
+import MySnackBar from "../snackbar";
 
 import IcSberProfile from "../../assets/img/ic-sber-profile@2x.svg";
 
@@ -58,6 +59,7 @@ function X375px(props) {
   return (
     <div className="x375px screen">
       <div className="hero">
+        <MySnackBar mainUrl={menuLinkWa.mainUrl} />
         <Header2
           menuLinkWa={menuLinkWa}
           onTapTarif={() =>
