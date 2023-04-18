@@ -6,7 +6,7 @@ import { Linking } from "react-native";
 import mainUrl from "../../App.js";
 
 function BannerContactsMobile(props) {
-  const { title, subtitle, imageHands2Props } = props;
+  const { title, subtitle, imageHands2Props, menuLinkWa } = props;
 
   return (
     <div className="section-banner-mobile">
@@ -23,7 +23,9 @@ function BannerContactsMobile(props) {
           <Button2
             text="Проверить подпись"
             onclick={async () =>
-              await Linking.openURL(`${mainUrl}/wa/#/signatureVerification`)
+              await Linking.openURL(
+                `${menuLinkWa.mainUrl}/wa/#/signatureVerification`
+              )
             }
           />{" "}
         </div>

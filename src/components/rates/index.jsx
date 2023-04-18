@@ -6,7 +6,7 @@ import Icon3 from "../../assets/img/ranking.svg";
 import TariffCard from "./tariff_card";
 
 function Rates(props) {
-  const { isMobile, className } = props;
+  const { isMobile, className, menuLinkWa } = props;
 
   return (
     <div>
@@ -18,6 +18,7 @@ function Rates(props) {
         }}
       >
         <TariffCard
+          menuLinkWa={menuLinkWa}
           className={className ?? ""}
           backgroundColorIcon="rgba(198, 244, 198, 0.5)"
           srcUrl={Icon1}
@@ -28,6 +29,7 @@ function Rates(props) {
           allPrice="всего 430 ₽"
         />
         <TariffCard
+          menuLinkWa={menuLinkWa}
           className={className ?? ""}
           backgroundColorIcon="rgba(255, 245, 204, 0.5)"
           srcUrl={Icon2}
@@ -38,6 +40,7 @@ function Rates(props) {
           allPrice="всего 1 225 ₽"
         />
         <TariffCard
+          menuLinkWa={menuLinkWa}
           className={className ?? ""}
           backgroundColorIcon="rgba(252, 208, 210, 0.5)"
           srcUrl={Icon3}

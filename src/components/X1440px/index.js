@@ -171,10 +171,11 @@ function X1440px(props) {
         </div>
       </div>
       <div ref={scollToRef} className="section-about">
-        <Rates />
+        <Rates menuLinkWa={menuLinkWa} />
       </div>
 
       <BannerContactsDesktop
+        menuLinkWa={menuLinkWa}
         title={bannerContactsDesktopProps.title}
         subtitle={bannerContactsDesktopProps.subtitle}
         frame270988944Props={bannerContactsDesktopProps.frame270988944Props}

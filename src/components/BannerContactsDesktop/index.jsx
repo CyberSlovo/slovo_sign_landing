@@ -2,11 +2,10 @@ import React from "react";
 import ImageHands2 from "../ImageHands2";
 import "./BannerContactsDesktop.css";
 import Button2 from "../Button2";
-import mainUrl from "../../App.js";
 import { Alert, Button, Linking, StyleSheet, View } from "react-native";
 
 function BannerContactsDesktop(props) {
-  const { title, subtitle, imageHands2Props, isMobile } = props;
+  const { title, subtitle, imageHands2Props, isMobile, menuLinkWa } = props;
 
   return (
     <div
@@ -30,7 +29,9 @@ function BannerContactsDesktop(props) {
           <Button2
             text="Проверить подпись"
             onclick={async () =>
-              await Linking.openURL(`${mainUrl}/wa/#/signatureVerification`)
+              await Linking.openURL(
+                `${menuLinkWa.mainUrl}/wa/#/signatureVerification`
+              )
             }
           />{" "}
         </div>{" "}

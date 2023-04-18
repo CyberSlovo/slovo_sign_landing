@@ -198,9 +198,10 @@ function X375px(props) {
         </div>
       </div>
       <div ref={scollToRef} className="section-about">
-        <Rates className="rates-mobile" />
+        <Rates menuLinkWa={menuLinkWa} className="rates-mobile" />
       </div>
       <BannerContactsMobile
+        menuLinkWa={menuLinkWa}
         title={bannerContactsDesktopProps.title}
         subtitle={bannerContactsDesktopProps.subtitle}
         frame270988944Props={bannerContactsDesktopProps.frame270988944Props}

@@ -24,22 +24,19 @@ import IcSberProfile2 from "./assets/img/ic-sber-profile-2@2x.svg";
 import IcSberSigned2 from "./assets/img/ic-sber-signed-2@2x.svg";
 import HandsHeart2 from "./assets/img/hands-heart-2@2x.png";
 import LgHandsPhone012x4 from "./assets/img/lg-hands-phone-01-2x-4@2x.png";
-
 import HandsHeart4 from "./assets/img/hands-heart-4@2x.png";
-
 import IcSberWallet from "./assets/img/ic-sber-wallet@2x.svg";
 import IcSberSecurity from "./assets/img/ic-sber-secure@2x.svg";
 import IcSberTime from "./assets/img/icon-sber-time@2x.svg";
 import IcSberSuccess from "./assets/img/ic-sber-success@2x.svg";
-
 import IcSberProfile from "./assets/img/ic-sber-profile@2x.svg";
 import IcSberSigned from "./assets/img/ic-sber-signed@2x.svg";
 import IconSberSend from "./assets/img/icon-sber-send@2x.svg";
-const mainUrl = "https://sberslovo.ru";
+
+const mainUrl = `https://${window.location.hostname}`;
 
 function App() {
   console.log("version 1.1.43");
-
   const sm = useMediaQuery({ maxWidth: 900 });
   const xl = useMediaQuery({ minWidth: 900, maxWidth: 1439 });
   const xll = useMediaQuery({ minWidth: 1440 });
