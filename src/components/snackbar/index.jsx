@@ -31,7 +31,10 @@ export default function MySnackBar(props) {
 
   const action = (
     <React.Fragment>
-      <div className={`sbsanstext-regular-normal-shark-16px`}>
+      <div
+        className={`sbsanstext-regular-normal-shark-16px`}
+        style={{ margin: "auto" }}
+      >
         Мы используем cookies для улучшения работы сайта и повышения удобства
         его использования. Условия использования описаны
         <a
@@ -64,6 +67,8 @@ export default function MySnackBar(props) {
         ContentProps={{
           sx: {
             padding: "10px",
+            flexWrap: "inherit",
+            margin: "auto",
             justifyContent: "center",
             alignContent: "center",
             background: "#f2f5f7",
