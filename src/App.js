@@ -36,7 +36,7 @@ import IconSberSend from "./assets/img/icon-sber-send@2x.svg";
 const mainUrl = `https://${window.location.hostname}`;
 
 function App() {
-  console.log("version 1.1.43");
+  console.log("version 1.1.44");
   const sm = useMediaQuery({ maxWidth: 900 });
   const xl = useMediaQuery({ minWidth: 900, maxWidth: 1439 });
   const xll = useMediaQuery({ minWidth: 1440 });

@@ -34,10 +34,6 @@ function FooterMobile(props) {
           await Linking.openURL(`${mainUrl}/legal/privacy_policy.pdf`)
         }
       />
-      {/* <Buttons
-        text="Соглашение об использовании электронной подписи"
-        onclick={async () => await Linking.openURL(`${mainUrl}/wa/#/sign_in`)}
-      /> */}
       <p className="text-1-mobile sbsanstext-regular-normal-shark-16px">
         {text1}
       </p>
