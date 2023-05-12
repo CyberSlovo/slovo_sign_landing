@@ -1,9 +1,7 @@
 import React from "react";
-import ImageHands2 from "../../ImageHands2";
 import Button2 from "../../Button2";
-import { Linking, StyleSheet } from "react-native";
+import { Linking } from "react-native";
 import "./tariff_card.css";
-import ImageSm from "../../ImageSm";
 import IcSberProfile3 from "../../../assets/img/ic-sber-profile-3@2x.svg";
 
 function TariffCard(props) {

@@ -3,7 +3,6 @@ import ImageHands2 from "../ImageHands2";
 import "./BannerContactsMobile.css";
 import Button2 from "../Button2";
 import { Linking } from "react-native";
-import mainUrl from "../../App.js";
 
 function BannerContactsMobile(props) {
   const { title, subtitle, imageHands2Props, menuLinkWa } = props;

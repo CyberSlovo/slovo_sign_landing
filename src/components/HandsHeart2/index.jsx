@@ -1,5 +1,4 @@
 import React from "react";
-import "./HandsHeart2.css";
 
 function HandsHeart2(props) {
   const { src } = props;

@@ -11,20 +11,10 @@ import IcSberSigned3 from "./assets/img/ic-sber-signed-3@2x.svg";
 import IconSberSend3 from "./assets/img/icon-sber-send-3@2x.svg";
 import HandsHeart3 from "./assets/img/hands-heart-3@1x.png";
 import LgHandsPhone012 from "./assets/img/lg-hands-phone-01-2x@2x.png";
-import HandsHeart from "./assets/img/hands-heart@2x.png";
 import Img from "./assets/img/img@2x.png";
-import LgHandsPhone012x1 from "./assets/img/lg-hands-phone-01-2x-1@2x.png";
-import IcSberProfile1 from "./assets/img/ic-sber-profile-1@2x.svg";
-import IcSberSigned1 from "./assets/img/ic-sber-signed-1@2x.svg";
-import IconSberSend1 from "./assets/img/icon-sber-send-1@2x.svg";
-import HandsHeart1 from "./assets/img/hands-heart-1@2x.png";
 import Private21 from "./assets/img/private-2-1-1@2x.png";
 import LgHandsPhone012x2 from "./assets/img/lg-hands-phone-01-2x-2@2x.png";
 import IcSberProfile2 from "./assets/img/ic-sber-profile-2@2x.svg";
-import IcSberSigned2 from "./assets/img/ic-sber-signed-2@2x.svg";
-import HandsHeart2 from "./assets/img/hands-heart-2@2x.png";
-import LgHandsPhone012x4 from "./assets/img/lg-hands-phone-01-2x-4@2x.png";
-import HandsHeart4 from "./assets/img/hands-heart-4@2x.png";
 import IcSberWallet from "./assets/img/ic-sber-wallet@2x.svg";
 import IcSberSecurity from "./assets/img/ic-sber-secure@2x.svg";
 import IcSberTime from "./assets/img/icon-sber-time@2x.svg";
@@ -36,7 +26,7 @@ import IconSberSend from "./assets/img/icon-sber-send@2x.svg";
 const mainUrl = `https://${window.location.hostname}`;
 
 function App() {
-  console.log("version 1.1.44");
+  console.log("version 1.1.45");
   const sm = useMediaQuery({ maxWidth: 900 });
   const xl = useMediaQuery({ minWidth: 900, maxWidth: 1439 });
   const xll = useMediaQuery({ minWidth: 1440 });
@@ -452,19 +442,19 @@ const column244Data = {
   imageSmProps: imageSm6Data,
 };
 
-const link3Data = {
-  children: "+7 (499) 404-10-37",
-};
+// const link3Data = {
+//   children: "+7 (499) 404-10-37",
+// };
 
-const handsHeart2Data = {
-  src: HandsHeart,
-  className: "hands-heart-1",
-};
+// const handsHeart2Data = {
+//   src: HandsHeart,
+//   className: "hands-heart-1",
+// };
 
-const imageHands22Data = {
-  className: "image-hands-4",
-  handsHeartProps: handsHeart2Data,
-};
+// const imageHands22Data = {
+//   className: "image-hands-4",
+//   handsHeartProps: handsHeart2Data,
+// };
 
 const blur4Data = {
   className: "blur-2",
@@ -501,13 +491,13 @@ const qAItem6Data = {
   ),
 };
 
-const column32Data = {
-  className: "",
-};
+// const column32Data = {
+//   className: "",
+// };
 
-const footer21Data = {
-  column3Props: column32Data,
-};
+// const footer21Data = {
+//   column3Props: column32Data,
+// };
 
 const x900pxData = {
   h1: "Подписывайте\nдокументы онлайн",
@@ -550,174 +540,174 @@ const x900pxData = {
   footerProps: footerData,
 };
 
-const header3Data = {
-  className: "header-2",
-};
+// const header3Data = {
+//   className: "header-2",
+// };
 
-const blur5Data = {
-  className: "blur-3",
-};
+// const blur5Data = {
+//   className: "blur-3",
+// };
 
-const advantageItem51Data = {
-  src: IcSberWallet,
-  title: "Экономьте",
-  subtitle: (
-    <React.Fragment>
-      Экономия до 90% <br />
-      на подписании в сравнении <br />с выпуском квалифицированной подписи
-    </React.Fragment>
-  ),
-};
+// const advantageItem51Data = {
+//   src: IcSberWallet,
+//   title: "Экономьте",
+//   subtitle: (
+//     <React.Fragment>
+//       Экономия до 90% <br />
+//       на подписании в сравнении <br />с выпуском квалифицированной подписи
+//     </React.Fragment>
+//   ),
+// };
 
-const advantageItem52Data = {
-  src: IcSberSecurity,
-  title: "Используйте в суде",
-  subtitle: "Налоговая и суд примут подписанные в нашем приложении документы",
-  className: "advantage-item-7",
-};
+// const advantageItem52Data = {
+//   src: IcSberSecurity,
+//   title: "Используйте в суде",
+//   subtitle: "Налоговая и суд примут подписанные в нашем приложении документы",
+//   className: "advantage-item-7",
+// };
 
-const advantageItem53Data = {
-  src: IcSberSuccess,
-  title: "Попробуйте бесплатно",
-  subtitle: (
-    <React.Fragment>
-      Выпуск УНЭП и первое <br /> подписание в нашем сервисе
-      <br />
-      бесплатно.
-    </React.Fragment>
-  ),
-  className: "advantage-item-7",
-};
+// const advantageItem53Data = {
+//   src: IcSberSuccess,
+//   title: "Попробуйте бесплатно",
+//   subtitle: (
+//     <React.Fragment>
+//       Выпуск УНЭП и первое <br /> подписание в нашем сервисе
+//       <br />
+//       бесплатно.
+//     </React.Fragment>
+//   ),
+//   className: "advantage-item-7",
+// };
 
-const otherchandsPhone3Data = {
-  src: LgHandsPhone012x1,
-  className: "otherchands-phone-2",
-};
+// const otherchandsPhone3Data = {
+//   src: LgHandsPhone012x1,
+//   className: "otherchands-phone-2",
+// };
 
-const imageHands4Data = {
-  className: "image-hands-2",
-  otherchandsPhoneProps: otherchandsPhone3Data,
-};
+// const imageHands4Data = {
+//   className: "image-hands-2",
+//   otherchandsPhoneProps: otherchandsPhone3Data,
+// };
 
-const imageSm7Data = {
-  src: IcSberProfile1,
-  className: "",
-};
+// const imageSm7Data = {
+//   src: IcSberProfile1,
+//   className: "",
+// };
 
-const column41Data = {
-  src: IcSberProfile,
-  title: "1 шаг",
-  caption: "Зарегистрируйтесь",
-  subtitle: "Зарегистрируйтесь с помощью Сбер ID",
-  imageSmProps: imageSm7Data,
-};
+// const column41Data = {
+//   src: IcSberProfile,
+//   title: "1 шаг",
+//   caption: "Зарегистрируйтесь",
+//   subtitle: "Зарегистрируйтесь с помощью Сбер ID",
+//   imageSmProps: imageSm7Data,
+// };
 
-const imageSm8Data = {
-  src: IcSberSigned1,
-  className: "",
-};
+// const imageSm8Data = {
+//   src: IcSberSigned1,
+//   className: "",
+// };
 
-const column42Data = {
-  src: IcSberSigned,
-  title: "2 шаг",
-  caption: "Подпишите",
-  subtitle: "Загрузите документ и подпишите его по одной кнопке",
-  imageSmProps: imageSm8Data,
-};
+// const column42Data = {
+//   src: IcSberSigned,
+//   title: "2 шаг",
+//   caption: "Подпишите",
+//   subtitle: "Загрузите документ и подпишите его по одной кнопке",
+//   imageSmProps: imageSm8Data,
+// };
 
-const imageSm9Data = {
-  src: IconSberSend1,
-  className: "image-sm",
-};
+// const imageSm9Data = {
+//   src: IconSberSend1,
+//   className: "image-sm",
+// };
 
-const column43Data = {
-  src: IconSberSend,
-  title: "3 шаг",
-  caption: "Отправьте",
-  subtitle: "Отправьте ссылку контрагенту на подписание",
-  imageSmProps: imageSm9Data,
-};
+// const column43Data = {
+//   src: IconSberSend,
+//   title: "3 шаг",
+//   caption: "Отправьте",
+//   subtitle: "Отправьте ссылку контрагенту на подписание",
+//   imageSmProps: imageSm9Data,
+// };
 
-const row1Data = {
-  column41Props: column41Data,
-  column42Props: column42Data,
-  column43Props: column43Data,
-  // column44Props: column44Data,
-};
+// const row1Data = {
+//   column41Props: column41Data,
+//   column42Props: column42Data,
+//   column43Props: column43Data,
+//   // column44Props: column44Data,
+// };
 
-const link5Data = {
-  children: "+7 (499) 404-10-37",
-};
+// const link5Data = {
+//   children: "+7 (499) 404-10-37",
+// };
 
-const frame2709889463Data = {
-  linkProps: link5Data,
-};
+// const frame2709889463Data = {
+//   linkProps: link5Data,
+// };
 
-const link6Data = {
-  children: "podpis@sber.ru",
-};
+// const link6Data = {
+//   children: "podpis@sber.ru",
+// };
 
-const frame2709889473Data = {
-  linkProps: link6Data,
-};
+// const frame2709889473Data = {
+//   linkProps: link6Data,
+// };
 
-const frame2709889443Data = {
-  className: "contacts",
-  frame270988946Props: frame2709889463Data,
-  frame270988947Props: frame2709889473Data,
-};
+// const frame2709889443Data = {
+//   className: "contacts",
+//   frame270988946Props: frame2709889463Data,
+//   frame270988947Props: frame2709889473Data,
+// };
 
-const handsHeart22Data = {
-  src: HandsHeart1,
-};
+// const handsHeart22Data = {
+//   src: HandsHeart1,
+// };
 
-const imageHands32Data = {
-  handsHeart2Props: handsHeart22Data,
-};
+// const imageHands32Data = {
+//   handsHeart2Props: handsHeart22Data,
+// };
 
-const blur6Data = {
-  className: "blur-4",
-};
+// const blur6Data = {
+//   className: "blur-4",
+// };
 
-const qAItem7Data = {
-  title: (
-    <React.Fragment>
-      Какой тип электронной подписи используется <br />в сервисе?
-    </React.Fragment>
-  ),
-  subtitle:
-    "Усиленная неквалифицированная электронная подпись. Криптографические средства защиты гарантируют неизменность подписанных документов.",
-};
+// const qAItem7Data = {
+//   title: (
+//     <React.Fragment>
+//       Какой тип электронной подписи используется <br />в сервисе?
+//     </React.Fragment>
+//   ),
+//   subtitle:
+//     "Усиленная неквалифицированная электронная подпись. Криптографические средства защиты гарантируют неизменность подписанных документов.",
+// };
 
-const qAItem8Data = {
-  title: (
-    <React.Fragment>
-      Можно ли пойти с документами, подписанными <br />в вашем сервисе в суд или
-      налоговую?
-    </React.Fragment>
-  ),
-  subtitle:
-    "Да, мы разработали сервис с учетом всех требований законодательства, поэтому государственные органы примут документы, подписанные в нашем сервисе.",
-};
+// const qAItem8Data = {
+//   title: (
+//     <React.Fragment>
+//       Можно ли пойти с документами, подписанными <br />в вашем сервисе в суд или
+//       налоговую?
+//     </React.Fragment>
+//   ),
+//   subtitle:
+//     "Да, мы разработали сервис с учетом всех требований законодательства, поэтому государственные органы примут документы, подписанные в нашем сервисе.",
+// };
 
-const qAItem9Data = {
-  title: "Какую поддержку может оказать сервис в случае судебных споров?",
-  subtitle: (
-    <React.Fragment>
-      По запросу мы предоставим дополнительный протокол подписания документа{" "}
-      <br />с информацией о всех подписавших.
-    </React.Fragment>
-  ),
-};
+// const qAItem9Data = {
+//   title: "Какую поддержку может оказать сервис в случае судебных споров?",
+//   subtitle: (
+//     <React.Fragment>
+//       По запросу мы предоставим дополнительный протокол подписания документа{" "}
+//       <br />с информацией о всех подписавших.
+//     </React.Fragment>
+//   ),
+// };
 
-const column33Data = {
-  className: "column-4",
-};
+// const column33Data = {
+//   className: "column-4",
+// };
 
-const footer22Data = {
-  className: "footer-2",
-  column3Props: column33Data,
-};
+// const footer22Data = {
+//   className: "footer-2",
+//   column3Props: column33Data,
+// };
 
 const maleLaptop082Data = {
   src: Private21,
@@ -795,27 +785,27 @@ const imageSm10Data = {
   src: IcSberProfile2,
 };
 
-const imageSm11Data = {
-  src: IcSberSigned2,
-  className: "",
-};
+// const imageSm11Data = {
+//   src: IcSberSigned2,
+//   className: "",
+// };
 
-const column51Data = {
-  src: IcSberSigned,
-  title: "2 шаг",
-  caption: "Подпишите",
-  subtitle: (
-    <React.Fragment>
-      Загрузите документ <br />и подпишите его по одной кнопке
-    </React.Fragment>
-  ),
-  imageSmProps: imageSm11Data,
-};
+// const column51Data = {
+//   src: IcSberSigned,
+//   title: "2 шаг",
+//   caption: "Подпишите",
+//   subtitle: (
+//     <React.Fragment>
+//       Загрузите документ <br />и подпишите его по одной кнопке
+//     </React.Fragment>
+//   ),
+//   imageSmProps: imageSm11Data,
+// };
 
-const handsHeart4Data = {
-  src: HandsHeart2,
-  className: "hands-heart-2",
-};
+// const handsHeart4Data = {
+//   src: HandsHeart2,
+//   className: "hands-heart-2",
+// };
 
 const qAItem10Data = {
   title: (
@@ -910,170 +900,170 @@ const x375pxData = {
   menuLinkWa: menuLinkWaApp,
 };
 
-const button5Data = {
-  className: "button-3",
-};
+// const button5Data = {
+//   className: "button-3",
+// };
 
-const header32Data = {
-  buttonProps: button5Data,
-};
+// const header32Data = {
+//   buttonProps: button5Data,
+// };
 
-const maleLaptop083Data = {
-  src: Private21,
-  className: "male-laptop-08-2",
-};
+// const maleLaptop083Data = {
+//   src: Private21,
+//   className: "male-laptop-08-2",
+// };
 
-const maleLaptop2Data = {
-  className: "male-laptop-2",
-  maleLaptop08Props: maleLaptop083Data,
-};
+// const maleLaptop2Data = {
+//   className: "male-laptop-2",
+//   maleLaptop08Props: maleLaptop083Data,
+// };
 
-const frame18510391762Data = {
-  className: "frame-1851039176-2",
-};
+// const frame18510391762Data = {
+//   className: "frame-1851039176-2",
+// };
 
-const blur23Data = {
-  className: "blur-7",
-};
+// const blur23Data = {
+//   className: "blur-7",
+// };
 
-const titleSubtitle22Data = {
-  src: IcSberWallet,
-  title: "Экономьте",
-  subtitle: (
-    <React.Fragment>
-      Экономия до 90% <br />
-      на подписании в сравнении <br />с выпуском квалифицированной подписи
-    </React.Fragment>
-  ),
-};
+// const titleSubtitle22Data = {
+//   src: IcSberWallet,
+//   title: "Экономьте",
+//   subtitle: (
+//     <React.Fragment>
+//       Экономия до 90% <br />
+//       на подписании в сравнении <br />с выпуском квалифицированной подписи
+//     </React.Fragment>
+//   ),
+// };
 
-const advantageItem71Data = {
-  titleSubtitle2Props: titleSubtitle22Data,
-};
+// const advantageItem71Data = {
+//   titleSubtitle2Props: titleSubtitle22Data,
+// };
 
-const titleSubtitle23Data = {
-  src: IcSberSecurity,
-  title: "Используйте в суде",
-  subtitle: "Налоговая и суд примут подписанные в нашем приложении документы",
-};
+// const titleSubtitle23Data = {
+//   src: IcSberSecurity,
+//   title: "Используйте в суде",
+//   subtitle: "Налоговая и суд примут подписанные в нашем приложении документы",
+// };
 
-const advantageItem72Data = {
-  className: "advantage-item-10",
-  titleSubtitle2Props: titleSubtitle23Data,
-};
+// const advantageItem72Data = {
+//   className: "advantage-item-10",
+//   titleSubtitle2Props: titleSubtitle23Data,
+// };
 
-const titleSubtitle24Data = {
-  src: IcSberTime,
-  title: "Регистрируйтесь быстро",
-  subtitle: (
-    <React.Fragment>
-      Получите УНЭП с помощью регистрации через Сбер ID. <br />
-      Не нужно ждать выпуска токена или тратить время на поездку в офис.
-    </React.Fragment>
-  ),
-};
+// const titleSubtitle24Data = {
+//   src: IcSberTime,
+//   title: "Регистрируйтесь быстро",
+//   subtitle: (
+//     <React.Fragment>
+//       Получите УНЭП с помощью регистрации через Сбер ID. <br />
+//       Не нужно ждать выпуска токена или тратить время на поездку в офис.
+//     </React.Fragment>
+//   ),
+// };
 
-const advantageItem731Data = {
-  className: "advantage-item-10",
-  titleSubtitle2Props: titleSubtitle24Data,
-};
+// const advantageItem731Data = {
+//   className: "advantage-item-10",
+//   titleSubtitle2Props: titleSubtitle24Data,
+// };
 
-const titleSubtitle25Data = {
-  src: IcSberSuccess,
-  title: "Попробуйте бесплатно",
-  subtitle: (
-    <React.Fragment>
-      Выпуск УНЭП и первое <br /> подписание в нашем сервисе
-      <br /> бесплатно.
-    </React.Fragment>
-  ),
-};
+// const titleSubtitle25Data = {
+//   src: IcSberSuccess,
+//   title: "Попробуйте бесплатно",
+//   subtitle: (
+//     <React.Fragment>
+//       Выпуск УНЭП и первое <br /> подписание в нашем сервисе
+//       <br /> бесплатно.
+//     </React.Fragment>
+//   ),
+// };
 
-const advantageItem73Data = {
-  className: "advantage-item-10",
-  titleSubtitle2Props: titleSubtitle25Data,
-};
+// const advantageItem73Data = {
+//   className: "advantage-item-10",
+//   titleSubtitle2Props: titleSubtitle25Data,
+// };
 
-const handsHeart5Data = {
-  src: LgHandsPhone012x4,
-  className: "otherchands-phone-4",
-};
+// const handsHeart5Data = {
+//   src: LgHandsPhone012x4,
+//   className: "otherchands-phone-4",
+// };
 
-const imageHands43Data = {
-  className: "image-hands-7",
-  handsHeartProps: handsHeart5Data,
-};
+// const imageHands43Data = {
+//   className: "image-hands-7",
+//   handsHeartProps: handsHeart5Data,
+// };
 
-const link9Data = {
-  children: "+7 (499) 404-10-37",
-};
+// const link9Data = {
+//   children: "+7 (499) 404-10-37",
+// };
 
-const frame2709889465Data = {
-  linkProps: link9Data,
-};
+// const frame2709889465Data = {
+//   linkProps: link9Data,
+// };
 
-const link10Data = {
-  children: "podpis@sber.ru",
-};
+// const link10Data = {
+//   children: "podpis@sber.ru",
+// };
 
-const frame2709889475Data = {
-  linkProps: link10Data,
-};
+// const frame2709889475Data = {
+//   linkProps: link10Data,
+// };
 
-const handsHeart6Data = {
-  src: HandsHeart4,
-  className: "hands-heart-3",
-};
+// const handsHeart6Data = {
+//   src: HandsHeart4,
+//   className: "hands-heart-3",
+// };
 
-const bannerContactsMobile2Data = {
-  frame270988946Props: frame2709889465Data,
-  frame270988947Props: frame2709889475Data,
-  handsHeartProps: handsHeart6Data,
-};
+// const bannerContactsMobile2Data = {
+//   frame270988946Props: frame2709889465Data,
+//   frame270988947Props: frame2709889475Data,
+//   handsHeartProps: handsHeart6Data,
+// };
 
-const qAItem13Data = {
-  title: (
-    <React.Fragment>
-      Какой тип электронной подписи используется <br />в сервисе?
-    </React.Fragment>
-  ),
-  subtitle: (
-    <React.Fragment>
-      Усиленная неквалифицированная электронная подпись. Криптографические
-      средства защиты гарантируют неизменность подписанных документов. По
-      запросу мы предоставим дополнительный протокол подписания документа с
-      информацией <br />о всех подписавших.
-    </React.Fragment>
-  ),
-};
+// const qAItem13Data = {
+//   title: (
+//     <React.Fragment>
+//       Какой тип электронной подписи используется <br />в сервисе?
+//     </React.Fragment>
+//   ),
+//   subtitle: (
+//     <React.Fragment>
+//       Усиленная неквалифицированная электронная подпись. Криптографические
+//       средства защиты гарантируют неизменность подписанных документов. По
+//       запросу мы предоставим дополнительный протокол подписания документа с
+//       информацией <br />о всех подписавших.
+//     </React.Fragment>
+//   ),
+// };
 
-const qAItem14Data = {
-  title: (
-    <React.Fragment>
-      Можно ли пойти <br />с документами, подписанными <br />в вашем сервисе, в
-      суд или налоговую?
-    </React.Fragment>
-  ),
-  subtitle: (
-    <React.Fragment>
-      Да, мы разработали сервис <br />с учетом всех требований законодательства,
-      поэтому государственные органы примут документы, подписанные в нашем
-      сервисе.
-    </React.Fragment>
-  ),
-};
+// const qAItem14Data = {
+//   title: (
+//     <React.Fragment>
+//       Можно ли пойти <br />с документами, подписанными <br />в вашем сервисе, в
+//       суд или налоговую?
+//     </React.Fragment>
+//   ),
+//   subtitle: (
+//     <React.Fragment>
+//       Да, мы разработали сервис <br />с учетом всех требований законодательства,
+//       поэтому государственные органы примут документы, подписанные в нашем
+//       сервисе.
+//     </React.Fragment>
+//   ),
+// };
 
-const qAItem15Data = {
-  title: (
-    <React.Fragment>
-      Можно ли пойти <br />с документами, подписанными <br />в вашем сервисе в
-      суд или налоговую?
-    </React.Fragment>
-  ),
-  subtitle: (
-    <React.Fragment>
-      По запросу мы предоставим дополнительный протокол подписания документа{" "}
-      <br />с информацией о всех подписавших.
-    </React.Fragment>
-  ),
-};
+// const qAItem15Data = {
+//   title: (
+//     <React.Fragment>
+//       Можно ли пойти <br />с документами, подписанными <br />в вашем сервисе в
+//       суд или налоговую?
+//     </React.Fragment>
+//   ),
+//   subtitle: (
+//     <React.Fragment>
+//       По запросу мы предоставим дополнительный протокол подписания документа{" "}
+//       <br />с информацией о всех подписавших.
+//     </React.Fragment>
+//   ),
+// };

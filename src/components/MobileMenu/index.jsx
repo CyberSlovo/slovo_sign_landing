@@ -14,7 +14,7 @@ import OlineSignLogo2 from "../../assets/img/oline-sign-logo-2@2x.svg";
 import { Linking } from "react-native";
 
 export default function SwipeableTemporaryDrawer(props) {
-  const { menuLinkWa, onTapTarif } = props;
+  const { menuLinkWa } = props;
 
   const [state, setState] = React.useState({
     right: false,

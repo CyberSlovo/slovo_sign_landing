@@ -2,7 +2,7 @@ import React from "react";
 import ImageHands2 from "../ImageHands2";
 import "./BannerContactsDesktop.css";
 import Button2 from "../Button2";
-import { Alert, Button, Linking, StyleSheet, View } from "react-native";
+import { Linking } from "react-native";
 
 function BannerContactsDesktop(props) {
   const { title, subtitle, imageHands2Props, isMobile, menuLinkWa } = props;

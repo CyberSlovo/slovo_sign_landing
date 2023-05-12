@@ -1,5 +1,3 @@
-import { red } from "@mui/material/colors";
-import { style } from "@mui/system";
 import React from "react";
 import "./Frame270988836.css";
 
