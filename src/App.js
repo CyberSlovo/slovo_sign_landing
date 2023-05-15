@@ -23,10 +23,10 @@ import IcSberProfile from "./assets/img/ic-sber-profile@2x.svg";
 import IcSberSigned from "./assets/img/ic-sber-signed@2x.svg";
 import IconSberSend from "./assets/img/icon-sber-send@2x.svg";
 
-const mainUrl = `https://${window.location.hostname}`;
+// const mainUrl = `https://${window.location.hostname}`;
 
 function App() {
-  console.log("version 1.1.45");
+  console.log("version 1.1.46");
   const sm = useMediaQuery({ maxWidth: 900 });
   const xl = useMediaQuery({ minWidth: 900, maxWidth: 1439 });
   const xll = useMediaQuery({ minWidth: 1440 });
@@ -59,10 +59,14 @@ const container1Data = {
 };
 
 const menuLinkWaApp = {
-  signatureVerification: `${mainUrl}/wa/#/signatureVerification`,
-  signUp: `${mainUrl}/wa/#/sign_up`,
-  signIn: `${mainUrl}/wa/#/sign_in`,
-  mainUrl: mainUrl,
+  // signatureVerification: `${mainUrl}/wa/#/signatureVerification`,
+  // signUp: `${mainUrl}/wa/#/sign_up`,
+  // signIn: `${mainUrl}/wa/#/sign_in`,
+  // mainUrl: mainUrl,
+  signatureVerification: `/wa/#/signatureVerification`,
+  signUp: `/wa/#/sign_up`,
+  signIn: `/wa/#/sign_in`,
+  mainUrl: "",
 };
 
 const advantageItem1Data = {
@@ -442,20 +446,6 @@ const column244Data = {
   imageSmProps: imageSm6Data,
 };
 
-// const link3Data = {
-//   children: "+7 (499) 404-10-37",
-// };
-
-// const handsHeart2Data = {
-//   src: HandsHeart,
-//   className: "hands-heart-1",
-// };
-
-// const imageHands22Data = {
-//   className: "image-hands-4",
-//   handsHeartProps: handsHeart2Data,
-// };
-
 const blur4Data = {
   className: "blur-2",
 };
@@ -490,14 +480,6 @@ const qAItem6Data = {
     </React.Fragment>
   ),
 };
-
-// const column32Data = {
-//   className: "",
-// };
-
-// const footer21Data = {
-//   column3Props: column32Data,
-// };
 
 const x900pxData = {
   h1: "Подписывайте\nдокументы онлайн",
@@ -539,175 +521,6 @@ const x900pxData = {
   menuLinkWa: menuLinkWaApp,
   footerProps: footerData,
 };
-
-// const header3Data = {
-//   className: "header-2",
-// };
-
-// const blur5Data = {
-//   className: "blur-3",
-// };
-
-// const advantageItem51Data = {
-//   src: IcSberWallet,
-//   title: "Экономьте",
-//   subtitle: (
-//     <React.Fragment>
-//       Экономия до 90% <br />
-//       на подписании в сравнении <br />с выпуском квалифицированной подписи
-//     </React.Fragment>
-//   ),
-// };
-
-// const advantageItem52Data = {
-//   src: IcSberSecurity,
-//   title: "Используйте в суде",
-//   subtitle: "Налоговая и суд примут подписанные в нашем приложении документы",
-//   className: "advantage-item-7",
-// };
-
-// const advantageItem53Data = {
-//   src: IcSberSuccess,
-//   title: "Попробуйте бесплатно",
-//   subtitle: (
-//     <React.Fragment>
-//       Выпуск УНЭП и первое <br /> подписание в нашем сервисе
-//       <br />
-//       бесплатно.
-//     </React.Fragment>
-//   ),
-//   className: "advantage-item-7",
-// };
-
-// const otherchandsPhone3Data = {
-//   src: LgHandsPhone012x1,
-//   className: "otherchands-phone-2",
-// };
-
-// const imageHands4Data = {
-//   className: "image-hands-2",
-//   otherchandsPhoneProps: otherchandsPhone3Data,
-// };
-
-// const imageSm7Data = {
-//   src: IcSberProfile1,
-//   className: "",
-// };
-
-// const column41Data = {
-//   src: IcSberProfile,
-//   title: "1 шаг",
-//   caption: "Зарегистрируйтесь",
-//   subtitle: "Зарегистрируйтесь с помощью Сбер ID",
-//   imageSmProps: imageSm7Data,
-// };
-
-// const imageSm8Data = {
-//   src: IcSberSigned1,
-//   className: "",
-// };
-
-// const column42Data = {
-//   src: IcSberSigned,
-//   title: "2 шаг",
-//   caption: "Подпишите",
-//   subtitle: "Загрузите документ и подпишите его по одной кнопке",
-//   imageSmProps: imageSm8Data,
-// };
-
-// const imageSm9Data = {
-//   src: IconSberSend1,
-//   className: "image-sm",
-// };
-
-// const column43Data = {
-//   src: IconSberSend,
-//   title: "3 шаг",
-//   caption: "Отправьте",
-//   subtitle: "Отправьте ссылку контрагенту на подписание",
-//   imageSmProps: imageSm9Data,
-// };
-
-// const row1Data = {
-//   column41Props: column41Data,
-//   column42Props: column42Data,
-//   column43Props: column43Data,
-//   // column44Props: column44Data,
-// };
-
-// const link5Data = {
-//   children: "+7 (499) 404-10-37",
-// };
-
-// const frame2709889463Data = {
-//   linkProps: link5Data,
-// };
-
-// const link6Data = {
-//   children: "podpis@sber.ru",
-// };
-
-// const frame2709889473Data = {
-//   linkProps: link6Data,
-// };
-
-// const frame2709889443Data = {
-//   className: "contacts",
-//   frame270988946Props: frame2709889463Data,
-//   frame270988947Props: frame2709889473Data,
-// };
-
-// const handsHeart22Data = {
-//   src: HandsHeart1,
-// };
-
-// const imageHands32Data = {
-//   handsHeart2Props: handsHeart22Data,
-// };
-
-// const blur6Data = {
-//   className: "blur-4",
-// };
-
-// const qAItem7Data = {
-//   title: (
-//     <React.Fragment>
-//       Какой тип электронной подписи используется <br />в сервисе?
-//     </React.Fragment>
-//   ),
-//   subtitle:
-//     "Усиленная неквалифицированная электронная подпись. Криптографические средства защиты гарантируют неизменность подписанных документов.",
-// };
-
-// const qAItem8Data = {
-//   title: (
-//     <React.Fragment>
-//       Можно ли пойти с документами, подписанными <br />в вашем сервисе в суд или
-//       налоговую?
-//     </React.Fragment>
-//   ),
-//   subtitle:
-//     "Да, мы разработали сервис с учетом всех требований законодательства, поэтому государственные органы примут документы, подписанные в нашем сервисе.",
-// };
-
-// const qAItem9Data = {
-//   title: "Какую поддержку может оказать сервис в случае судебных споров?",
-//   subtitle: (
-//     <React.Fragment>
-//       По запросу мы предоставим дополнительный протокол подписания документа{" "}
-//       <br />с информацией о всех подписавших.
-//     </React.Fragment>
-//   ),
-// };
-
-// const column33Data = {
-//   className: "column-4",
-// };
-
-// const footer22Data = {
-//   className: "footer-2",
-//   column3Props: column33Data,
-// };
 
 const maleLaptop082Data = {
   src: Private21,
@@ -899,171 +712,3 @@ const x375pxData = {
   bannerContactsDesktopProps: bannerContactsDesktopData,
   menuLinkWa: menuLinkWaApp,
 };
-
-// const button5Data = {
-//   className: "button-3",
-// };
-
-// const header32Data = {
-//   buttonProps: button5Data,
-// };
-
-// const maleLaptop083Data = {
-//   src: Private21,
-//   className: "male-laptop-08-2",
-// };
-
-// const maleLaptop2Data = {
-//   className: "male-laptop-2",
-//   maleLaptop08Props: maleLaptop083Data,
-// };
-
-// const frame18510391762Data = {
-//   className: "frame-1851039176-2",
-// };
-
-// const blur23Data = {
-//   className: "blur-7",
-// };
-
-// const titleSubtitle22Data = {
-//   src: IcSberWallet,
-//   title: "Экономьте",
-//   subtitle: (
-//     <React.Fragment>
-//       Экономия до 90% <br />
-//       на подписании в сравнении <br />с выпуском квалифицированной подписи
-//     </React.Fragment>
-//   ),
-// };
-
-// const advantageItem71Data = {
-//   titleSubtitle2Props: titleSubtitle22Data,
-// };
-
-// const titleSubtitle23Data = {
-//   src: IcSberSecurity,
-//   title: "Используйте в суде",
-//   subtitle: "Налоговая и суд примут подписанные в нашем приложении документы",
-// };
-
-// const advantageItem72Data = {
-//   className: "advantage-item-10",
-//   titleSubtitle2Props: titleSubtitle23Data,
-// };
-
-// const titleSubtitle24Data = {
-//   src: IcSberTime,
-//   title: "Регистрируйтесь быстро",
-//   subtitle: (
-//     <React.Fragment>
-//       Получите УНЭП с помощью регистрации через Сбер ID. <br />
-//       Не нужно ждать выпуска токена или тратить время на поездку в офис.
-//     </React.Fragment>
-//   ),
-// };
-
-// const advantageItem731Data = {
-//   className: "advantage-item-10",
-//   titleSubtitle2Props: titleSubtitle24Data,
-// };
-
-// const titleSubtitle25Data = {
-//   src: IcSberSuccess,
-//   title: "Попробуйте бесплатно",
-//   subtitle: (
-//     <React.Fragment>
-//       Выпуск УНЭП и первое <br /> подписание в нашем сервисе
-//       <br /> бесплатно.
-//     </React.Fragment>
-//   ),
-// };
-
-// const advantageItem73Data = {
-//   className: "advantage-item-10",
-//   titleSubtitle2Props: titleSubtitle25Data,
-// };
-
-// const handsHeart5Data = {
-//   src: LgHandsPhone012x4,
-//   className: "otherchands-phone-4",
-// };
-
-// const imageHands43Data = {
-//   className: "image-hands-7",
-//   handsHeartProps: handsHeart5Data,
-// };
-
-// const link9Data = {
-//   children: "+7 (499) 404-10-37",
-// };
-
-// const frame2709889465Data = {
-//   linkProps: link9Data,
-// };
-
-// const link10Data = {
-//   children: "podpis@sber.ru",
-// };
-
-// const frame2709889475Data = {
-//   linkProps: link10Data,
-// };
-
-// const handsHeart6Data = {
-//   src: HandsHeart4,
-//   className: "hands-heart-3",
-// };
-
-// const bannerContactsMobile2Data = {
-//   frame270988946Props: frame2709889465Data,
-//   frame270988947Props: frame2709889475Data,
-//   handsHeartProps: handsHeart6Data,
-// };
-
-// const qAItem13Data = {
-//   title: (
-//     <React.Fragment>
-//       Какой тип электронной подписи используется <br />в сервисе?
-//     </React.Fragment>
-//   ),
-//   subtitle: (
-//     <React.Fragment>
-//       Усиленная неквалифицированная электронная подпись. Криптографические
-//       средства защиты гарантируют неизменность подписанных документов. По
-//       запросу мы предоставим дополнительный протокол подписания документа с
-//       информацией <br />о всех подписавших.
-//     </React.Fragment>
-//   ),
-// };
-
-// const qAItem14Data = {
-//   title: (
-//     <React.Fragment>
-//       Можно ли пойти <br />с документами, подписанными <br />в вашем сервисе, в
-//       суд или налоговую?
-//     </React.Fragment>
-//   ),
-//   subtitle: (
-//     <React.Fragment>
-//       Да, мы разработали сервис <br />с учетом всех требований законодательства,
-//       поэтому государственные органы примут документы, подписанные в нашем
-//       сервисе.
-//     </React.Fragment>
-//   ),
-// };
-
-// const qAItem15Data = {
-//   title: (
-//     <React.Fragment>
-//       Можно ли пойти <br />с документами, подписанными <br />в вашем сервисе в
-//       суд или налоговую?
-//     </React.Fragment>
-//   ),
-//   subtitle: (
-//     <React.Fragment>
-//       По запросу мы предоставим дополнительный протокол подписания документа{" "}
-//       <br />с информацией о всех подписавших.
-//     </React.Fragment>
-//   ),
-// };

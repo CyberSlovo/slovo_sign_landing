@@ -30,7 +30,8 @@ function BannerContactsDesktop(props) {
             text="Проверить подпись"
             onclick={async () =>
               await Linking.openURL(
-                `${menuLinkWa.mainUrl}/wa/#/signatureVerification`
+                // `${menuLinkWa.mainUrl}/wa/#/signatureVerification`
+                `/wa/#/signatureVerification`
               )
             }
           />{" "}

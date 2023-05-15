@@ -24,14 +24,16 @@ function FooterMobile(props) {
       </div>{" "}
       <Buttons
         text="Пользовательское соглашение"
-        onclick={async () =>
-          await Linking.openURL(`${mainUrl}/legal/user_agreement.pdf`)
+        onclick={
+          async () => await Linking.openURL(`/legal/user_agreement.pdf`)
+          // await Linking.openURL(`${mainUrl}/legal/user_agreement.pdf`)
         }
       />
       <Buttons
         text="Политика конфиденциальности"
-        onclick={async () =>
-          await Linking.openURL(`${mainUrl}/legal/privacy_policy.pdf`)
+        onclick={
+          async () => await Linking.openURL(`/legal/privacy_policy.pdf`)
+          // await Linking.openURL(`${mainUrl}/legal/privacy_policy.pdf`)
         }
       />
       <p className="text-1-mobile sbsanstext-regular-normal-shark-16px">

@@ -75,10 +75,12 @@ function TariffCard(props) {
       <Button2
         className="button-style"
         text="Попробовать"
-        onclick={async () =>
-          await Linking.openURL(
-            `${menuLinkWa.mainUrl}/wa/#/dashboard/balance/buy-product`
-          )
+        onclick={
+          async () =>
+            await Linking.openURL(`/wa/#/dashboard/balance/buy-product`)
+          // await Linking.openURL(
+          //   `${menuLinkWa.mainUrl}/wa/#/dashboard/balance/buy-product`
+          // )
         }
       />
     </div>

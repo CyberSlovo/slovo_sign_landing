@@ -38,7 +38,8 @@ export default function MySnackBar(props) {
         Мы используем cookies для улучшения работы сайта и повышения удобства
         его использования. Условия использования описаны
         <a
-          href={`${mainUrl}/legal/privacy_policy.pdf`}
+          href={`/legal/privacy_policy.pdf`}
+          // href={`${mainUrl}/legal/privacy_policy.pdf`}
           target="_blank"
           rel="noreferrer"
           style={{ color: "#2ea440" }}

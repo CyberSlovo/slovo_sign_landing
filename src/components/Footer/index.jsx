@@ -36,7 +36,8 @@ function Footer(props) {
               <Buttons
                 text="Пользовательское соглашение"
                 onclick={async () =>
-                  await Linking.openURL(`${mainUrl}/legal/user_agreement.pdf`)
+                  // await Linking.openURL(`${mainUrl}/legal/user_agreement.pdf`)
+                  await Linking.openURL(`/legal/user_agreement.pdf`)
                 }
               />
               <Buttons
@@ -45,7 +46,7 @@ function Footer(props) {
                 //   await Linking.openURL(`${mainUrl}/legal/privacy_policy.pdf`)
                 // }
                 onclick={async () =>
-                  await Linking.openURL(`${mainUrl}/legal/privacy_policy.pdf`)
+                  await Linking.openURL(`/legal/privacy_policy.pdf`)
                 }
               />
             </div>
