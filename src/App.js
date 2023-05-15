@@ -23,8 +23,6 @@ import IcSberProfile from "./assets/img/ic-sber-profile@2x.svg";
 import IcSberSigned from "./assets/img/ic-sber-signed@2x.svg";
 import IconSberSend from "./assets/img/icon-sber-send@2x.svg";
 
-// const mainUrl = `https://${window.location.hostname}`;
-
 function App() {
   console.log("version 1.1.46");
   const sm = useMediaQuery({ maxWidth: 900 });
@@ -57,6 +55,7 @@ const container1Data = {
   ),
   className: "",
 };
+// const mainUrl = `https://${window.location.hostname}`;
 
 const menuLinkWaApp = {
   // signatureVerification: `${mainUrl}/wa/#/signatureVerification`,

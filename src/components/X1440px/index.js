@@ -50,7 +50,8 @@ function X1440px(props) {
   return (
     <div className="x1440px screen">
       <div className="section-hero">
-        <MySnackBar mainUrl={menuLinkWa.mainUrl} />
+        <MySnackBar />
+        {/*   mainUrl={menuLinkWa.mainUrl} /> */}
         <Header
           menuLinkWa={menuLinkWa}
           onTapTarif={() =>
@@ -207,7 +208,7 @@ function X1440px(props) {
         </div>
       </div>
       <Footer
-        mainUrl={menuLinkWa.mainUrl}
+        // mainUrl={menuLinkWa.mainUrl}
         text1={footerProps.text1}
         phone={footerProps.phone}
         podpisSberRu={footerProps.podpisSberRu}

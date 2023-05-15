@@ -5,7 +5,7 @@ import Button2 from "../Button2";
 import { Linking } from "react-native";
 
 function BannerContactsDesktop(props) {
-  const { title, subtitle, imageHands2Props, isMobile, menuLinkWa } = props;
+  const { title, subtitle, imageHands2Props, isMobile } = props;
 
   return (
     <div

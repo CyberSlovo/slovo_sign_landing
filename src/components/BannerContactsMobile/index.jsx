@@ -5,7 +5,7 @@ import Button2 from "../Button2";
 import { Linking } from "react-native";
 
 function BannerContactsMobile(props) {
-  const { title, subtitle, imageHands2Props, menuLinkWa } = props;
+  const { title, subtitle, imageHands2Props } = props;
 
   return (
     <div className="section-banner-mobile">

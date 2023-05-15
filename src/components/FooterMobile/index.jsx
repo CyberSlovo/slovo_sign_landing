@@ -5,7 +5,7 @@ import Buttons from "../Buttons";
 import { Linking } from "react-native";
 
 function FooterMobile(props) {
-  const { text1, phone, podpisSberRu, mainUrl } = props;
+  const { text1, phone, podpisSberRu } = props;
 
   return (
     <div className="footer-mobile">

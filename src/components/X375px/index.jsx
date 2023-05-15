@@ -59,7 +59,8 @@ function X375px(props) {
   return (
     <div className="x375px screen">
       <div className="hero">
-        <MySnackBar mainUrl={menuLinkWa.mainUrl} />
+        <MySnackBar />
+        {/* <MySnackBar mainUrl={menuLinkWa.mainUrl} /> */}
         <Header2
           menuLinkWa={menuLinkWa}
           onTapTarif={() =>
@@ -234,7 +235,7 @@ function X375px(props) {
         </div>
       </div>
       <FooterMobile
-        mainUrl={menuLinkWa.mainUrl}
+        // mainUrl={menuLinkWa.mainUrl}
         text1={footerProps.text1}
         phone={footerProps.phone}
         podpisSberRu={footerProps.podpisSberRu}

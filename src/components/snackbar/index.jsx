@@ -8,7 +8,7 @@ function TransitionLeft(props) {
   return <Slide {...props} direction="up" />;
 }
 export default function MySnackBar(props) {
-  const { mainUrl } = props;
+  // const { mainUrl } = props;
   const [open, setOpen] = useState(false);
   const [transition, setTransition] = React.useState(undefined);
 

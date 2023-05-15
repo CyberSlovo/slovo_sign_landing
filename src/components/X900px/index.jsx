@@ -53,7 +53,8 @@ function X900px(props) {
 
   return (
     <div className="x900px screen">
-      <MySnackBar mainUrl={menuLinkWa.mainUrl} />
+      <MySnackBar />
+      {/* <MySnackBar mainUrl={menuLinkWa.mainUrl} /> */}
       <div className="section-hero-1">
         <Header
           menuLinkWa={menuLinkWa}
@@ -222,7 +223,7 @@ function X900px(props) {
       {/* <Footer2 column3Props={footer2Props.column3Props} /> */}
 
       <Footer
-        mainUrl={menuLinkWa.mainUrl}
+        // mainUrl={menuLinkWa.mainUrl}
         text1={footerProps.text1}
         phone={footerProps.phone}
         podpisSberRu={footerProps.podpisSberRu}

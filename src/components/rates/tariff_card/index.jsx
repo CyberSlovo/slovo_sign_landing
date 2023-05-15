@@ -14,7 +14,6 @@ function TariffCard(props) {
     backgroundColorIcon,
     srcUrl,
     className,
-    menuLinkWa,
   } = props;
 
   return (
