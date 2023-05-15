@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import Header from "../Header";
-import Button2 from "../Button2";
 import Blur from "../Blur";
 import AdvantageItem3 from "../AdvantageItem3";
 import ImageHands from "../ImageHands";
@@ -48,8 +47,10 @@ function X900px(props) {
     menuLinkWa,
   } = props;
 
-  const scollToRef = useRef();
-  const scollToRefOther = useRef();
+  const scollToRef = useRef(null);
+  const scollToRefOther = useRef(null);
+  const scrollToRefOther = () =>
+    scollToRefOther.current.scrollIntoView({ behavior: "smooth" });
 
   return (
     <div className="x900px screen">
@@ -79,13 +80,19 @@ function X900px(props) {
                       {subtitle1}
                     </div>
                   </div>
-                  <Button2
-                    onclick={() =>
-                      scollToRefOther.current.scrollIntoView({
-                        behavior: "smooth",
-                      })
-                    }
-                  />
+
+                  <button
+                    style={{ border: 0, background: "transparent" }}
+                    onClick={scrollToRefOther}
+                  >
+                    <div className={"button-7"}>
+                      <div className="frame-270988836-4">
+                        <div className="button-8 sbsanstext-regular-normal-white-19px">
+                          Подробнее
+                        </div>
+                      </div>
+                    </div>
+                  </button>
                 </div>
                 <div className="placeholder"></div>
               </div>

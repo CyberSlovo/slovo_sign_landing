@@ -1,102 +1,71 @@
 import React from "react";
-import Box from "@mui/material/Box";
-import SwipeableDrawer from "@mui/material/SwipeableDrawer";
-import Button from "@mui/material/Button";
 import List from "@mui/material/List";
-import Divider from "@mui/material/Divider";
+// import Divider from "@mui/material/Divider";
 import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
+// import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
-
+import Drawer from "@mui/material/Drawer";
 import MenuIcon from "@mui/icons-material/Menu";
-import OlineSignLogo2 from "../../assets/img/oline-sign-logo-2@2x.svg";
 
-import { Linking } from "react-native";
-
-export default function SwipeableTemporaryDrawer(props) {
-  const { menuLinkWa } = props;
-
-  const [state, setState] = React.useState({
-    right: false,
-  });
+export default function TemporaryDrawer() {
+  const [state, setState] = React.useState(false);
 
   const toggleDrawer = (open) => (event) => {
     if (
-      event &&
       event.type === "keydown" &&
       (event.key === "Tab" || event.key === "Shift")
     ) {
       return;
     }
 
-    setState({ ...state, right: open });
+    setState(open);
   };
+
+  const list = () => (
+    <div
+      role="presentation"
+      onClick={toggleDrawer(false)}
+      onKeyDown={toggleDrawer(false)}
+    >
+      <List>
+        <br /> <br />
+        <ListItem>
+          <a
+            href={`wa/#/signatureVerification`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <ListItemText primary="Проверить подпись" />
+          </a>
+        </ListItem>
+        <ListItem>
+          <a href={`wa/#/sign_up`} target="_blank" rel="noreferrer">
+            <ListItemText primary="Зарегистрироваться" />
+          </a>
+        </ListItem>
+        <ListItem>
+          <a href={`wa/#/sign_in`} target="_blank" rel="noreferrer">
+            <ListItemText primary="Войти" />
+          </a>
+        </ListItem>
+      </List>
+    </div>
+  );
 
   return (
     <div>
-      <React.Fragment key={"right"}>
-        <Button onClick={toggleDrawer(true)}>
-          <MenuIcon
-            style={{
-              width: "32px",
-              height: "32px",
-              color: "rgba(0, 0, 0, 0.32)",
-            }}
-          />
-        </Button>
-
-        <SwipeableDrawer
-          anchor={"right"}
-          open={state["right"]}
-          onClose={toggleDrawer(false)}
-          onOpen={toggleDrawer(true)}
-        >
-          <Box
-            sx={{ width: 250 }}
-            role="presentation"
-            onClick={toggleDrawer(false)}
-            onKeyDown={toggleDrawer(false)}
-          >
-            <img
-              style={{ width: "100%", "margin-top": " 30px", padding: "20px" }}
-              src={OlineSignLogo2}
-              alt="Oline-sign Logo"
-            />
-            <Divider />
-
-            <List>
-              {/* <ListItem disablePadding>
-                <ListItemButton onClick={onTapTarif}>
-                  <ListItemText primary={"Тарифы"} />
-                </ListItemButton>
-              </ListItem> */}
-              <ListItem disablePadding>
-                <ListItemButton
-                  onClick={async () =>
-                    await Linking.openURL(menuLinkWa.signatureVerification)
-                  }
-                >
-                  <ListItemText primary={"Проверить подпись"} />
-                </ListItemButton>
-              </ListItem>
-              <ListItem disablePadding>
-                <ListItemButton
-                  onClick={async () => await Linking.openURL(menuLinkWa.signUp)}
-                >
-                  <ListItemText primary={"Зарегистрироваться"} />
-                </ListItemButton>
-              </ListItem>
-              <ListItem disablePadding>
-                <ListItemButton
-                  onClick={async () => await Linking.openURL(menuLinkWa.signIn)}
-                >
-                  <ListItemText primary={"Войти"} />
-                </ListItemButton>
-              </ListItem>
-            </List>
-          </Box>
-        </SwipeableDrawer>
-      </React.Fragment>
+      <button onClick={toggleDrawer(true)}>
+        <MenuIcon
+          style={{
+            width: "32px",
+            height: "32px",
+            color: "rgba(0, 0, 0, 0.32)",
+          }}
+        />
+      </button>
+      <Drawer anchor={"right"} open={state} onClose={toggleDrawer(false)}>
+        {list()}
+      </Drawer>
     </div>
   );
 }

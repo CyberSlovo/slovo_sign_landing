@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import Header from "../Header";
-import Button2 from "../Button2";
 import MaleLaptop08 from "../MaleLaptop08";
 import Blur from "../Blur";
 import AdvantageItem from "../AdvantageItem";
@@ -43,9 +42,11 @@ function X1440px(props) {
     menuLinkWa,
   } = props;
 
-  const scollToRef = useRef();
+  const scollToRef = useRef(null);
 
-  const scollToRefOther = useRef();
+  const scollToRefOther = useRef(null);
+  const scrollToRefOther = () =>
+    scollToRefOther.current.scrollIntoView({ behavior: "smooth" });
 
   return (
     <div className="x1440px screen">
@@ -67,13 +68,19 @@ function X1440px(props) {
                     {subtitle1}
                   </div>
                 </div>
-                <Button2
-                  onclick={() =>
-                    scollToRefOther.current.scrollIntoView({
-                      behavior: "smooth",
-                    })
-                  }
-                />
+
+                <button
+                  style={{ border: 0, background: "transparent" }}
+                  onClick={scrollToRefOther}
+                >
+                  <div className={"button-7"}>
+                    <div className="frame-270988836-4">
+                      <div className="button-8 sbsanstext-regular-normal-white-19px">
+                        Подробнее
+                      </div>
+                    </div>
+                  </div>
+                </button>
               </div>
               <div className="male-laptop">
                 <MaleLaptop08 src={maleLaptop08Props.src} />

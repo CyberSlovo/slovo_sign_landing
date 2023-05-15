@@ -1,11 +1,10 @@
 import React from "react";
 import "./Footer.css";
 import OlineSignLogo from "../../assets/img/oline-sign-logo-3@2x.svg";
-import Buttons from "../Buttons";
-import { Linking } from "react-native";
+// import { Linking } from "react-native";
 
 function Footer(props) {
-  const { text1, phone, podpisSberRu, mainUrl } = props;
+  const { text1, phone, podpisSberRu } = props;
 
   return (
     <div className="footer">
@@ -19,12 +18,8 @@ function Footer(props) {
           <p className="text-1 sbsanstext-regular-normal-shark-16px">{text1}</p>
           <div className="column-1 sbsansdisplay-normal-shark-24px">
             <div className="row-info">
-              <a href={`tel:${phone}`}>
-                <div className="phone">{phone}</div>
-              </a>
-              <a href={`mailto:${podpisSberRu}`}>
-                <div className="podpissberru">{podpisSberRu}</div>
-              </a>
+              <div className="phone">{phone}</div>
+              <div className="podpissberru">{podpisSberRu}</div>
             </div>
             <div
               className="row-info"
@@ -33,21 +28,40 @@ function Footer(props) {
                 alignItems: "center",
               }}
             >
-              <Buttons
-                text="Пользовательское соглашение"
-                onclick={async () =>
-                  await Linking.openURL(`${mainUrl}/legal/user_agreement.pdf`)
-                }
-              />
-              <Buttons
-                text="Политика конфиденциальности"
-                // onclick={async () =>
-                //   await Linking.openURL(`${mainUrl}/legal/privacy_policy.pdf`)
-                // }
-                onclick={async () =>
-                  await Linking.openURL(`${mainUrl}/legal/privacy_policy.pdf`)
-                }
-              />
+              <a
+                href={`legal/user_agreement.pdf`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className={`buttons button-header`}>
+                  <div className={"button-header"}>
+                    <div className="frame-270988836">
+                      <div className={`sbsanstext-regular-normal-white-19px`}>
+                        <div className={`button-2 button-header`}>
+                          Пользовательское соглашение
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a
+                href={`legal/privacy_policy.pdf`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className={`buttons button-header`}>
+                  <div className={"button-header"}>
+                    <div className="frame-270988836">
+                      <div className={`sbsanstext-regular-normal-white-19px`}>
+                        <div className={`button-2 button-header`}>
+                          Политика конфиденциальности
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
             </div>
             {/* <Buttons
               text="Соглашение об использовании электронной подписи"

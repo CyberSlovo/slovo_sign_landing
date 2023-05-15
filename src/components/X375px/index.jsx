@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import Header2 from "../Header2";
-import Button2 from "../Button2";
 import MaleLaptop from "../MaleLaptop";
 import Blur2 from "../Blur2";
 import AdvantageItem6 from "../AdvantageItem6";
@@ -53,8 +52,10 @@ function X375px(props) {
     menuLinkWa,
   } = props;
 
-  const scollToRef = useRef();
-  const scollToRefOther = useRef();
+  const scollToRef = useRef(null);
+  const scollToRefOther = useRef(null);
+  const scrollToRefOther = () =>
+    scollToRefOther.current.scrollIntoView({ behavior: "smooth" });
 
   return (
     <div className="x375px screen">
@@ -87,13 +88,19 @@ function X375px(props) {
                     {subtitle1}
                   </div>
                 </div>
-                <Button2
-                  onclick={() =>
-                    scollToRefOther.current.scrollIntoView({
-                      behavior: "smooth",
-                    })
-                  }
-                />
+
+                <button
+                  style={{ border: 0, background: "transparent" }}
+                  onClick={scrollToRefOther}
+                >
+                  <div className={"button-7"}>
+                    <div className="frame-270988836-4">
+                      <div className="button-8 sbsanstext-regular-normal-white-19px">
+                        Подробнее
+                      </div>
+                    </div>
+                  </div>
+                </button>
               </div>
             </div>
 

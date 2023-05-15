@@ -11,7 +11,9 @@ function QAItem(props) {
         <img className="ic_question" src={IcQuestion3} alt="ic_question" />
         <div className="title-subtitle-1">
           <p className="title-4 sbsansdisplay-normal-shark-24px">{title}</p>
-          <p className="subtitle-8 sbsanstext-regular-normal-shark-19px">{subtitle}</p>
+          <p className="subtitle-8 sbsanstext-regular-normal-shark-19px">
+            {subtitle}
+          </p>
         </div>
       </div>
     </div>

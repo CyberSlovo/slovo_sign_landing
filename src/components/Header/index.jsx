@@ -1,13 +1,11 @@
 import OlineSignLogo2 from "../../assets/img/oline-sign-logo-2@2x.svg";
 import React from "react";
-import { Linking } from "react-native";
-import Buttons from "../Buttons";
-import Button2 from "../Button2";
+// import { Linking } from "react-native";
 import "./Header.css";
-import ButtonOutline from "../ButtonOutline";
 
 function Header(props) {
-  const { menuLinkWa, onTapTarif, className } = props;
+  // const { menuLinkWa, onTapTarif, className } = props;
+  const { onTapTarif, className } = props;
 
   return (
     <div className={`header ${className || ""}`}>
@@ -18,33 +16,73 @@ function Header(props) {
           alt="Oline-sign Logo"
         />
         <div className="advatages-buttons-row">
-          <Buttons
-            className="button-header"
-            text="Тарифы"
-            onclick={onTapTarif}
-          />
-          <Buttons
-            className="button-header"
-            text="Проверить подпись"
-            onclick={async () =>
-              await Linking.openURL(menuLinkWa.signatureVerification)
-            }
-          />
+          {/* <a onClick={onTapTarif} href={() => {}}>
+            <div className={`buttons button-header`}>
+              <div className={"button-header"}>
+                <div className="frame-270988836">
+                  <div className={`sbsanstext-regular-normal-white-19px`}>
+                    <div className={`button-2 button-header`}>Тарифы</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a> */}
+          <button
+            style={{ border: 0, background: "transparent" }}
+            onClick={onTapTarif}
+          >
+            <div className={`buttons button-header`}>
+              <div className={"button-header"}>
+                <div className="frame-270988836">
+                  <div className={`sbsanstext-regular-normal-white-19px`}>
+                    <div className={`button-2 button-header`}>Тарифы</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </button>
+          <a
+            href={`wa/#/signatureVerification`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className={`buttons button-header`}>
+              <div className={"button-header"}>
+                <div className="frame-270988836">
+                  <div className={`sbsanstext-regular-normal-white-19px`}>
+                    <div className={`button-2 button-header`}>
+                      Проверить подпись
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
 
-          <ButtonOutline
-            text="Зарегистрироваться"
-            onclick={async () => await Linking.openURL(menuLinkWa.signUp)}
-          />
+          <a href={`wa/#/sign_up`} target="_blank" rel="noreferrer">
+            <div className={"button-outline"}>
+              <div className="frame-270988836-4">
+                <div className="sbsanstext-medium-blue-19px">
+                  Зарегистрироваться
+                </div>{" "}
+              </div>
+            </div>
+          </a>
 
           <div
             style={{
               "margin-left": "10px",
             }}
           >
-            <Button2
-              text="Войти"
-              onclick={async () => await Linking.openURL(menuLinkWa.signIn)}
-            />
+            <a href={`wa/#/sign_in`} target="_blank" rel="noreferrer">
+              <div className={"button-7"}>
+                <div className="frame-270988836-4">
+                  <div className="button-8 sbsanstext-regular-normal-white-19px">
+                    Войти
+                  </div>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>

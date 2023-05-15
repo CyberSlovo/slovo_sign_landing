@@ -1,6 +1,5 @@
 import React from "react";
-import Button2 from "../../Button2";
-import { Linking } from "react-native";
+// import { Linking } from "react-native";
 import "./tariff_card.css";
 import IcSberProfile3 from "../../../assets/img/ic-sber-profile-3@2x.svg";
 
@@ -14,7 +13,6 @@ function TariffCard(props) {
     backgroundColorIcon,
     srcUrl,
     className,
-    menuLinkWa,
   } = props;
 
   return (
@@ -72,15 +70,19 @@ function TariffCard(props) {
         </p>
       </div>
 
-      <Button2
-        className="button-style"
-        text="Попробовать"
-        onclick={async () =>
-          await Linking.openURL(
-            `${menuLinkWa.mainUrl}/wa/#/dashboard/balance/buy-product`
-          )
-        }
-      />
+      <a
+        href={`wa/#/dashboard/balance/buy-product`}
+        target="_blank"
+        rel="noreferrer"
+      >
+        <div className={"button-7 button-style"}>
+          <div className="frame-270988836-4">
+            <div className="button-8 sbsanstext-regular-normal-white-19px">
+              Попробовать
+            </div>
+          </div>
+        </div>
+      </a>
     </div>
   );
 }

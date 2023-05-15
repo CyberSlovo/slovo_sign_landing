@@ -9,12 +9,13 @@ function Header3(props) {
   return (
     <div className="header-4">
       <div className="container-55">
-        <img className="oline-sign-logo-7" src={OlineSignLogo14} alt="Oline-sign Logo" />
+        <img
+          className="oline-sign-logo-7"
+          src={OlineSignLogo14}
+          alt="Oline-sign Logo"
+        />
         <div className="buttons-3">
-          <Button 
-            onclick={onclick}
-            className={buttonProps.className} 
-          />
+          <Button onclick={onclick} className={buttonProps.className} />
         </div>
       </div>
     </div>

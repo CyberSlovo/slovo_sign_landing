@@ -1,11 +1,10 @@
 import React from "react";
 import ImageHands2 from "../ImageHands2";
 import "./BannerContactsMobile.css";
-import Button2 from "../Button2";
-import { Linking } from "react-native";
+// import { Linking } from "react-native";
 
 function BannerContactsMobile(props) {
-  const { title, subtitle, imageHands2Props, menuLinkWa } = props;
+  const { title, subtitle, imageHands2Props } = props;
 
   return (
     <div className="section-banner-mobile">
@@ -19,14 +18,19 @@ function BannerContactsMobile(props) {
               {subtitle}
             </p>
           </div>
-          <Button2
-            text="Проверить подпись"
-            onclick={async () =>
-              await Linking.openURL(
-                `${menuLinkWa.mainUrl}/wa/#/signatureVerification`
-              )
-            }
-          />{" "}
+          <a
+            href={`wa/#/signatureVerification`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className={"button-7"}>
+              <div className="frame-270988836-4">
+                <div className="button-8 sbsanstext-regular-normal-white-19px">
+                  Проверить подпись
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
         <div
           style={{

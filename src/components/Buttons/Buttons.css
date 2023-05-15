@@ -1,8 +1,0 @@
-.buttons {
-  align-items: flex-start;
-  border: 1px none;
-  display: flex;
-  gap: 6px;
-  position: relative;
-  width: fit-content;
-}

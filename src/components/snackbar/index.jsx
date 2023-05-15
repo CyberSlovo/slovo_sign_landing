@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from "react";
 import Snackbar from "@mui/material/Snackbar";
 import Slide from "@mui/material/Slide";
-import Button2 from "../Button2";
-// import Button from "@mui/material/Button";
 
 function TransitionLeft(props) {
   return <Slide {...props} direction="up" />;
 }
 export default function MySnackBar(props) {
-  const { mainUrl } = props;
+  // const { mainUrl } = props;
   const [open, setOpen] = useState(false);
   const [transition, setTransition] = React.useState(undefined);
 
@@ -38,7 +36,7 @@ export default function MySnackBar(props) {
         Мы используем cookies для улучшения работы сайта и повышения удобства
         его использования. Условия использования описаны
         <a
-          href={`${mainUrl}/legal/privacy_policy.pdf`}
+          href={`/legal/privacy_policy.pdf`}
           target="_blank"
           rel="noreferrer"
           style={{ color: "#2ea440" }}
@@ -48,12 +46,16 @@ export default function MySnackBar(props) {
         </a>
       </div>
       <div style={{ paddingLeft: "30px", paddingRight: "15px" }}>
-        <Button2
-          text="Принять"
-          color="primary"
-          size="small"
-          onclick={async () => await handleClose()}
-        />
+        <a onClick={async () => await handleClose()} href={() => {}}>
+          {" "}
+          <div className={"button-7"}>
+            <div className="frame-270988836-4">
+              <div className="button-8 sbsanstext-regular-normal-white-19px">
+                Принять
+              </div>
+            </div>
+          </div>
+        </a>
       </div>
     </React.Fragment>
   );
