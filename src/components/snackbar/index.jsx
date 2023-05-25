@@ -6,7 +6,7 @@ function TransitionLeft(props) {
   return <Slide {...props} direction="up" />;
 }
 export default function MySnackBar(props) {
-  // const { mainUrl } = props;
+  const { isMobile } = props;
   const [open, setOpen] = useState(false);
   const [transition, setTransition] = React.useState(undefined);
 
@@ -30,32 +30,44 @@ export default function MySnackBar(props) {
   const action = (
     <React.Fragment>
       <div
-        className={`sbsanstext-regular-normal-shark-16px`}
-        style={{ margin: "auto" }}
+        style={{
+          display: isMobile ? "flow-root" : "contents",
+        }}
       >
-        Мы используем cookies для улучшения работы сайта и повышения удобства
-        его использования. Условия использования описаны
-        <a
-          href={`/legal/privacy_policy.pdf`}
-          target="_blank"
-          rel="noreferrer"
-          style={{ color: "#2ea440" }}
+        <div
+          className={`sbsanstext-regular-normal-shark-16px`}
+          style={{
+            margin: "auto",
+          }}
         >
-          {" "}
-          в Политике конфиденциальности.
-        </a>
-      </div>
-      <div style={{ paddingLeft: "30px", paddingRight: "15px" }}>
-        <a onClick={async () => await handleClose()} href={() => {}}>
-          {" "}
-          <div className={"button-7"}>
-            <div className="frame-270988836-4">
+          Мы используем cookies для улучшения работы сайта и повышения удобства
+          его использования. Условия использования описаны
+          <a
+            href={`/legal/privacy_policy.pdf`}
+            target="_blank"
+            rel="noreferrer"
+            style={{ color: "#2ea440" }}
+          >
+            {" "}
+            в Политике конфиденциальности.
+          </a>
+        </div>
+        <div
+          style={{
+            paddingTop: isMobile ? "15px" : "0",
+            paddingLeft: "30px",
+            paddingRight: "15px",
+            margin: "auto",
+          }}
+        >
+          <a onClick={async () => await handleClose()} href={() => {}}>
+            <div className={"button-7"}>
               <div className="button-8 sbsanstext-regular-normal-white-19px">
                 Принять
               </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
     </React.Fragment>
   );
