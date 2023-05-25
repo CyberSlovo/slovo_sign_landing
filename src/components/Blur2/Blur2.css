@@ -4,27 +4,29 @@
   left: 63px;
   position: absolute;
   top: 96px;
-  width: 358px;
+  /* width: 358px; */
 }
 
 .ellipse-2166-4 {
   background-color: var(--cornflower-blue);
   border: 1px none;
   border-radius: 96px;
-  filter: blur(164px);;
+  filter: blur(164px);
+  ;
   height: 192px;
   left: 166px;
   opacity: 0.5;
   position: absolute;
   top: 0;
-  width: 192px;
+  /* width: 192px; */
 }
 
 .ellipse-2167-9 {
   background-color: var(--bright-turquoise);
   border: 1px none;
   border-radius: 96px;
-  filter: blur(252px);;
+  filter: blur(252px);
+  ;
   height: 192px;
   left: 0;
   opacity: 0.34;
@@ -36,4 +38,3 @@
 .blur-6.blur-7 {
   left: 229px;
 }
-

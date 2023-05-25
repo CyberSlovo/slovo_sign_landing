@@ -18,7 +18,8 @@
   background-color: var(--cornflower-blue);
   border: 1px none;
   border-radius: 96px;
-  filter: blur(164px);;
+  filter: blur(164px);
+  ;
   height: 192px;
   left: 150px;
   opacity: 0.4;
@@ -31,7 +32,8 @@
   background-color: var(--bright-turquoise);
   border: 1px none;
   border-radius: 150px;
-  filter: blur(252px);;
+  filter: blur(252px);
+  ;
   height: 300px;
   left: 0;
   opacity: 0.2;
@@ -75,4 +77,3 @@
   top: 256px;
   width: 358px;
 }
-
