@@ -24,7 +24,7 @@ import IcSberSigned from "./assets/img/ic-sber-signed@2x.svg";
 import IconSberSend from "./assets/img/icon-sber-send@2x.svg";
 
 function App() {
-  console.log("version 1.1.46");
+  console.log("version 1.1.47");
   const sm = useMediaQuery({ maxWidth: 900 });
   const xl = useMediaQuery({ minWidth: 900, maxWidth: 1439 });
   const xll = useMediaQuery({ minWidth: 1440 });

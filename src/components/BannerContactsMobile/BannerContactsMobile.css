@@ -38,6 +38,8 @@
   gap: 16px;
 }
 
+
+
 .title-3-mobile {
   align-self: stretch;
   letter-spacing: -0.30px;
@@ -54,6 +56,7 @@
 .section-banner-mobile {
   align-items: center;
   align-self: stretch;
+  width: 100%;
   background-color: var(--white);
   border: 1px none;
   display: flex;

@@ -11,8 +11,19 @@ function Column5(props) {
       <div className="frame-270988932-5">
         <div className="title-22 sbsansdisplay-normal-shark-22px">{title}</div>
         <div className="frame-270988931-5">
-          <div className="caption-5 sbsansdisplay-normal-shark-28px">{caption}</div>
-          <p className="subtitle-29 sbsanstext-regular-normal-shark-19px-2">{subtitle}</p>
+          <div
+            className="caption-4 sbsanstext-regular-normal-shark-24px"
+            style={{
+              "font-family": "var(--font-family-sb_sans_display-semibold",
+              "font-weight": "500",
+              color: "var(--shark)",
+            }}
+          >
+            {caption}
+          </div>
+          <p className="subtitle-29 sbsanstext-regular-normal-shark-19px-2">
+            {subtitle}
+          </p>
         </div>
       </div>
     </div>

@@ -165,7 +165,15 @@ function X375px(props) {
                   {title1}
                 </div>
                 <div className="frame-270988931-4">
-                  <div className="caption-4 sbsansdisplay-normal-shark-28px">
+                  <div
+                    className="caption-4 sbsanstext-regular-normal-shark-24px"
+                    style={{
+                      "font-family":
+                        "var(--font-family-sb_sans_display-semibold",
+                      "font-weight": "500",
+                      color: "var(--shark)",
+                    }}
+                  >
                     {caption}
                   </div>
                   <p className="subtitle-27 sbsanstext-regular-normal-shark-19px-2">
