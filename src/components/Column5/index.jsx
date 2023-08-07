@@ -14,8 +14,8 @@ function Column5(props) {
           <div
             className="caption-5  sbsanstext-regular-normal-shark-24px"
             style={{
-              "font-family": "var(--font-family-sb_sans_display-semibold",
-              "font-weight": "500",
+              fontFamily: "var(--font-family-sb_sans_display-semibold",
+              fontWeight: "500",
               color: "var(--shark)",
             }}
           >

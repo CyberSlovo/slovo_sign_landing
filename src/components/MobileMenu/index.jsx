@@ -1,11 +1,11 @@
 import React from "react";
 import List from "@mui/material/List";
 // import Divider from "@mui/material/Divider";
-import ListItem from "@mui/material/ListItem";
 // import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 import Drawer from "@mui/material/Drawer";
 import MenuIcon from "@mui/icons-material/Menu";
+import ListItemButton from "@mui/material/ListItemButton";
 
 export default function TemporaryDrawer() {
   const [state, setState] = React.useState(false);
@@ -27,27 +27,32 @@ export default function TemporaryDrawer() {
       onClick={toggleDrawer(false)}
       onKeyDown={toggleDrawer(false)}
     >
-      <List>
+      <List sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}>
         <br /> <br />
-        <ListItem>
-          <a
-            href={`wa/#/signatureVerification`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <ListItemText primary="Проверить подпись" />
-          </a>
-        </ListItem>
-        <ListItem>
-          <a href={`wa/#/sign_up`} target="_blank" rel="noreferrer">
-            <ListItemText primary="Зарегистрироваться" />
-          </a>
-        </ListItem>
-        <ListItem>
-          <a href={`wa/#/sign_in`} target="_blank" rel="noreferrer">
-            <ListItemText primary="Войти" />
-          </a>
-        </ListItem>
+        <ListItemButton
+          component="a"
+          href={`wa/#/signatureVerification`}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <ListItemText primary="Проверить подпись" />
+        </ListItemButton>
+        <ListItemButton
+          component="a"
+          href={`wa/#/sign_up`}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <ListItemText primary="Зарегистрироваться" />
+        </ListItemButton>
+        <ListItemButton
+          component="a"
+          href={`wa/#/sign_in`}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <ListItemText primary="Войти" />
+        </ListItemButton>
       </List>
     </div>
   );

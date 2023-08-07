@@ -19,7 +19,7 @@ function TariffCard(props) {
     <div
       className="card-item"
       style={{
-        "margin-bottom": className ? "20px" : null,
+        marginBottom: className ? "20px" : null,
       }}
     >
       <div className="row-icon">
@@ -40,7 +40,7 @@ function TariffCard(props) {
           style={{
             display: "flex",
             alignItems: "center",
-            "padding-bottom": "24px",
+            paddingBottom: "24px",
           }}
         >
           <p
@@ -63,7 +63,7 @@ function TariffCard(props) {
         <p
           className="sbsanstext-regular-normal-shark-16px"
           style={{
-            " padding-top": "8px",
+            paddingTop: "8px",
           }}
         >
           {allPrice}
@@ -88,7 +88,7 @@ function TariffCard(props) {
 }
 const styleQuantituy = {
   color: "#2A72F8",
-  "margin-left": "10px",
+  marginLeft: "10px",
 };
 
 export default TariffCard;

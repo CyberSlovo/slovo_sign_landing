@@ -71,7 +71,7 @@ function Header(props) {
 
           <div
             style={{
-              "margin-left": "10px",
+              marginLeft: "10px",
             }}
           >
             <a href={`wa/#/sign_in`} target="_blank" rel="noreferrer">

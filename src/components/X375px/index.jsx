@@ -174,9 +174,8 @@ function X375px(props) {
                   <div
                     className="caption-4  sbsanstext-regular-normal-shark-24px"
                     style={{
-                      "font-family":
-                        "var(--font-family-sb_sans_display-semibold",
-                      "font-weight": "500",
+                      fontFamily: "var(--font-family-sb_sans_display-semibold",
+                      fontWeight: "500",
                       color: "var(--shark)",
                     }}
                   >

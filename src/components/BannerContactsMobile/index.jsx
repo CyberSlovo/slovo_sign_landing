@@ -36,7 +36,7 @@ function BannerContactsMobile(props) {
           style={{
             display: "flex",
             justifyContent: "center",
-            "padding-top": "40px",
+            paddingTop: "40px",
           }}
         >
           <ImageHands2
