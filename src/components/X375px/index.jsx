@@ -3,7 +3,6 @@ import Header2 from "../Header2";
 import MaleLaptop from "../MaleLaptop";
 import Blur2 from "../Blur2";
 import AdvantageItem6 from "../AdvantageItem6";
-import TitleSubtitle from "../TitleSubtitle";
 import ImageHands4 from "../ImageHands4";
 import ImageSm from "../ImageSm";
 import Column5 from "../Column5";
@@ -13,9 +12,6 @@ import QAItem from "../QAItem";
 import FooterMobile from "../FooterMobile";
 import "./X375px.css";
 import Rates from "../rates";
-
-import IconSberTime from "../../assets/img/icon-sber-time@2x.svg";
-
 import ImageDocChips from "../../assets/img/image-doc-chips@2x.svg";
 import MySnackBar from "../snackbar";
 
@@ -122,19 +118,11 @@ function X375px(props) {
               className={advantageItem62Props.className}
               titleSubtitleProps={advantageItem62Props.titleSubtitleProps}
             />
-            <div className="advantage-item-9">
-              <img
-                className="icon-sber-time-1"
-                src={IconSberTime}
-                alt="Icon Sber time"
-              />
-              <div className="container-39">
-                <TitleSubtitle
-                  title={titleSubtitleProps.title}
-                  subtitle={titleSubtitleProps.subtitle}
-                />
-              </div>
-            </div>
+
+            <AdvantageItem6
+              className={titleSubtitleProps.className}
+              titleSubtitleProps={titleSubtitleProps.titleSubtitleProps}
+            />
             <AdvantageItem6
               className={advantageItem63Props.className}
               titleSubtitleProps={advantageItem63Props.titleSubtitleProps}

@@ -563,6 +563,12 @@ const titleSubtitle3Data = {
       Не нужно ждать выпуска токена или тратить время на поездку в офис.
     </React.Fragment>
   ),
+  className: "container-5",
+};
+
+const advantageItemtitleSubtitle3Data = {
+  className: "advantage-item-10",
+  titleSubtitleProps: titleSubtitle3Data,
 };
 
 const titleSubtitle4Data = {
@@ -672,7 +678,7 @@ const x375pxData = {
   maleLaptopProps: maleLaptop1Data,
   advantageItem61Props: advantageItem61Data,
   advantageItem62Props: advantageItem62Data,
-  titleSubtitleProps: titleSubtitle3Data,
+  titleSubtitleProps: advantageItemtitleSubtitle3Data,
   advantageItem63Props: advantageItem63Data,
   imageHands4Props: imageHands42Data,
   imageSmProps: imageSm10Data,
