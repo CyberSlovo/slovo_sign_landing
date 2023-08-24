@@ -75,7 +75,7 @@ function TariffCard(props) {
         target="_blank"
         rel="noreferrer"
       >
-        <div className={"button-7 button-style"}>
+        <div className={"button-7"}>
           <div className="frame-270988836-4">
             <div className="button-8 sbsanstext-regular-normal-white-19px">
               Попробовать

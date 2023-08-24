@@ -11,7 +11,7 @@ function BannerContactsDesktop(props) {
       className="section-banner"
       style={{
         width: isMobile ? "100%" : null,
-        padding: isMobile ? "80px 32px 0px 32px" : null,
+        padding: isMobile ? "76px 32px 0px 32px" : null,
       }}
     >
       <div

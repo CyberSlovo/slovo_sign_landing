@@ -4,8 +4,8 @@ import List from "@mui/material/List";
 // import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 import Drawer from "@mui/material/Drawer";
-import MenuIcon from "@mui/icons-material/Menu";
 import ListItemButton from "@mui/material/ListItemButton";
+import Hamburger from "hamburger-react";
 
 export default function TemporaryDrawer() {
   const [state, setState] = React.useState(false);
@@ -59,15 +59,8 @@ export default function TemporaryDrawer() {
 
   return (
     <div>
-      <button onClick={toggleDrawer(true)}>
-        <MenuIcon
-          style={{
-            width: "32px",
-            height: "32px",
-            color: "rgba(0, 0, 0, 0.32)",
-          }}
-        />
-      </button>
+      <Hamburger size={25} toggle={toggleDrawer(true)} />
+
       <Drawer anchor={"right"} open={state} onClose={toggleDrawer(false)}>
         {list()}
       </Drawer>

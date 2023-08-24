@@ -9,8 +9,15 @@ function ImageHands4(props) {
   return (
     <div className={`image-hands-6 ${className || ""}`}>
       <div className="overlap-group-6">
-        <HandsHeart src={handsHeartProps.src} className={handsHeartProps.className} />
-        <img className="vector-2-stroke-1" src={Vector2Stroke5} alt="Vector 2 (Stroke)" />
+        <HandsHeart
+          src={handsHeartProps.src}
+          className={handsHeartProps.className}
+        />
+        <img
+          className="vector-2-stroke-1"
+          src={Vector2Stroke5}
+          alt="Vector 2 (Stroke)"
+        />
       </div>
     </div>
   );

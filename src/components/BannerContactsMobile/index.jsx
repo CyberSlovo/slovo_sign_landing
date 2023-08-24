@@ -11,10 +11,10 @@ function BannerContactsMobile(props) {
       <div className="banner-contacts-mobile">
         <div className="container-11-mobile ">
           <div className="head-1-mobile ">
-            <p className="title-3-mobile  sbsansdisplay-normal-shark-34px">
+            <p className="title-3-mobile  sbsansdisplay-mobile-white">
               {title}
             </p>
-            <p className="subtitle-4-mobile  sbsanstext-regular-normal-shark-24px-2">
+            <p className="subtitle-4-mobile  sbsanstext-regular-normal-shark-24px-mobile">
               {subtitle}
             </p>
           </div>

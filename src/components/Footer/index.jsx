@@ -63,12 +63,6 @@ function Footer(props) {
                 </div>
               </a>
             </div>
-            {/* <Buttons
-              text="Соглашение об использовании электронной подписи"
-              onclick={async () =>
-                await Linking.openURL(`${mainUrl}/wa/#/sign_in`)
-              }
-            /> */}
           </div>
         </div>
       </div>

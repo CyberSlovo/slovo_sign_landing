@@ -1,28 +1,18 @@
 .rates {
-  align-items: flex-start;
+  align-items: center;
   align-self: center;
   border: 1px none;
   display: flex;
   gap: 80px;
-  height: 272px;
   position: relative;
-  padding-top: 80px;
+  padding-top: 70px;
   height: max-content;
   justify-content: center;
-  padding-bottom: 80px;
 }
 
 
 .rates-mobile {
-  /* align-items: flex-start;
-  align-self: center;
-  border: 1px none;
-  gap: 80px;
-  height: 272px;
-  position: relative;
-  padding-top: 80px;
-  height: max-content;
-  justify-content: center; */
+
   width: max-content;
   padding-bottom: 40px;
   padding-top: 40px;

@@ -122,11 +122,12 @@ function X1440px(props) {
           </div>
         </div>
       </div>
-      <div className="section-about">
+      <div className="section-about" style={{ paddingBottom: "0px" }}>
         <div className="container-1">
           <div className="h2-1 sbsansdisplay-normal-shark-48px">{h22}</div>
           <div className="container-3">
             <ImageHands
+              className="image-hands"
               otherchandsPhoneProps={imageHandsProps.otherchandsPhoneProps}
             />
             <img

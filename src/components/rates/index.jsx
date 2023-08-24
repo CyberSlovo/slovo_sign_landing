@@ -10,7 +10,16 @@ function Rates(props) {
 
   return (
     <div>
-      <div className="h2-1 sbsansdisplay-normal-shark-48px">Тарифы</div>
+      <div
+        className={
+          isMobile
+            ? "h2-1 sbsansdisplay-mobile-white"
+            : "h2-1 sbsansdisplay-normal-shark-48px"
+        }
+      >
+        Тарифы
+      </div>
+
       <div
         className={className ?? "rates"}
         style={{

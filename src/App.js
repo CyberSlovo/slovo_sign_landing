@@ -667,8 +667,6 @@ const x375pxData = {
   ),
   h23: "Как это работает?",
   subtitle2: "Подпишите первый документ за 5 минут",
-  title1: "1 шаг",
-  caption: "Зарегистрируйтесь",
   subtitle3: (
     <React.Fragment>
       Зарегистрируйтесь <br />с помощью Сбер ID
@@ -682,6 +680,7 @@ const x375pxData = {
   advantageItem63Props: advantageItem63Data,
   imageHands4Props: imageHands42Data,
   imageSmProps: imageSm10Data,
+  column50Props: column1Data,
   column51Props: column2Data,
   column52Props: column3Data,
   column53Props: column4Data,

@@ -85,11 +85,26 @@
   font-size: var(--font-size-xxxxl);
   font-style: normal;
   font-weight: 400;
+  align-self: center;
 }
 
 .sbsansdisplay-normal-white-48px {
   font-family: var(--font-family-sb_sans_display-semibold);
   font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sbsansdisplay-tablet-white-48px {
+  font-family: var(--font-family-sb_sans_display-semibold);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sbsansdisplay-mobile-white {
+  font-family: var(--font-family-sb_sans_display-semibold);
+  font-size: var(--font-size-xxxl);
   font-style: normal;
   font-weight: 400;
 }
@@ -141,6 +156,15 @@
   font-style: normal;
   font-weight: 400;
 }
+
+.sbsanstext-regular-normal-shark-24px-mobile {
+  color: var(--shark);
+  font-family: var(--font-family-sb_sans_text-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
 
 .sbsansdisplay-normal-white-34px {
   font-family: var(--font-family-sb_sans_display-semibold);

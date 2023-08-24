@@ -4,7 +4,6 @@ import MaleLaptop from "../MaleLaptop";
 import Blur2 from "../Blur2";
 import AdvantageItem6 from "../AdvantageItem6";
 import ImageHands4 from "../ImageHands4";
-import ImageSm from "../ImageSm";
 import Column5 from "../Column5";
 import BannerContactsMobile from "../BannerContactsMobile";
 import Blur3 from "../Blur3";
@@ -15,8 +14,6 @@ import Rates from "../rates";
 import ImageDocChips from "../../assets/img/image-doc-chips@2x.svg";
 import MySnackBar from "../snackbar";
 
-import IcSberProfile from "../../assets/img/ic-sber-profile@2x.svg";
-
 function X375px(props) {
   const {
     heroBannerMobile,
@@ -26,9 +23,6 @@ function X375px(props) {
     h22,
     h23,
     subtitle2,
-    title1,
-    caption,
-    subtitle3,
     title2,
     maleLaptopProps,
     advantageItem61Props,
@@ -36,6 +30,7 @@ function X375px(props) {
     titleSubtitleProps,
     advantageItem63Props,
     imageHands4Props,
+    column50Props,
     column51Props,
     column52Props,
     column53Props,
@@ -69,7 +64,6 @@ function X375px(props) {
               className="hero-banner-mobile"
               style={{ backgroundImage: `url(${heroBannerMobile})` }}
             >
-              {" "}
               <MaleLaptop
                 isMobile="true"
                 className="imagePhoto"
@@ -77,10 +71,8 @@ function X375px(props) {
               />
               <div className="text-container-buttons-3">
                 <div className="text-container-3">
-                  <div className="h1-3 sbsansdisplay-normal-shark-34px">
-                    {h1}
-                  </div>
-                  <div className="subtitle-25 sbsanstext-regular-normal-shark-24px">
+                  <div className="h1-3 sbsansdisplay-mobile-white">{h1}</div>
+                  <div className="subtitle-25 sbsanstext-regular-normal-shark-24px-mobile">
                     {subtitle1}
                   </div>
                 </div>
@@ -109,7 +101,7 @@ function X375px(props) {
       <div className="advantages">
         <div className="container-38">
           <Blur2 />
-          <div className="h2-9 sbsansdisplay-normal-white-48px">{h21}</div>
+          <div className="h2-9 sbsansdisplay-mobile-white">{h21}</div>
           <div className="adva">
             <AdvantageItem6
               titleSubtitleProps={advantageItem61Props.titleSubtitleProps}
@@ -132,7 +124,7 @@ function X375px(props) {
       </div>
       <div className="about">
         <div className="frame-270988950">
-          <div className="h2-10 sbsansdisplay-normal-shark-34px">{h22}</div>
+          <div className="h2-10 sbsansdisplay-mobile-white">{h22}</div>
           <div className="container-40">
             <img
               className="image-doc-chips-3"
@@ -146,35 +138,19 @@ function X375px(props) {
       <div ref={scollToRefOther} className="section-steps-1">
         <div className="container-41">
           <div className="head-6">
-            <div className="h2-11 sbsansdisplay-normal-shark-34px">{h23}</div>
-            <p className="subtitle-26 sbsanstext-regular-normal-shark-24px">
+            <div className="h2-11 sbsansdisplay-mobile-white">{h23}</div>
+            <p className="subtitle-26 sbsanstext-regular-normal-shark-24px-mobile">
               {subtitle2}
             </p>
           </div>
           <div className="row-7">
-            <div className="column-7">
-              <ImageSm src={IcSberProfile} />
-              <div className="frame-270988932-4">
-                <div className="title-19 sbsansdisplay-normal-shark-22px">
-                  {title1}
-                </div>
-                <div className="frame-270988931-4">
-                  <div
-                    className="caption-4  sbsanstext-regular-normal-shark-24px"
-                    style={{
-                      fontFamily: "var(--font-family-sb_sans_display-semibold",
-                      fontWeight: "500",
-                      color: "var(--shark)",
-                    }}
-                  >
-                    {caption}
-                  </div>
-                  <p className="subtitle-27 sbsanstext-regular-normal-shark-19px-2">
-                    {subtitle3}
-                  </p>
-                </div>
-              </div>
-            </div>
+            <Column5
+              src={column50Props.src}
+              title={column50Props.title}
+              caption={column50Props.caption}
+              subtitle={column50Props.subtitle}
+              imageSmProps={column50Props.imageSmProps}
+            />
             <Column5
               src={column51Props.src}
               title={column51Props.title}
@@ -199,8 +175,12 @@ function X375px(props) {
           </div>
         </div>
       </div>
-      <div ref={scollToRef} className="section-about">
-        <Rates menuLinkWa={menuLinkWa} className="rates-mobile" />
+      <div ref={scollToRef} className="section-about-mobile">
+        <Rates
+          menuLinkWa={menuLinkWa}
+          className="rates-mobile"
+          isMobile={true}
+        />
       </div>
       <BannerContactsMobile
         menuLinkWa={menuLinkWa}
@@ -212,9 +192,7 @@ function X375px(props) {
       <div className="qa">
         <Blur3 />
         <div className="container-42">
-          <div className="title-20 sbsansdisplay-normal-white-34px">
-            {title2}
-          </div>
+          <div className="title-20  sbsansdisplay-mobile-white">{title2}</div>
           <div className="adva">
             <QAItem
               title={qAItem1Props.title}

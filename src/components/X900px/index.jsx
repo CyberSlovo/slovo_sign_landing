@@ -1,11 +1,11 @@
 import React, { useRef } from "react";
-import Header from "../Header";
+// import Header from "../Header";
 import Blur from "../Blur";
 import AdvantageItem3 from "../AdvantageItem3";
 import ImageHands from "../ImageHands";
 import Column2 from "../Column2";
 import MySnackBar from "../snackbar";
-
+import Header2 from "../Header2";
 import QAItem from "../QAItem";
 // import Footer2 from "../Footer2";
 import Footer from "../Footer";
@@ -26,7 +26,6 @@ function X900px(props) {
     h23,
     subtitle2,
     title2,
-    headerProps,
     blur1Props,
     advantageItem31Props,
     advantageItem32Props,
@@ -56,13 +55,11 @@ function X900px(props) {
     <div className="x900px screen">
       <MySnackBar mainUrl={menuLinkWa.mainUrl} />
       <div className="section-hero-1">
-        <Header
+        <Header2
           menuLinkWa={menuLinkWa}
-          isTablet="true"
           onTapTarif={() =>
             scollToRef.current.scrollIntoView({ behavior: "smooth" })
           }
-          className={headerProps.className}
         />
         <div className="container-23">
           <div className="frame-1851039175">
@@ -73,7 +70,7 @@ function X900px(props) {
               <div className="text-container-buttons-1">
                 <div className="left-container">
                   <div className="text-container-1">
-                    <div className="h1-1 sbsansdisplay-normal-shark-48px">
+                    <div className="h1-1 sbsansdisplay-tablet-white-48px">
                       {h1}
                     </div>
                     <div className="subtitle-13 sbsanstext-regular-normal-shark-24px">
@@ -107,20 +104,21 @@ function X900px(props) {
       <div className="section-advantages-1">
         <Blur className={blur1Props.className} />
         <div className="container-21">
-          <div className="h2-3 sbsansdisplay-normal-white-48px">{h21}</div>
+          <div className="h2-3 sbsansdisplay-tablet-white-48px">{h21}</div>
           <div className="advantages-container-1">
             <div className="advatages-items-row-2">
               <AdvantageItem3
-                className={advantageItem32Props.className}
+                className={advantageItem33Props.className}
                 container2Props={advantageItem32Props.container2Props}
-              />{" "}
+              />
               <AdvantageItem3
+                className={advantageItem33Props.className}
                 container2Props={advantageItem4Props.container2Props}
               />
             </div>
             <div className="advatages-items-row-2">
-              {" "}
               <AdvantageItem3
+                className={advantageItem33Props.className}
                 container2Props={advantageItem31Props.container2Props}
               />
               <AdvantageItem3
@@ -133,7 +131,14 @@ function X900px(props) {
       </div>
       <div className="section-about-1">
         <div className="container-22">
-          <div className="h2-4 sbsansdisplay-normal-shark-48px">{h22}</div>
+          <div
+            className="h2-4 sbsansdisplay-tablet-white-48px"
+            style={{
+              alignSelf: "center",
+            }}
+          >
+            {h22}
+          </div>
           <div className="container-24">
             <ImageHands
               className={imageHandsProps.className}
@@ -150,7 +155,7 @@ function X900px(props) {
       <div ref={scollToRefOther} className="section">
         <div className="container-22">
           <div className="head-2">
-            <div className="h2-5 sbsansdisplay-normal-shark-48px">{h23}</div>
+            <div className="h2-5 sbsansdisplay-tablet-white-48px">{h23}</div>
             <p className="subtitle-14 sbsanstext-regular-normal-shark-24px">
               {subtitle2}
             </p>
@@ -188,7 +193,7 @@ function X900px(props) {
         </div>
       </div>
       <div ref={scollToRef} className="section-about">
-        <Rates menuLinkWa={menuLinkWa} isMobile="true" />
+        <Rates menuLinkWa={menuLinkWa} isMobile={true} />
       </div>
 
       <BannerContactsDesktop
@@ -203,7 +208,7 @@ function X900px(props) {
       <div className="section-qa-1">
         <Blur className={blur2Props.className} />
         <div className="container-21">
-          <div className="title-10 sbsansdisplay-normal-white-48px">
+          <div className="title-10 sbsansdisplay-tablet-white-48px">
             {title2}
           </div>
           <div className="advatages-items-row-3">

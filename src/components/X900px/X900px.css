@@ -29,15 +29,13 @@
   flex-direction: column;
   gap: 8px;
   justify-content: space-between;
-  /* padding: 40px 32px 136px; */
-  padding: 40px 32px 136px;
+  padding: 40px;
 }
 
 .frame-1851039175 {
   align-items: center;
   align-self: stretch;
   border: 1px none;
-  /* display: flex; */
   flex-direction: column;
   justify-content: space-between;
 }
@@ -141,7 +139,7 @@
   border: 1px none;
   display: flex;
   justify-content: center;
-  padding: 64px 32px 96px;
+  padding: 76px 160px;
   position: relative;
 }
 
@@ -151,7 +149,6 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  gap: 48px;
 }
 
 .h2-3,
@@ -192,9 +189,8 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  gap: 8px;
   justify-content: center;
-  padding: 96px 32px 0px;
+  padding: 76px 120px;
 }
 
 .container-22 {
@@ -203,16 +199,16 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 50px;
 }
 
 .h2-4 {
   align-self: stretch;
   letter-spacing: 0;
   line-height: 56px;
-  margin-top: -1.00px;
   text-align: center;
   width: fit-content;
+  padding: auto;
 }
 
 .container-24 {
@@ -226,8 +222,9 @@
 }
 
 .image-doc-chips-1 {
-  height: 264.94px;
-  min-width: 302.28px;
+  padding-top: 40px;
+  /* height: 264.94px;
+  min-width: 302.28px; */
 }
 
 .section {
@@ -237,9 +234,9 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  /* gap: 8px; */
   justify-content: center;
-  padding: 96px 32px;
+  padding: 76px 120px;
 }
 
 .head-2 {
@@ -269,12 +266,13 @@
 }
 
 .row-2 {
-  align-items: flex-start;
-  align-self: stretch;
+  align-items: center;
+  align-self: center;
   border: 1px none;
   display: flex;
   gap: 24px;
-  height: 300px;
+  /* height: 300px; */
+
   position: relative;
 }
 
@@ -330,7 +328,7 @@
   border: 1px none;
   display: flex;
   justify-content: center;
-  padding: 96px 32px;
+  padding: 76px 120px;
   position: relative;
 }
 
