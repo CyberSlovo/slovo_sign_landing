@@ -27,7 +27,7 @@ import IconSberSend from "./assets/img/icon-sber-send@2x.svg";
 // const mainUrl = `https://demo.podpis.sber.ru`;
 
 function App() {
-  console.log("version 1.1.47");
+  console.log("version 1.1.48");
   const sm = useMediaQuery({ maxWidth: 900 });
   const xl = useMediaQuery({ minWidth: 900, maxWidth: 1439 });
   const xll = useMediaQuery({ minWidth: 1440 });
