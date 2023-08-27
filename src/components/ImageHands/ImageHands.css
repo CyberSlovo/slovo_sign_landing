@@ -29,6 +29,7 @@
   height: 495px;
   top: -135px;
   width: 493px;
+  background-size: contain;
 }
 
 .image-hands.image-hands-1 .vector-2-stroke {
@@ -55,4 +56,3 @@
   top: 159px;
   width: 39px;
 }
-

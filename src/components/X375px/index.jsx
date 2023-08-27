@@ -58,45 +58,51 @@ function X375px(props) {
             scollToRef.current.scrollIntoView({ behavior: "smooth" })
           }
         />
-        <div className="container-37">
-          <div className="banner-3">
-            <div
-              className="hero-banner-mobile"
-              style={{ backgroundImage: `url(${heroBannerMobile})` }}
-            >
-              <MaleLaptop
-                isMobile="true"
-                className="imagePhoto"
-                maleLaptop08Props={maleLaptopProps.maleLaptop08Props}
-              />
-              <div className="text-container-buttons-3">
-                <div className="text-container-3">
-                  <div className="h1-3 sbsansdisplay-mobile-white">{h1}</div>
-                  <div className="subtitle-25 sbsanstext-regular-normal-shark-24px-mobile">
-                    {subtitle1}
-                  </div>
-                </div>
 
-                <button
-                  style={{ border: 0, background: "transparent" }}
-                  onClick={scrollToRefOther}
-                >
-                  <div className={"button-7"}>
-                    <div className="frame-270988836-4">
-                      <div className="button-8 sbsanstext-regular-normal-white-19px">
-                        Подробнее
-                      </div>
-                    </div>
-                  </div>
-                </button>
+        <div
+          className="hero-banner-mobile"
+          // style={{
+          //   backgroundImage: `url(${heroBannerMobile})`,
+          // }}
+        >
+          <MaleLaptop
+            isMobile="true"
+            className="imagePhoto"
+            maleLaptop08Props={maleLaptopProps.maleLaptop08Props}
+          />
+          <div className="text-container-buttons-3">
+            <div className="text-container-3">
+              <div className="h1-3 sbsansdisplay-mobile-white">{h1}</div>
+              <div className="subtitle-25 sbsanstext-regular-normal-shark-24px-mobile">
+                {subtitle1}
               </div>
             </div>
-
-            <div className="frame-1851039177">
-              <div className="rectangle-1-3"></div>
-            </div>
+          </div>
+          <div
+            className="image-banner"
+            style={{
+              backgroundImage: `url(${heroBannerMobile})`,
+            }}
+          >
+            <button
+              style={{
+                width: "100%",
+                border: 0,
+                background: "transparent",
+              }}
+              onClick={scrollToRefOther}
+            >
+              <div className={"button-7"}>
+                <div className="frame-270988836-4">
+                  <div className="button-8 sbsanstext-regular-normal-white-19px">
+                    Подробнее
+                  </div>
+                </div>
+              </div>
+            </button>
           </div>
         </div>
+        <div className="rectangle-1-3"></div>
       </div>
       <div className="advantages">
         <div className="container-38">

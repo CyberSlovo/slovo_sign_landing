@@ -4,10 +4,10 @@
   border: 1px none;
   border-radius: 32px;
   display: flex;
-  margin: auto;
+  justify-content: space-between;
+
   padding: 48px 64px;
   width: 1248px;
-
 
 }
 

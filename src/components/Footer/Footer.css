@@ -49,8 +49,8 @@
   flex-direction: column;
   gap: 16px;
   width: max-content;
-  padding-left: 30px;
-  padding-right: 30px;
+  /* padding-left: 30px; */
+  /* padding-right: 30px; */
 
 }
 

@@ -53,7 +53,7 @@ const container1Data = {
   subtitle: (
     <React.Fragment>
       Экономия до 90% <br />
-      на подписании в сравнении <br />с выпуском квалифицированной подписи
+      на подписании в сравнении <br />с выпуском квалифицированной подписи.
     </React.Fragment>
   ),
   className: "",
@@ -72,7 +72,7 @@ const advantageItem1Data = {
 
 const container2Data = {
   src: IcSberSecurity,
-  title: "Используйте в суде",
+  title: "Используйте в суде.",
   subtitle: "Налоговая и суд примут подписанные в нашем приложении документы",
   className: "container-5",
 };
@@ -88,7 +88,7 @@ const container3Data = {
   subtitle: (
     <React.Fragment>
       Получите УНЭП с помощью регистрации через Сбер ID. <br />
-      Не нужно ждать выпуска токена или тратить время на поездку в офис.
+      Не нужно ждать выпуска токена или тратить время на поездку <br />в офис.
     </React.Fragment>
   ),
   className: "container-5",
@@ -235,8 +235,14 @@ const qAItem3Data = {
 const qAItem41Data = {
   title:
     "Нужно ли мне что-то устанавливать на свой компьютер? Как это работает?",
-  subtitle:
-    "Нет, на компьютер ничего устанавливать не нужно, электронная подпись создается и хранится в облачном хранилище. Таким образом, подписать документ сможете с любого устройства и платите только за исходящие документы.",
+  subtitle: (
+    <React.Fragment>
+      Нет, на компьютер ничего устанавливать не нужно, электронная подпись
+      создается и хранится в облачном хранилище. Таким образом, подписать
+      документ сможете с любого устройства <br />и платите только за исходящие
+      документы.
+    </React.Fragment>
+  ),
 };
 
 const footerData = {
@@ -256,7 +262,7 @@ const footerData = {
 };
 
 const x1440pxData = {
-  h1: "Подписывайте\nдокументы онлайн",
+  h1: `Подписывайте\nдокументы онлайн`,
   subtitle1: "Договаривайтесь быстро и безопасно",
   h21: (
     <React.Fragment>
@@ -313,7 +319,7 @@ const container22Data = {
   subtitle: (
     <React.Fragment>
       Экономия до 90% <br />
-      на подписании в сравнении <br />с выпуском квалифицированной подписи
+      на подписании в сравнении <br />с выпуском квалифицированной подписи.
     </React.Fragment>
   ),
   className: "",
@@ -325,7 +331,7 @@ const advantageItem32Data = {
 
 const container23Data = {
   src: IcSberSecurity,
-  title: "Используйте в суде",
+  title: "Используйте в суде.",
   subtitle: "Налоговая и суд примут подписанные в нашем приложении документы",
   className: "container-5",
 };
@@ -341,7 +347,7 @@ const container24Data = {
   subtitle: (
     <React.Fragment>
       Получите УНЭП с помощью регистрации через Сбер ID. <br />
-      Не нужно ждать выпуска токена или тратить время на поездку в офис.
+      Не нужно ждать выпуска токена или тратить время на поездку <br />в офис.
     </React.Fragment>
   ),
   className: "container-5",
@@ -534,7 +540,7 @@ const titleSubtitle1Data = {
   subtitle: (
     <React.Fragment>
       Экономия до 90% <br />
-      на подписании в сравнении <br />с выпуском квалифицированной подписи
+      на подписании в сравнении <br />с выпуском квалифицированной подписи.
     </React.Fragment>
   ),
 };
@@ -545,7 +551,7 @@ const advantageItem61Data = {
 
 const titleSubtitle2Data = {
   src: IcSberSecurity,
-  title: "Используйте в суде",
+  title: "Используйте в суде.",
   subtitle: "Налоговая и суд примут подписанные в нашем приложении документы",
 };
 
@@ -560,7 +566,7 @@ const titleSubtitle3Data = {
   subtitle: (
     <React.Fragment>
       Получите УНЭП с помощью регистрации через Сбер ID. <br />
-      Не нужно ждать выпуска токена или тратить время на поездку в офис.
+      Не нужно ждать выпуска токена или тратить время на поездку <br />в офис.
     </React.Fragment>
   ),
   className: "container-5",
@@ -672,6 +678,7 @@ const x375pxData = {
       Зарегистрируйтесь <br />с помощью Сбер ID
     </React.Fragment>
   ),
+  heroBannerMobile: Img,
   title2: <React.Fragment>Отвечаем на ваши вопросы</React.Fragment>,
   maleLaptopProps: maleLaptop1Data,
   advantageItem61Props: advantageItem61Data,

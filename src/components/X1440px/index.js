@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import Header from "../Header";
-import MaleLaptop08 from "../MaleLaptop08";
 import Blur from "../Blur";
 import AdvantageItem from "../AdvantageItem";
 import ImageHands from "../ImageHands";
@@ -50,52 +49,54 @@ function X1440px(props) {
 
   return (
     <div className="x1440px screen">
-      <div className="section-hero">
-        <MySnackBar mainUrl={menuLinkWa.mainUrl} />
-        <Header
-          menuLinkWa={menuLinkWa}
-          onTapTarif={() =>
-            scollToRef.current.scrollIntoView({ behavior: "smooth" })
-          }
-        />
-        <div className="container-2">
-          <div className="banner">
-            <div className="overlap-group1">
-              <div className="text-container-buttons">
-                <div className="text-container">
-                  <h1 className="h1 sbsansdisplay-normal-shark-48px">{h1}</h1>
-                  <div className="subtitle sbsanstext-regular-normal-shark-24px">
-                    {subtitle1}
-                  </div>
-                </div>
+      {/* <div className="section-hero"> */}
+      <MySnackBar mainUrl={menuLinkWa.mainUrl} />
+      <Header
+        menuLinkWa={menuLinkWa}
+        onTapTarif={() =>
+          scollToRef.current.scrollIntoView({ behavior: "smooth" })
+        }
+      />
 
-                <button
-                  style={{ border: 0, background: "transparent" }}
-                  onClick={scrollToRefOther}
-                >
-                  <div className={"button-7"}>
-                    <div className="frame-270988836-4">
-                      <div className="button-8 sbsanstext-regular-normal-white-19px">
-                        Подробнее
-                      </div>
-                    </div>
+      <div className="wrapper-banner">
+        <div className="banner ">
+          <div className="text-container">
+            <div className="h1 sbsansdisplay-normal-shark-48px">
+              Подписывайте
+              <br />
+              документы онлайн
+            </div>
+            <p className="subtitle sbsanstext-regular-normal-shark-24px">
+              {subtitle1}
+            </p>
+            <br />
+            <button
+              style={{ border: 0, background: "transparent" }}
+              onClick={scrollToRefOther}
+            >
+              <div className={"button-7"}>
+                <div className="frame-270988836-4">
+                  <div className="button-8 sbsanstext-regular-normal-white-19px">
+                    Подробнее
                   </div>
-                </button>
-              </div>
-              <div className="male-laptop">
-                <MaleLaptop08 src={maleLaptop08Props.src} />
-              </div>
-              <div className="back-blur">
-                <div className="ellipse-container">
-                  <div className="ellipse-2166"></div>
-                  <div className="ellipse-2167"></div>
                 </div>
               </div>
-            </div>
-            <div className="rectangle-1"></div>
+            </button>
           </div>
+          <img
+            style={{
+              height: "400px",
+              alignItems: "flex-end",
+              alignSelf: "flex-end",
+              paddingRight: "40px",
+            }}
+            src={maleLaptop08Props.src}
+            alt="private_2 1"
+          />
         </div>
       </div>
+      <div className="rectangle-1"></div>
+
       <div className="section-advantages">
         <Blur />
         <div className="container">
@@ -127,7 +128,6 @@ function X1440px(props) {
           <div className="h2-1 sbsansdisplay-normal-shark-48px">{h22}</div>
           <div className="container-3">
             <ImageHands
-              className="image-hands"
               otherchandsPhoneProps={imageHandsProps.otherchandsPhoneProps}
             />
             <img

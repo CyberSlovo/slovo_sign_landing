@@ -38,7 +38,7 @@ function BannerContactsDesktop(props) {
               </div>
             </div>
           </a>
-        </div>{" "}
+        </div>
         <ImageHands2 handsHeartProps={imageHands2Props.handsHeartProps} />
       </div>
     </div>

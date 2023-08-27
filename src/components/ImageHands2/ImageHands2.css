@@ -1,12 +1,11 @@
 .image-hands-3 {
   border: 1px none;
-  height: 300px;
+  width: max-content;
+  height: 250px;
+  width: 300px;
+  /* display: block; */
+  background-size: contain;
 
-  position: relative;
-
-  background-size: cover;
-  padding-left: 50px;
-  width: 30%;
 }
 
 .image-hands-3.image-hands-4 {

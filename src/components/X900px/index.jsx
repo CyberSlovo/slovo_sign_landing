@@ -54,53 +54,42 @@ function X900px(props) {
   return (
     <div className="x900px screen">
       <MySnackBar mainUrl={menuLinkWa.mainUrl} />
-      <div className="section-hero-1">
-        <Header2
-          menuLinkWa={menuLinkWa}
-          onTapTarif={() =>
-            scollToRef.current.scrollIntoView({ behavior: "smooth" })
-          }
-        />
-        <div className="container-23">
-          <div className="frame-1851039175">
-            <div
-              className="banner-1"
-              style={{ backgroundImage: `url(${banner})` }}
-            >
-              <div className="text-container-buttons-1">
-                <div className="left-container">
-                  <div className="text-container-1">
-                    <div className="h1-1 sbsansdisplay-tablet-white-48px">
-                      {h1}
-                    </div>
-                    <div className="subtitle-13 sbsanstext-regular-normal-shark-24px">
-                      {subtitle1}
-                    </div>
-                  </div>
+      <Header2
+        menuLinkWa={menuLinkWa}
+        onTapTarif={() =>
+          scollToRef.current.scrollIntoView({ behavior: "smooth" })
+        }
+      />
 
-                  <button
-                    style={{ border: 0, background: "transparent" }}
-                    onClick={scrollToRefOther}
-                  >
-                    <div className={"button-7"}>
-                      <div className="frame-270988836-4">
-                        <div className="button-8 sbsanstext-regular-normal-white-19px">
-                          Подробнее
-                        </div>
-                      </div>
-                    </div>
-                  </button>
+      <div
+        className="hero-banner-tablet"
+        style={{ backgroundImage: `url(${img})` }}
+      >
+        <div className="text-container">
+          <div className="h1 sbsansdisplay-normal-shark-48px">
+            Подписывайте
+            <br />
+            документы онлайн
+          </div>
+          <p className="subtitle sbsanstext-regular-normal-shark-24px">
+            {subtitle1}
+          </p>
+          <br />
+          <button
+            style={{ border: 0, background: "transparent" }}
+            onClick={scrollToRefOther}
+          >
+            <div className={"button-7"}>
+              <div className="frame-270988836-4">
+                <div className="button-8 sbsanstext-regular-normal-white-19px">
+                  Подробнее
                 </div>
-                <div className="placeholder"></div>
               </div>
             </div>
-            <img className="img" src={img} alt="IMG" />
-            <div className="frame-1851039176">
-              <div className="rectangle-1-1"></div>
-            </div>
-          </div>
+          </button>
         </div>
       </div>
+      <div className="rectangle-mobule"></div>
       <div className="section-advantages-1">
         <Blur className={blur1Props.className} />
         <div className="container-21">
