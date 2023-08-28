@@ -5,7 +5,7 @@ import AdvantageItem3 from "../AdvantageItem3";
 import ImageHands from "../ImageHands";
 import Column2 from "../Column2";
 import MySnackBar from "../snackbar";
-import Header2 from "../Header2";
+import Header from "../Header";
 import QAItem from "../QAItem";
 // import Footer2 from "../Footer2";
 import Footer from "../Footer";
@@ -54,7 +54,13 @@ function X900px(props) {
   return (
     <div className="x900px screen">
       <MySnackBar mainUrl={menuLinkWa.mainUrl} />
-      <Header2
+      <Header
+        menuLinkWa={menuLinkWa}
+        onTapTarif={() =>
+          scollToRef.current.scrollIntoView({ behavior: "smooth" })
+        }
+      />
+      <Header
         menuLinkWa={menuLinkWa}
         onTapTarif={() =>
           scollToRef.current.scrollIntoView({ behavior: "smooth" })
@@ -66,13 +72,14 @@ function X900px(props) {
         style={{ backgroundImage: `url(${img})` }}
       >
         <div className="text-container">
-          <div className="h1 sbsansdisplay-normal-shark-48px">
+          <div className="h1 sbsansdisplay-normal-white-48px">
             Подписывайте
             <br />
             документы онлайн
           </div>
           <p className="subtitle sbsanstext-regular-normal-shark-24px">
-            {subtitle1}
+            Договаривайтесь быстро
+            <br />и безопасно
           </p>
           <br />
           <button
@@ -181,8 +188,8 @@ function X900px(props) {
           </div>
         </div>
       </div>
-      <div ref={scollToRef} className="section-about">
-        <Rates menuLinkWa={menuLinkWa} isMobile={true} />
+      <div ref={scollToRef} className="section-about-rates">
+        <Rates menuLinkWa={menuLinkWa} isMobile={false} />
       </div>
 
       <BannerContactsDesktop
@@ -200,6 +207,7 @@ function X900px(props) {
           <div className="title-10 sbsansdisplay-tablet-white-48px">
             {title2}
           </div>
+
           <div className="advatages-items-row-3">
             <QAItem
               title={qAItem1Props.title}

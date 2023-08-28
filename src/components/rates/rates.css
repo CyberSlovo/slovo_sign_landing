@@ -3,7 +3,7 @@
   align-self: center;
   border: 1px none;
   display: flex;
-  gap: 80px;
+  gap: 30px;
   position: relative;
   padding-top: 70px;
   height: max-content;
@@ -12,9 +12,6 @@
 
 
 .rates-mobile {
-
   width: max-content;
-  padding-bottom: 40px;
-  padding-top: 40px;
-  margin: auto;
+  padding-top: 50px;
 }

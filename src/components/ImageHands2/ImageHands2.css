@@ -1,9 +1,10 @@
 .image-hands-3 {
   border: 1px none;
   width: max-content;
+  align-self: center;
+  align-items: center;
   height: 250px;
   width: 300px;
-  /* display: block; */
   background-size: contain;
 
 }

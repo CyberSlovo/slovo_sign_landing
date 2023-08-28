@@ -97,7 +97,7 @@
 
 .sbsansdisplay-tablet-white-48px {
   font-family: var(--font-family-sb_sans_display-semibold);
-  font-size: var(--font-size-xxxl);
+  font-size: var(--font-size-xxxxl);
   font-style: normal;
   font-weight: 400;
 }
@@ -160,7 +160,7 @@
 .sbsanstext-regular-normal-shark-24px-mobile {
   color: var(--shark);
   font-family: var(--font-family-sb_sans_text-regular);
-  font-size: var(--font-size-m);
+  font-size: var(--font-size-xl);
   font-style: normal;
   font-weight: 400;
 }

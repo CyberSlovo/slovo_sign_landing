@@ -11,8 +11,9 @@ function FooterMobile(props) {
       <img
         className="oline-sign-logo-1"
         src={OlineSignLogo}
-        alt="Oline-sign Logo"
+        alt="Oline-sign Logo mobile"
       />
+
       <div className="sbsansdisplay-normal-shark-24px">
         <div className="phone">{phone}</div>
         <div className="podpissberru">{podpisSberRu}</div>

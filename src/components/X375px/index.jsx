@@ -53,6 +53,7 @@ function X375px(props) {
       <div className="hero">
         <MySnackBar isMobile={true} />
         <Header2
+          isMobile={true}
           menuLinkWa={menuLinkWa}
           onTapTarif={() =>
             scollToRef.current.scrollIntoView({ behavior: "smooth" })
@@ -110,11 +111,11 @@ function X375px(props) {
           <div className="h2-9 sbsansdisplay-mobile-white">{h21}</div>
           <div className="adva">
             <AdvantageItem6
-              titleSubtitleProps={advantageItem61Props.titleSubtitleProps}
-            />
-            <AdvantageItem6
               className={advantageItem62Props.className}
               titleSubtitleProps={advantageItem62Props.titleSubtitleProps}
+            />
+            <AdvantageItem6
+              titleSubtitleProps={advantageItem61Props.titleSubtitleProps}
             />
 
             <AdvantageItem6
@@ -131,14 +132,14 @@ function X375px(props) {
       <div className="about">
         <div className="frame-270988950">
           <div className="h2-10 sbsansdisplay-mobile-white">{h22}</div>
-          <div className="container-40">
-            <img
-              className="image-doc-chips-3"
-              src={ImageDocChips}
-              alt="Doc Chips"
-            />
-            <ImageHands4 handsHeartProps={imageHands4Props.handsHeartProps} />
-          </div>
+
+          <img
+            className="image-doc-chips-3"
+            src={ImageDocChips}
+            alt="Doc Chips"
+          />
+
+          <ImageHands4 handsHeartProps={imageHands4Props.handsHeartProps} />
         </div>
       </div>
       <div ref={scollToRefOther} className="section-steps-1">

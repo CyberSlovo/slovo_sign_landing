@@ -60,15 +60,15 @@
   flex-direction: column;
   gap: 8px;
   justify-content: center;
-  padding: 50px 20px;
+  padding: 64px 16px;
   position: relative;
 }
 
 
 .mobile-photo {
-  height: 300px;
   position: relative;
-  background-size: cover;
+  align-self: center;
+  align-items: center;
+  background-size: contain;
 
-  width: 311px
 }

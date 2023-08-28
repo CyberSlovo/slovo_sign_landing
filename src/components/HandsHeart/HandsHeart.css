@@ -1,8 +1,5 @@
 .hands-heart {
   background-position: 50% 50%;
-  /* /*  */
-  /* border: 1px none; */
-
   height: 100%;
 
   background-size: cover;
@@ -18,7 +15,7 @@
 
 .hands-heart.otherchands-phone-3,
 .hands-heart.otherchands-phone-4 {
-  height: 343px;
+  height: 183px;
   left: 0;
   /* position: absolute; */
   top: 0;

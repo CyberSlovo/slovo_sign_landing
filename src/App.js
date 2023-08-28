@@ -73,7 +73,7 @@ const advantageItem1Data = {
 const container2Data = {
   src: IcSberSecurity,
   title: "Используйте в суде.",
-  subtitle: "Налоговая и суд примут подписанные в нашем приложении документы",
+  subtitle: "Налоговая и суд примут подписанные в нашем приложении документы.",
   className: "container-5",
 };
 
@@ -262,7 +262,14 @@ const footerData = {
 };
 
 const x1440pxData = {
-  h1: `Подписывайте\nдокументы онлайн`,
+  h1: (
+    <React.Fragment>
+      Подписывайте
+      <br />
+      документы онлайн
+    </React.Fragment>
+  ),
+
   subtitle1: "Договаривайтесь быстро и безопасно",
   h21: (
     <React.Fragment>
@@ -332,7 +339,7 @@ const advantageItem32Data = {
 const container23Data = {
   src: IcSberSecurity,
   title: "Используйте в суде.",
-  subtitle: "Налоговая и суд примут подписанные в нашем приложении документы",
+  subtitle: "Налоговая и суд примут подписанные в нашем приложении документы.",
   className: "container-5",
 };
 
@@ -504,6 +511,13 @@ const x900pxData = {
   ),
   h23: "Как это работает?",
   subtitle2: "Подпишите первый документ за 5 минут",
+  title2: (
+    <React.Fragment>
+      Отвечаем <br />
+      на ваши <br />
+      вопросы
+    </React.Fragment>
+  ),
   headerProps: header2Data,
   blur1Props: blur3Data,
   advantageItem31Props: advantageItem32Data,
@@ -552,7 +566,7 @@ const advantageItem61Data = {
 const titleSubtitle2Data = {
   src: IcSberSecurity,
   title: "Используйте в суде.",
-  subtitle: "Налоговая и суд примут подписанные в нашем приложении документы",
+  subtitle: "Налоговая и суд примут подписанные в нашем приложении документы.",
 };
 
 const advantageItem62Data = {
