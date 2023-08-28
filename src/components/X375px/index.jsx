@@ -14,6 +14,8 @@ import Rates from "../rates";
 import ImageDocChips from "../../assets/img/image-doc-chips@2x.svg";
 import MySnackBar from "../snackbar";
 
+import bannerGradientMobile from "./assets/banner-gradient-mobile.png";
+
 function X375px(props) {
   const {
     heroBannerMobile,
@@ -62,9 +64,9 @@ function X375px(props) {
 
         <div
           className="hero-banner-mobile"
-          // style={{
-          //   backgroundImage: `url(${heroBannerMobile})`,
-          // }}
+          style={{
+            backgroundImage: `url(${bannerGradientMobile})`,
+          }}
         >
           <MaleLaptop
             isMobile="true"

@@ -5,13 +5,14 @@ import AdvantageItem3 from "../AdvantageItem3";
 import ImageHands from "../ImageHands";
 import Column2 from "../Column2";
 import MySnackBar from "../snackbar";
-import Header from "../Header";
+import Header2 from "../Header2";
 import QAItem from "../QAItem";
 // import Footer2 from "../Footer2";
 import Footer from "../Footer";
 import "./X900px.css";
 import BannerContactsDesktop from "../BannerContactsDesktop";
 import Rates from "../rates";
+import bannerGradientTablet from "./assets/banner-gradient-tablet.png";
 
 import ImageDocChimps from "../../assets/img/image-doc-chips@2x.svg";
 
@@ -54,13 +55,7 @@ function X900px(props) {
   return (
     <div className="x900px screen">
       <MySnackBar mainUrl={menuLinkWa.mainUrl} />
-      <Header
-        menuLinkWa={menuLinkWa}
-        onTapTarif={() =>
-          scollToRef.current.scrollIntoView({ behavior: "smooth" })
-        }
-      />
-      <Header
+      <Header2
         menuLinkWa={menuLinkWa}
         onTapTarif={() =>
           scollToRef.current.scrollIntoView({ behavior: "smooth" })
@@ -68,10 +63,12 @@ function X900px(props) {
       />
 
       <div
+        style={{
+          backgroundImage: `url(${bannerGradientTablet})`,
+        }}
         className="hero-banner-tablet"
-        style={{ backgroundImage: `url(${img})` }}
       >
-        <div className="text-container">
+        <div className="text-container-1">
           <div className="h1 sbsansdisplay-normal-white-48px">
             Подписывайте
             <br />
@@ -95,7 +92,17 @@ function X900px(props) {
             </div>
           </button>
         </div>
+        <img
+          style={{
+            height: "390px",
+            alignSelf: "self-end",
+            alignItems: "self-end",
+          }}
+          src={img}
+          alt="img"
+        />
       </div>
+
       <div className="rectangle-mobule"></div>
       <div className="section-advantages-1">
         <Blur className={blur1Props.className} />

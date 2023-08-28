@@ -693,7 +693,13 @@ const x375pxData = {
     </React.Fragment>
   ),
   heroBannerMobile: Img,
-  title2: <React.Fragment>Отвечаем на ваши вопросы</React.Fragment>,
+  title2: (
+    <React.Fragment>
+      Отвечаем <br />
+      на ваши <br />
+      вопросы
+    </React.Fragment>
+  ),
   maleLaptopProps: maleLaptop1Data,
   advantageItem61Props: advantageItem61Data,
   advantageItem62Props: advantageItem62Data,

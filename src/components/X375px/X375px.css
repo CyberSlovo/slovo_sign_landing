@@ -58,6 +58,10 @@
   justify-content: space-between;
   /* padding: 48px 24px; */
   margin: 14px 16px 0px 16px;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+
 }
 
 .text-container-buttons-3 {
@@ -218,11 +222,11 @@
 }
 
 .h2-10 {
-  letter-spacing: -0.30px;
+  /* letter-spacing: -0.30px;
   line-height: 40px;
-  margin-top: -1.00px;
+  margin-top: -1.00px; */
   text-align: center;
-  width: 343px;
+  /* width: 343px; */
 }
 
 .container-40 {

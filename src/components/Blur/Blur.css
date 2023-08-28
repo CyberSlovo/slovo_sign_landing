@@ -33,13 +33,12 @@
   border: 1px none;
   border-radius: 150px;
   filter: blur(252px);
-  ;
   height: 300px;
   left: 0;
   opacity: 0.2;
-  position: absolute;
-  top: 182px;
-  width: 300px;
+  /* position: absolute; */
+  /* top: 182px; */
+  /* width: 300px; */
 }
 
 .blur-5.blur-1 {

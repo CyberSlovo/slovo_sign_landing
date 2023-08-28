@@ -10,6 +10,7 @@ import Footer from "../Footer";
 import "./X1440px.css";
 import Rates from "../rates";
 import MySnackBar from "../snackbar";
+import bannerGradient from "./assets/banner-gradient.png";
 
 import ImageDocChimps from "../../assets/img/image-doc-chips-1@2x.svg";
 
@@ -50,16 +51,20 @@ function X1440px(props) {
   return (
     <div className="x1440px screen">
       {/* <div className="section-hero"> */}
-      <MySnackBar mainUrl={menuLinkWa.mainUrl} />
+      <MySnackBar mainUrl={menuLinkWa.mainUrl} />{" "}
       <Header
         menuLinkWa={menuLinkWa}
         onTapTarif={() =>
           scollToRef.current.scrollIntoView({ behavior: "smooth" })
         }
       />
-
-      <div className="wrapper-banner">
-        <div className="banner ">
+      <div
+        className="wrapper-banner "
+        style={{
+          backgroundImage: `url(${bannerGradient})`,
+        }}
+      >
+        <div className="banner">
           <div className="text-container">
             <div className="h1 sbsansdisplay-normal-shark-48px">
               Подписывайте
@@ -85,6 +90,7 @@ function X1440px(props) {
           </div>
           <img
             style={{
+              zIndex: "1",
               height: "400px",
               alignItems: "flex-end",
               alignSelf: "flex-end",
@@ -94,9 +100,8 @@ function X1440px(props) {
             alt="private_2 1"
           />
         </div>
-      </div>
+      </div>{" "}
       <div className="rectangle-1"></div>
-
       <div className="section-advantages">
         <Blur />
         <div className="container">
@@ -181,7 +186,6 @@ function X1440px(props) {
       <div ref={scollToRef} className="section-about">
         <Rates menuLinkWa={menuLinkWa} />
       </div>
-
       <BannerContactsDesktop
         menuLinkWa={menuLinkWa}
         title={bannerContactsDesktopProps.title}
@@ -189,7 +193,6 @@ function X1440px(props) {
         frame270988944Props={bannerContactsDesktopProps.frame270988944Props}
         imageHands2Props={bannerContactsDesktopProps.imageHands2Props}
       />
-
       <div className="section-qa">
         <Blur />
         <div className="container">
