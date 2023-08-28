@@ -72,7 +72,7 @@ const advantageItem1Data = {
 
 const container2Data = {
   src: IcSberSecurity,
-  title: "Используйте в суде.",
+  title: "Используйте в суде",
   subtitle: "Налоговая и суд примут подписанные в нашем приложении документы.",
   className: "container-5",
 };
@@ -196,11 +196,16 @@ const imageHands21Data = {
 const bannerContactsDesktopData = {
   title: (
     <React.Fragment>
-      Проверьте электронную подпись <br />в нашем сервисе
+      Проверьте электронную <br />
+      подпись в нашем сервисе
     </React.Fragment>
   ),
-  subtitle:
-    "Загрузите подписанный у нас документ и подпись контрагента. Мы проверим наличие изменений в файле и принадлежность подписи  пользователю.",
+  subtitle: (
+    <React.Fragment>
+      Загрузите подписанный у нас документ и подпись контрагента. Мы проверим
+      наличие изменений в файле и принадлежность подписи пользователю.
+    </React.Fragment>
+  ),
 
   imageHands2Props: imageHands21Data,
 };
@@ -338,7 +343,7 @@ const advantageItem32Data = {
 
 const container23Data = {
   src: IcSberSecurity,
-  title: "Используйте в суде.",
+  title: "Используйте в суде",
   subtitle: "Налоговая и суд примут подписанные в нашем приложении документы.",
   className: "container-5",
 };
@@ -565,7 +570,7 @@ const advantageItem61Data = {
 
 const titleSubtitle2Data = {
   src: IcSberSecurity,
-  title: "Используйте в суде.",
+  title: "Используйте в суде",
   subtitle: "Налоговая и суд примут подписанные в нашем приложении документы.",
 };
 
@@ -656,8 +661,7 @@ const qAItem11Data = {
 const qAItem12Data = {
   title: (
     <React.Fragment>
-      Можно ли пойти <br />с документами, подписанными <br />в вашем сервисе в
-      суд или налоговую?
+      Какую поддержку может оказать сервис в случае судебных споров?
     </React.Fragment>
   ),
   subtitle: (
@@ -669,8 +673,18 @@ const qAItem12Data = {
 };
 
 const x375pxData = {
-  h1: "Подписывайте\nдокументы онлайн",
-  subtitle1: "Договаривайтесь быстро и безопасно",
+  h1: (
+    <React.Fragment>
+      Подписывайте <br />
+      документы
+      <br /> онлайн
+    </React.Fragment>
+  ),
+  subtitle1: (
+    <React.Fragment>
+      Договаривайтесь <br /> быстро и безопасно
+    </React.Fragment>
+  ),
   h21: (
     <React.Fragment>
       Быстрое

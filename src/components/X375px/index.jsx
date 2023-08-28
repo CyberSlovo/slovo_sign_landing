@@ -116,14 +116,15 @@ function X375px(props) {
               className={advantageItem62Props.className}
               titleSubtitleProps={advantageItem62Props.titleSubtitleProps}
             />
-            <AdvantageItem6
-              titleSubtitleProps={advantageItem61Props.titleSubtitleProps}
-            />
 
             <AdvantageItem6
               className={titleSubtitleProps.className}
               titleSubtitleProps={titleSubtitleProps.titleSubtitleProps}
             />
+            <AdvantageItem6
+              titleSubtitleProps={advantageItem61Props.titleSubtitleProps}
+            />
+
             <AdvantageItem6
               className={advantageItem63Props.className}
               titleSubtitleProps={advantageItem63Props.titleSubtitleProps}

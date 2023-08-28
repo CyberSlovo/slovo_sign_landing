@@ -4,10 +4,15 @@ import OlineSignLogo from "../../assets/img/oline-sign-logo-3@2x.svg";
 // import { Linking } from "react-native";
 
 function Footer(props) {
-  const { text1, phone, podpisSberRu } = props;
+  const { text1, phone, podpisSberRu, isTablet } = props;
 
   return (
-    <div className="footer">
+    <div
+      className="footer"
+      style={{
+        padding: isTablet ? "96px 32px" : null,
+      }}
+    >
       <div className="container-20">
         <img
           className="oline-sign-logo-1"
@@ -16,7 +21,15 @@ function Footer(props) {
         />
 
         <div className="row-1">
-          <p className="text-1 sbsanstext-regular-normal-shark-16px">{text1}</p>
+          <p
+            className={
+              isTablet
+                ? "text-1 sbsanstext-regular-normal-14px "
+                : "text-1  sbsanstext-regular-normal-shark-16px"
+            }
+          >
+            {text1}
+          </p>
 
           <div
             style={{
@@ -25,7 +38,15 @@ function Footer(props) {
             }}
           >
             <div className="column-1">
-              <p className="phone sbsansdisplay-normal-shark-24px">{phone}</p>
+              <p
+                className={
+                  isTablet
+                    ? "phone sbsansdisplay-normal-shark-18px"
+                    : "phone sbsansdisplay-normal-shark-24px"
+                }
+              >
+                {phone}
+              </p>
               <a
                 href={`legal/user_agreement.pdf`}
                 target="_blank"
@@ -35,7 +56,13 @@ function Footer(props) {
                   <div className={"button-header"}>
                     <div className="frame-270988836">
                       <div className={`sbsanstext-regular-normal-white-19px`}>
-                        <div className={`button-2 button-header`}>
+                        <div
+                          className={
+                            isTablet
+                              ? "button-2 sbsanstext-regular-normal-14px"
+                              : "button-2 button-header"
+                          }
+                        >
                           Пользовательское соглашение
                         </div>
                       </div>
@@ -45,7 +72,13 @@ function Footer(props) {
               </a>
             </div>
             <div className="column-1">
-              <p className="phone  sbsansdisplay-normal-shark-24px">
+              <p
+                className={
+                  isTablet
+                    ? "phone sbsansdisplay-normal-shark-18px"
+                    : "phone sbsansdisplay-normal-shark-24px"
+                }
+              >
                 {podpisSberRu}
               </p>
               <a
@@ -57,7 +90,13 @@ function Footer(props) {
                   <div className={"button-header"}>
                     <div className="frame-270988836">
                       <div className={`sbsanstext-regular-normal-white-19px`}>
-                        <div className={`button-2 button-header`}>
+                        <div
+                          className={
+                            isTablet
+                              ? "button-2 sbsanstext-regular-normal-14px"
+                              : "button-2 button-header"
+                          }
+                        >
                           Политика конфиденциальности
                         </div>
                       </div>

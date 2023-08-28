@@ -11,8 +11,10 @@ function Column2(props) {
       <div className="frame-270988932-1">
         <div className="title-12 sbsansdisplay-normal-shark-22px">{title}</div>
         <div className="frame-270988931-1">
-          <div className="caption-1 sbsansdisplay-normal-shark-28px">{caption}</div>
-          <p className="subtitle-17 sbsanstext-regular-normal-shark-19px-2">{subtitle}</p>
+          <div className="sbsansdisplay-normal-shark-18px">{caption}</div>
+          <p className="sbsanstext-regular-normal-14px subtitle-17">
+            {subtitle}
+          </p>
         </div>
       </div>
     </div>

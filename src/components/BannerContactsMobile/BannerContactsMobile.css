@@ -40,9 +40,9 @@
 
 .title-3-mobile {
   align-self: stretch;
-  letter-spacing: -0.30px;
-  line-height: 40px;
-  margin-top: -1.00px;
+  line-height: 30px;
+  /*
+  margin-top: -1.00px; */
 }
 
 .subtitle-4-mobile {
