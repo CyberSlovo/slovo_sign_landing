@@ -13,7 +13,6 @@ import "./X375px.css";
 import Rates from "../rates";
 import ImageDocChips from "../../assets/img/image-doc-chips@2x.svg";
 import MySnackBar from "../snackbar";
-
 import bannerGradientMobile from "./assets/banner-gradient-mobile.png";
 
 function X375px(props) {

@@ -54,7 +54,7 @@ function X900px(props) {
 
   return (
     <div className="x900px screen">
-      <MySnackBar mainUrl={menuLinkWa.mainUrl} />
+      <MySnackBar isMobile={true} mainUrl={menuLinkWa.mainUrl} />
       <Header2
         menuLinkWa={menuLinkWa}
         onTapTarif={() =>

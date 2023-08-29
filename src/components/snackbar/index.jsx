@@ -31,7 +31,10 @@ export default function MySnackBar(props) {
     <React.Fragment>
       <div
         style={{
-          display: isMobile ? "flow-root" : "contents",
+          display: isMobile ? "flex" : "flex",
+          flexDirection: isMobile ? "column" : "row",
+          padding: "10px",
+          alignItems: "stretch",
         }}
       >
         <div
@@ -52,16 +55,16 @@ export default function MySnackBar(props) {
             в Политике конфиденциальности.
           </a>
         </div>
-        <div
-          style={{
-            paddingTop: isMobile ? "15px" : "0",
-            paddingLeft: "30px",
-            paddingRight: "15px",
-            margin: "auto",
-          }}
-        >
+        <div style={{ marginTop: isMobile ? "20px" : null }}>
           <a onClick={async () => await handleClose()} href={() => {}}>
-            <div className={"button-7"}>
+            <div
+              className={"button-7"}
+              style={{
+                alignSelf: "stretch",
+
+                // margin: "auto",
+              }}
+            >
               <div className="button-8 sbsanstext-regular-normal-white-19px">
                 Принять
               </div>
@@ -83,10 +86,12 @@ export default function MySnackBar(props) {
             padding: "10px",
             flexWrap: "inherit",
             margin: "auto",
-            justifyContent: "center",
-            alignContent: "center",
             background: "#f2f5f7",
             borderRadius: "16px",
+            width: "90%",
+            alignItems: "center",
+            justifyContent: "center",
+            justifyItems: "center",
           },
         }}
         TransitionComponent={transition}
