@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-// import Header from "../Header";
 import Blur from "../Blur";
 import AdvantageItem3 from "../AdvantageItem3";
 import ImageHands from "../ImageHands";
@@ -7,7 +6,6 @@ import Column2 from "../Column2";
 import MySnackBar from "../snackbar";
 import Header2 from "../Header2";
 import QAItem from "../QAItem";
-// import Footer2 from "../Footer2";
 import Footer from "../Footer";
 import "./X900px.css";
 import BannerContactsDesktop from "../BannerContactsDesktop";
@@ -18,9 +16,6 @@ import ImageDocChimps from "../../assets/img/image-doc-chips@2x.svg";
 
 function X900px(props) {
   const {
-    banner,
-    h1,
-    subtitle1,
     img,
     h21,
     h22,

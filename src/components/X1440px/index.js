@@ -16,7 +16,6 @@ import ImageDocChimps from "../../assets/img/image-doc-chips-1@2x.svg";
 
 function X1440px(props) {
   const {
-    h1,
     subtitle1,
     h21,
     h22,
@@ -101,7 +100,7 @@ function X1440px(props) {
           />
         </div>
       </div>{" "}
-      <div className="rectangle-1"></div>
+      <div className="rectangle_1"></div>
       <div className="section-advantages">
         <Blur />
         <div className="container">
