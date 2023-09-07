@@ -42,7 +42,7 @@ function Header(props) {
             </div>
           </button>
           <a
-            href={`wa/#/signatureVerification`}
+            href={`wa/#/signatureVerification-all`}
             target="_blank"
             rel="noreferrer"
           >

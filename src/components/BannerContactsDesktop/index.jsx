@@ -26,7 +26,7 @@ function BannerContactsDesktop(props) {
             </p>
           </div>
           <a
-            href={`wa/#/signatureVerification`}
+            href={`wa/#/signatureVerification-all`}
             target="_blank"
             rel="noreferrer"
           >

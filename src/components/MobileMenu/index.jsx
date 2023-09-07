@@ -31,7 +31,7 @@ export default function TemporaryDrawer() {
         <br /> <br />
         <ListItemButton
           component="a"
-          href={`wa/#/signatureVerification`}
+          href={`wa/#/signatureVerification-all`}
           target="_blank"
           rel="noreferrer"
         >

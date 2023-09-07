@@ -60,7 +60,7 @@ const container1Data = {
 };
 
 const menuLinkWaApp = {
-  signatureVerification: `/wa/#/signatureVerification`,
+  signatureVerification: `/wa/#/signatureVerification-all`,
   signUp: `/wa/#/sign_up`,
   signIn: `/wa/#/sign_in`,
   // mainUrl: mainUrl,
