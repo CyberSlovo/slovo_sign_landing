@@ -16,10 +16,10 @@
   height: 38px;
   display: flex;
   width: max-content;
-  justify-content: start;
+  justify-content: flex-start;
   justify-self: self-start;
-  align-self: start;
-  align-items: start;
+  align-self: flex-start;
+  align-items: flex-start;
   min-width: 227.12px;
 }
 

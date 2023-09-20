@@ -64,7 +64,7 @@
 
 .text-container {
   width: max-content;
-  align-items: start;
+  align-items: flex-start;
   align-self: center;
   border: 1px none;
   display: flex;
