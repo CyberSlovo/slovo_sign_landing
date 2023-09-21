@@ -9,6 +9,7 @@ import IcSberProfile3 from "./assets/img/ic-sber-profile-3@2x.svg";
 import Private211 from "./assets/img/private-2-1-1@1x.png";
 import IcSberSigned3 from "./assets/img/ic-sber-signed-3@2x.svg";
 import IconSberSend3 from "./assets/img/icon-sber-send-3@2x.svg";
+import IconSberStorage3 from "./assets/img/icon-sber-storage-1@2x.svg";
 import HandsHeart3 from "./assets/img/hands-heart-3@1x.png";
 import LgHandsPhone012 from "./assets/img/lg-hands-phone-01-2x@2x.png";
 import Img from "./assets/img/img@2x.png";
@@ -172,8 +173,14 @@ const column3Data = {
   ),
   imageSmProps: imageSm3Data,
 };
+
+const imageSm44Data = {
+  src: IconSberStorage3,
+  className: "image-sm",
+};
+
 const column4Data = {
-  src: IconSberSend,
+  src: IconSberStorage3,
   title: "4 шаг",
   caption: "Храните под рукой",
   subtitle: (
@@ -181,7 +188,7 @@ const column4Data = {
       Все ваши файлы в одном месте и доступны в любой момент
     </React.Fragment>
   ),
-  imageSmProps: imageSm3Data,
+  imageSmProps: imageSm44Data,
 };
 
 const handsHeart1Data = {
@@ -449,8 +456,13 @@ const column24Data = {
   imageSmProps: imageSm6Data,
 };
 
+const imageSm66Data = {
+  src: IconSberStorage3,
+  className: "image-sm",
+};
+
 const column244Data = {
-  src: IconSberSend,
+  src: IconSberStorage3,
   title: "4 шаг",
   caption: "Храните под рукой",
   subtitle: (
@@ -458,7 +470,7 @@ const column244Data = {
       Все ваши файлы в одном месте и доступны в любой момент
     </React.Fragment>
   ),
-  imageSmProps: imageSm6Data,
+  imageSmProps: imageSm66Data,
 };
 
 const blur4Data = {
