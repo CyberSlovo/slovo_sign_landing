@@ -1,3 +1,11 @@
+1.        Кладешь файлик в папку с исходником лендоса. Имя файла не меняем.
+
+2.        В файлике в 1-ой строке меняешь СЮДА_ВСТАВИТЬ_ТОКЕН на токен (см. СберЧат). Сохраняем файлик.
+
+3.        Выполняешь команду npm cache clean --force (чистит кеш)
+
+4.        npm install --loglevel verbose
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

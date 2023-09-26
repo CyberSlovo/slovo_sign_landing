@@ -28,7 +28,7 @@ import IconSberSend from "./assets/img/icon-sber-send@2x.svg";
 // const mainUrl = `https://demo.podpis.sber.ru`;
 
 function App() {
-  console.log("version 1.1.51");
+  console.log("version 1.1.52");
   const sm = useMediaQuery({ maxWidth: 900 });
   const xl = useMediaQuery({ minWidth: 900, maxWidth: 1439 });
   const xll = useMediaQuery({ minWidth: 1440 });
@@ -137,7 +137,9 @@ const column1Data = {
   caption: "Зарегистрируйтесь",
   subtitle: (
     <React.Fragment>
-      Зарегистрируйтесь <br />с помощью Сбер ID
+      Аутентификация через
+      <br />
+      СберID и получение УНЭП
     </React.Fragment>
   ),
   imageSmProps: imageSm1Data,
@@ -167,8 +169,10 @@ const column3Data = {
   caption: "Отправьте",
   subtitle: (
     <React.Fragment>
-      Отправьте ссылку контрагенту <br />
-      на подписание
+      Ссылка на документ готова
+      <br />к отправке контрагенту
+      <br />
+      любым удобным способом
     </React.Fragment>
   ),
   imageSmProps: imageSm3Data,
@@ -415,7 +419,9 @@ const column22Data = {
   caption: "Зарегистрируйтесь",
   subtitle: (
     <React.Fragment>
-      Зарегистрируйтесь <br />с помощью Сбер ID
+      Аутентификация через
+      <br />
+      СберID и получение УНЭП
     </React.Fragment>
   ),
   imageSmProps: imageSm4Data,
@@ -430,11 +436,7 @@ const column23Data = {
   src: IcSberSigned,
   title: "2 шаг",
   caption: "Подпишите",
-  subtitle: (
-    <React.Fragment>
-      Загрузите документ <br />и подпишите его по одной кнопке
-    </React.Fragment>
-  ),
+  subtitle: <React.Fragment>Загрузка и подписание документа</React.Fragment>,
   imageSmProps: imageSm5Data,
 };
 
@@ -449,8 +451,7 @@ const column24Data = {
   caption: "Отправьте",
   subtitle: (
     <React.Fragment>
-      Отправьте ссылку контрагенту <br />
-      на подписание
+      Ссылка на документ готова к отправке контрагенту любым удобным способом
     </React.Fragment>
   ),
   imageSmProps: imageSm6Data,
@@ -715,7 +716,9 @@ const x375pxData = {
   subtitle2: "Подпишите первый документ за 5 минут",
   subtitle3: (
     <React.Fragment>
-      Зарегистрируйтесь <br />с помощью Сбер ID
+      Аутентификация через
+      <br />
+      СберID и получение УНЭП
     </React.Fragment>
   ),
   heroBannerMobile: Img,
